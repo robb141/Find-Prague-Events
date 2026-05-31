@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101820">
+    <meta name="description" content="A fast Prague events finder for concerts, exhibitions, markets, talks, and nights out.">
+    <title>FindPragueEvents</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="FindPragueEvents home">
+          <span class="brand-mark">FPE</span>
+          <span>FindPragueEvents</span>
+        </a>
+        <nav class="top-actions" aria-label="Primary">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+            <i data-lucide="moon"></i>
+          </button>
+          <button class="ghost-btn" id="savedToggle" type="button">
+            <i data-lucide="bookmark"></i>
+            <span>Saved</span>
+            <strong id="savedCount">0</strong>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-label="Event finder">
+          <img src="assets/prague-events-hero.png" alt="Evening cultural event in Prague">
+          <div class="hero-overlay">
+            <div class="hero-copy">
+              <p class="eyebrow">Prague events, filtered like a proper search product</p>
+              <h1>FindPragueEvents</h1>
+              <p>Concerts, food pop-ups, exhibitions, talks, markets, and late-night plans in one fast view.</p>
+            </div>
+            <form class="search-panel" id="searchForm">
+              <label class="search-field" for="searchInput">
+                <i data-lucide="search"></i>
+                <input id="searchInput" type="search" placeholder="Search jazz, design, beer, yoga..." autocomplete="off">
+              </label>
+              <button class="primary-btn" type="submit">
+                <i data-lucide="sliders-horizontal"></i>
+                <span>Match</span>
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <section class="workspace" aria-label="Event listings">
+          <aside class="filters" aria-label="Filters">
+            <div class="filter-block">
+              <div class="filter-title">
+                <i data-lucide="calendar-days"></i>
+                <span>When</span>
+              </div>
+              <div class="segmented" id="dateFilters">
+                <button type="button" class="active" data-filter="date" data-value="all">All</button>
+                <button type="button" data-filter="date" data-value="today">Today</button>
+                <button type="button" data-filter="date" data-value="weekend">Weekend</button>
+              </div>
+            </div>
+
+            <div class="filter-block">
+              <div class="filter-title">
+                <i data-lucide="sparkles"></i>
+                <span>Category</span>
+              </div>
+              <select id="categorySelect" aria-label="Category">
+                <option value="all">All categories</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <div class="filter-title">
+                <i data-lucide="map-pin"></i>
+                <span>District</span>
+              </div>
+              <select id="districtSelect" aria-label="District">
+                <option value="all">All districts</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <div class="filter-title">
+                <i data-lucide="wallet"></i>
+                <span>Max price</span>
+                <strong id="priceLabel">Any</strong>
+              </div>
+              <input id="priceRange" type="range" min="0" max="1500" step="50" value="1500">
+            </div>
+
+            <label class="check-row">
+              <input id="freeOnly" type="checkbox">
+              <span>Free only</span>
+            </label>
+
+            <label class="check-row">
+              <input id="englishFriendly" type="checkbox">
+              <span>English-friendly</span>
+            </label>
+
+            <button class="text-btn" id="resetFilters" type="button">
+              <i data-lucide="rotate-ccw"></i>
+              <span>Reset</span>
+            </button>
+          </aside>
+
+          <section class="results-pane">
+            <div class="results-head">
+              <div>
+                <h2>Events</h2>
+                <p id="resultSummary">0 matches</p>
+              </div>
+              <select id="sortSelect" aria-label="Sort events">
+                <option value="soon">Soonest</option>
+                <option value="price">Lowest price</option>
+                <option value="popular">Most popular</option>
+              </select>
+            </div>
+            <div class="event-list" id="eventList"></div>
+          </section>
+
+          <aside class="detail-panel" id="detailPanel" aria-label="Selected event"></aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
