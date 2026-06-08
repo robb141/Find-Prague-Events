@@ -794,7 +794,7 @@ window.EVENTS = [
     ],
     "description": "**Titanic is coming to Prague.** **An exhibition that will take you on board the most famous ship of all time.** Experience an unforgettable adventure that combines history, emotions and fun for the whole family at the Titanic exhibition. T",
     "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/titanic-the-artifact-exhibition/sztxrhy/"
+    "sourceUrl": "https://goout.net/en/titanic-the-artifact-exhibition/szpashy/"
   },
   {
     "id": "goout-prague-events-echoes-of-tomorrow-2026-06-08-1200",
@@ -812,7 +812,7 @@ window.EVENTS = [
     ],
     "description": "The creators of Signal Festival are presenting a new space where light becomes an experience and technology transforms into art. Across 2,500 m², there are eight exhibitions by Czech and international artists, the curatorial platform CzechB",
     "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/echoes-of-tomorrow/sziaxgy/"
+    "sourceUrl": "https://goout.net/en/echoes-of-tomorrow/szviygy/"
   },
   {
     "id": "goout-prague-events-lumia-gallery-2026-06-08-1200",
