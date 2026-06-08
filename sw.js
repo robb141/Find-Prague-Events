@@ -1,4 +1,4 @@
-const CACHE_NAME = "find-prague-events-v1";
+const CACHE_NAME = "find-prague-events-v2";
 const APP_SHELL = [
   "./",
   "./index.html",

@@ -12,6 +12,30 @@ python3 fetch_events.py --days 30
 
 This writes `data.js`, which `index.html` loads before `script.js`.
 
+## Daily Automatic Refresh
+
+The GitHub Actions workflow at `.github/workflows/update-events.yml` runs every day at `04:17 UTC`, which is `06:17` in Prague during summer time and `05:17` during winter time.
+
+It:
+
+1. Runs `python3 fetch_events.py --days 30`.
+2. Updates `data.js`.
+3. Commits and pushes the change when event data changed.
+
+The workflow can also be run manually from:
+
+```text
+GitHub repository -> Actions -> Update events -> Run workflow
+```
+
+The repository workflow permission must allow GitHub Actions to write:
+
+```text
+Settings -> Actions -> General -> Workflow permissions -> Read and write permissions
+```
+
+The app also filters `data.js` in the browser and never displays an event dated before the current local day. This means yesterday's events disappear at midnight even if the scheduled refresh is delayed.
+
 ## Run On Android
 
 From this folder on your Mac:
