@@ -154,7 +154,19 @@ demoEvents.forEach(event => {
   event.sourceUrl = event.sourceUrl || "https://prague.eu/en/akce-kategorie/events/";
 });
 
-const events = Array.isArray(window.EVENTS) && window.EVENTS.length ? window.EVENTS : demoEvents;
+const todayStart = new Date();
+todayStart.setHours(0, 0, 0, 0);
+const eventWindowEnd = new Date(todayStart);
+eventWindowEnd.setDate(eventWindowEnd.getDate() + 30);
+eventWindowEnd.setHours(23, 59, 59, 999);
+
+const feedEvents = Array.isArray(window.EVENTS) && window.EVENTS.length ? window.EVENTS : demoEvents;
+const events = feedEvents.filter(event => {
+  const eventDate = new Date(event.date);
+  return !Number.isNaN(eventDate.getTime())
+    && eventDate >= todayStart
+    && eventDate <= eventWindowEnd;
+});
 
 const state = {
   query: "",
@@ -165,7 +177,7 @@ const state = {
   freeOnly: false,
   englishFriendly: false,
   sort: "soon",
-  selectedId: events[0].id,
+  selectedId: events[0]?.id || "",
   saved: new Set(JSON.parse(localStorage.getItem("savedEvents") || "[]")),
   savedOnly: false
 };
@@ -321,7 +333,7 @@ function updatePriceLabel() {
 function render() {
   const filtered = filteredEvents();
   if (!filtered.some(event => event.id === state.selectedId)) {
-    state.selectedId = filtered[0]?.id || events[0].id;
+    state.selectedId = filtered[0]?.id || events[0]?.id || "";
   }
   renderList(filtered);
   renderDetail(events.find(event => event.id === state.selectedId));
@@ -401,6 +413,16 @@ function renderList(items) {
 }
 
 function renderDetail(event) {
+  if (!event) {
+    els.detailPanel.removeAttribute("style");
+    els.detailPanel.innerHTML = `
+      <div class="empty-state">
+        No current events are available. The daily refresh will try again tomorrow.
+      </div>
+    `;
+    return;
+  }
+
   const date = new Date(event.date);
   const saved = state.saved.has(event.id);
   els.detailPanel.style.setProperty("--detail-color", event.color);
