@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Europe/Prague
+      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
 
     steps:
       - name: Check out repository
@@ -28,7 +29,7 @@ jobs:
           python-version: "3.13"
 
       - name: Fetch the next 30 days
-        run: python3 fetch_events.py --days 30
+        run: python3 fetch_events.py --days 30 --strict-health --health-report health-report.json
 
       - name: Commit updated event data
         run: |

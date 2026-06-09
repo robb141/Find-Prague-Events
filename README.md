@@ -18,9 +18,14 @@ The GitHub Actions workflow at `.github/workflows/update-events.yml` runs every 
 
 It:
 
-1. Runs `python3 fetch_events.py --days 30`.
+1. Runs `python3 fetch_events.py --days 30 --strict-health`.
 2. Updates `data.js`.
 3. Commits and pushes the change when event data changed.
+
+The strict health check verifies that every source group can be reached and
+returns upcoming events, that the total feed is not unexpectedly small, and
+that event dates and source links are valid. A failed check leaves the last
+known-good `data.js` untouched.
 
 The workflow can also be run manually from:
 
@@ -33,6 +38,26 @@ The repository workflow permission must allow GitHub Actions to write:
 ```text
 Settings -> Actions -> General -> Workflow permissions -> Read and write permissions
 ```
+
+### Ticketmaster Discovery Feed
+
+Ticketmaster events use the official Czech Discovery Feed when an API key is
+available. Add the Consumer Key from the Ticketmaster Developer Portal as a
+GitHub Actions repository secret named `TICKETMASTER_API_KEY`:
+
+```text
+Settings -> Secrets and variables -> Actions -> New repository secret
+```
+
+For a local refresh, provide the key only through the environment:
+
+```bash
+TICKETMASTER_API_KEY="your-key" python3 fetch_events.py --days 30
+```
+
+The key is never written to `data.js`. If the key is missing or the feed is
+temporarily unavailable, the collector falls back to the public Ticketmaster
+Prague listings.
 
 The app also filters `data.js` in the browser and never displays an event dated before the current local day. This means yesterday's events disappear at midnight even if the scheduled refresh is delayed.
 
@@ -103,3 +128,8 @@ python3 fetch_events.py --list-sources
 - O2 arena events: `https://www.o2arena.cz/en/events/`
 - CityBee events: `https://www.citybee.cz/akce/`
 - CityBee paginated listings: `https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/2/` through page 5
+- Ticketmaster Prague search: `https://www.ticketmaster.cz/search?keyword=Praha`
+- Ticketportal O2 arena listings: `https://www.ticketportal.cz/venue/O2-arena?idpartner=382KD`
+- Ticketportal Prague Congress Centre listings: `https://www.ticketportal.cz/Venue/1201393`
+- Kudy z nudy Prague calendar: `https://www.kudyznudy.cz/kalendar-akci/hlavni-mesto-praha`
+- Forum Karlín events: `https://www.forumkarlin.cz/en/events/`
