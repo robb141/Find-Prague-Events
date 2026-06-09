@@ -37,3 +37,6 @@ temp/
 node_modules/
 dist/
 build/
+
+# Generated scraper diagnostics
+health-report.json

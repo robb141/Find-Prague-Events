@@ -217,6 +217,61 @@ function priceText(price) {
   return price ? `${price} Kc` : "Free";
 }
 
+function eventImageMarkup(event) {
+  if (!event.imageUrl) return "";
+  try {
+    const imageUrl = new URL(event.imageUrl, location.href);
+    if (!["http:", "https:"].includes(imageUrl.protocol)) return "";
+    return `<img src="${imageUrl.href}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
+  } catch {
+    return "";
+  }
+}
+
+function escapeCalendarText(value) {
+  return String(value || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/\r?\n/g, "\\n")
+    .replace(/,/g, "\\,")
+    .replace(/;/g, "\\;");
+}
+
+function calendarTimestamp(date) {
+  return date.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+}
+
+function downloadCalendarEvent(event) {
+  const start = new Date(event.date);
+  const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+  const description = `${event.description}\n\nEvent page: ${event.sourceUrl}`;
+  const calendar = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//FindPragueEvents//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "BEGIN:VEVENT",
+    `UID:${escapeCalendarText(event.id)}@findpragueevents`,
+    `DTSTAMP:${calendarTimestamp(new Date())}`,
+    `DTSTART:${calendarTimestamp(start)}`,
+    `DTEND:${calendarTimestamp(end)}`,
+    `SUMMARY:${escapeCalendarText(event.title)}`,
+    `LOCATION:${escapeCalendarText(`${event.venue}, ${event.district}`)}`,
+    `DESCRIPTION:${escapeCalendarText(description)}`,
+    `URL:${escapeCalendarText(event.sourceUrl)}`,
+    "END:VEVENT",
+    "END:VCALENDAR"
+  ].join("\r\n");
+  const file = new Blob([calendar], { type: "text/calendar;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(file);
+  link.download = `${event.id || "prague-event"}.ics`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+
 function init() {
   fillSelect(els.categorySelect, [...new Set(events.map(event => event.category))]);
   fillSelect(els.districtSelect, [...new Set(events.map(event => event.district))]);
@@ -427,9 +482,12 @@ function renderDetail(event) {
   const saved = state.saved.has(event.id);
   els.detailPanel.style.setProperty("--detail-color", event.color);
   els.detailPanel.innerHTML = `
-    <div class="detail-media">
-      <h3>${event.title}</h3>
-      <p>${event.category} in ${event.district}</p>
+    <div class="detail-media ${event.imageUrl ? "has-image" : ""}">
+      ${eventImageMarkup(event)}
+      <div class="detail-media-copy">
+        <h3>${event.title}</h3>
+        <p>${event.category} in ${event.district}</p>
+      </div>
     </div>
     <div class="detail-content">
       <div class="detail-actions">
@@ -439,6 +497,9 @@ function renderDetail(event) {
         </a>
         <button class="save-btn" id="saveSelected" type="button" aria-label="${saved ? "Unsave event" : "Save event"}" title="${saved ? "Unsave event" : "Save event"}">
           <i data-lucide="${saved ? "bookmark-check" : "bookmark"}"></i>
+        </button>
+        <button class="save-btn" id="addToCalendar" type="button" aria-label="Add event to calendar" title="Add to calendar">
+          <i data-lucide="calendar-plus"></i>
         </button>
       </div>
       <div class="detail-line"><i data-lucide="calendar"></i><strong>${formatDate.format(date)}</strong> at ${formatTime.format(date)}</div>
@@ -454,6 +515,7 @@ function renderDetail(event) {
   `;
 
   document.querySelector("#saveSelected").addEventListener("click", () => toggleSave(event.id));
+  document.querySelector("#addToCalendar").addEventListener("click", () => downloadCalendarEvent(event));
 }
 
 function toggleSave(id) {
