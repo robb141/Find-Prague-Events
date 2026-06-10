@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
       - name: Fetch the next 30 days
         run: python3 fetch_events.py --days 30 --strict-health --health-report health-report.json
 
