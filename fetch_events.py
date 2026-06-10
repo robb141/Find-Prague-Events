@@ -7,6 +7,7 @@ import os
 import re
 import ssl
 import sys
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
@@ -165,7 +166,9 @@ def in_window(date, now, horizon):
 
 
 def slugify(value):
-    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+    normalized = unicodedata.normalize("NFKD", value)
+    ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", ascii_value.lower()).strip("-")
 
 
 def event_id(title, date, source):

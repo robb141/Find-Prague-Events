@@ -33,6 +33,18 @@ The workflow can also be run manually from:
 GitHub repository -> Actions -> Update events -> Run workflow
 ```
 
+## Tests
+
+Run the automated test suite locally:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The `Tests` GitHub Actions workflow runs this suite on every push to `main` and
+on pull requests. The daily `Update events` workflow also runs it before
+fetching or committing event data.
+
 The repository workflow permission must allow GitHub Actions to write:
 
 ```text

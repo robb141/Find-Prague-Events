@@ -1,4 +1,4 @@
-const CACHE_NAME = "find-prague-events-v3";
+const CACHE_NAME = "find-prague-events-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,8 @@ const APP_SHELL = [
   "./script.js",
   "./data.js",
   "./manifest.webmanifest",
+  "./assets/app-icon-192.png",
+  "./assets/app-icon-512.png",
   "./assets/app-icon.svg",
   "./assets/prague-events-hero.png"
 ];
