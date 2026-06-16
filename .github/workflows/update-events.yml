@@ -34,6 +34,14 @@ jobs:
       - name: Fetch the next 30 days
         run: python3 fetch_events.py --days 30 --strict-health --health-report health-report.json
 
+      - name: Upload health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: health-report.json
+          if-no-files-found: ignore
+
       - name: Commit updated event data
         run: |
           if git diff --quiet -- data.js; then

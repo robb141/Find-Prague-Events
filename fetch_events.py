@@ -71,6 +71,7 @@ ALL_SOURCES = (
 COLORS = ["#7246a8", "#33794c", "#007f7a", "#9e3f4f", "#c8941d", "#4b7b8a", "#d63f2e", "#344b77"]
 DEFAULT_TIME = "12:00"
 MIN_HEALTHY_EVENTS = 20
+REQUIRED_EVENT_SOURCES = {"Prague.eu", "CityBee", "Ticketmaster"}
 CZECH_MONTHS = {
     "ledna": 1,
     "února": 2,
@@ -848,7 +849,7 @@ def validate_health(events, errors, health, days):
     for source, status in health.items():
         if status["pagesFetched"] == 0:
             issues.append(f"{source}: no source pages could be fetched.")
-        if status["events"] == 0:
+        if source in REQUIRED_EVENT_SOURCES and status["events"] == 0:
             issues.append(f"{source}: no upcoming events were parsed.")
 
     for event in events:

@@ -165,7 +165,7 @@ class HealthTests(unittest.TestCase):
             }
         ] * fetch_events.MIN_HEALTHY_EVENTS
         health = {
-            "Ticketmaster": {
+            "Prague.eu": {
                 "events": 0,
                 "pagesFetched": 1,
                 "pagesExpected": 1,
@@ -182,6 +182,34 @@ class HealthTests(unittest.TestCase):
 
         self.assertTrue(any("no upcoming events" in issue for issue in issues))
         self.assertTrue(any("Invalid source URL" in issue for issue in issues))
+
+    def test_health_allows_empty_venue_specific_sources(self):
+        events = [
+            {
+                "id": f"valid-{index}",
+                "title": f"Valid event {index}",
+                "sourceUrl": "https://example.com/event",
+                "date": "2026-06-12T12:00:00",
+            }
+            for index in range(fetch_events.MIN_HEALTHY_EVENTS)
+        ]
+        health = {
+            "O2 arena": {
+                "events": 0,
+                "pagesFetched": 1,
+                "pagesExpected": 1,
+            }
+        }
+
+        with patch.object(
+            fetch_events,
+            "datetime",
+            wraps=fetch_events.datetime,
+        ) as mocked_datetime:
+            mocked_datetime.now.return_value = datetime(2026, 6, 10, 9, 0)
+            issues = fetch_events.validate_health(events, [], health, 30)
+
+        self.assertEqual(issues, [])
 
 
 if __name__ == "__main__":
