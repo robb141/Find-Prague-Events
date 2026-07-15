@@ -171,8 +171,8 @@ const events = feedEvents.filter(event => {
 const state = {
   query: "",
   date: "all",
-  category: "all",
-  district: "all",
+  day: "",
+  categories: new Set(),
   maxPrice: 1500,
   freeOnly: false,
   englishFriendly: false,
@@ -185,8 +185,9 @@ const state = {
 const els = {
   searchForm: document.querySelector("#searchForm"),
   searchInput: document.querySelector("#searchInput"),
-  categorySelect: document.querySelector("#categorySelect"),
-  districtSelect: document.querySelector("#districtSelect"),
+  categoryFilters: document.querySelector("#categoryFilters"),
+  categoryCount: document.querySelector("#categoryCount"),
+  dateInput: document.querySelector("#dateInput"),
   priceRange: document.querySelector("#priceRange"),
   priceLabel: document.querySelector("#priceLabel"),
   freeOnly: document.querySelector("#freeOnly"),
@@ -272,22 +273,53 @@ function downloadCalendarEvent(event) {
   setTimeout(() => URL.revokeObjectURL(link.href), 1000);
 }
 
+function localDay(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
 function init() {
-  fillSelect(els.categorySelect, [...new Set(events.map(event => event.category))]);
-  fillSelect(els.districtSelect, [...new Set(events.map(event => event.district))]);
+  els.dateInput.min = localDay(todayStart);
+  els.dateInput.max = localDay(eventWindowEnd);
+  fillCategoryFilters();
   bindEvents();
   updatePriceLabel();
   render();
   renderIcons();
 }
 
-function fillSelect(select, values) {
-  values.sort().forEach(value => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.append(option);
-  });
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+}
+
+function fillCategoryFilters() {
+  const counts = new Map();
+  (Array.isArray(window.CATEGORIES) ? window.CATEGORIES : []).forEach(category => counts.set(category, 0));
+  events.forEach(event => counts.set(event.category, (counts.get(event.category) || 0) + 1));
+  const categories = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+  els.categoryFilters.innerHTML = `
+    <label class="check-row check-all">
+      <input type="checkbox" id="categoryAll">
+      <span>Select all</span>
+    </label>
+  ` + categories.map(category => `
+    <label class="check-row">
+      <input type="checkbox" data-category value="${escapeHtml(category)}">
+      <span>${escapeHtml(category)}</span>
+      <small>${counts.get(category)}</small>
+    </label>
+  `).join("");
+}
+
+function syncCategoryAll() {
+  const master = els.categoryFilters.querySelector("#categoryAll");
+  if (!master) return;
+  const total = els.categoryFilters.querySelectorAll("input[data-category]").length;
+  master.checked = total > 0 && state.categories.size === total;
+  master.indeterminate = state.categories.size > 0 && state.categories.size < total;
+}
+
+function updateCategoryCount() {
+  els.categoryCount.textContent = state.categories.size ? `${state.categories.size} selected` : "Any";
 }
 
 function bindEvents() {
@@ -308,16 +340,39 @@ function bindEvents() {
     document.querySelectorAll("[data-filter='date']").forEach(item => item.classList.remove("active"));
     button.classList.add("active");
     state.date = button.dataset.value;
+    state.day = "";
+    els.dateInput.value = "";
     render();
   });
 
-  els.categorySelect.addEventListener("change", event => {
-    state.category = event.target.value;
+  els.dateInput.addEventListener("change", event => {
+    state.day = event.target.value;
+    state.date = state.day ? "day" : "all";
+    document.querySelectorAll("[data-filter='date']").forEach(item => {
+      item.classList.toggle("active", !state.day && item.dataset.value === "all");
+    });
     render();
   });
 
-  els.districtSelect.addEventListener("change", event => {
-    state.district = event.target.value;
+  els.categoryFilters.addEventListener("change", event => {
+    const box = event.target;
+    if (box.type !== "checkbox") return;
+    if (box.id === "categoryAll") {
+      els.categoryFilters.querySelectorAll("input[data-category]").forEach(item => {
+        item.checked = box.checked;
+        if (box.checked) {
+          state.categories.add(item.value);
+        } else {
+          state.categories.delete(item.value);
+        }
+      });
+    } else if (box.checked) {
+      state.categories.add(box.value);
+    } else {
+      state.categories.delete(box.value);
+    }
+    syncCategoryAll();
+    updateCategoryCount();
     render();
   });
 
@@ -361,15 +416,17 @@ function bindEvents() {
 function resetFilters() {
   state.query = "";
   state.date = "all";
-  state.category = "all";
-  state.district = "all";
+  state.day = "";
+  els.dateInput.value = "";
+  state.categories.clear();
   state.maxPrice = 1500;
   state.freeOnly = false;
   state.englishFriendly = false;
   state.savedOnly = false;
   els.searchInput.value = "";
-  els.categorySelect.value = "all";
-  els.districtSelect.value = "all";
+  els.categoryFilters.querySelectorAll("input").forEach(box => { box.checked = false; });
+  syncCategoryAll();
+  updateCategoryCount();
   els.priceRange.value = "1500";
   els.freeOnly.checked = false;
   els.englishFriendly.checked = false;
@@ -406,9 +463,11 @@ function filteredEvents() {
       const isToday = eventDate.toDateString() === new Date().toDateString();
 
       return (!state.query || haystack.includes(state.query))
-        && (state.date === "all" || (state.date === "today" && isToday) || (state.date === "weekend" && isWeekend))
-        && (state.category === "all" || event.category === state.category)
-        && (state.district === "all" || event.district === state.district)
+        && (state.date === "all"
+          || (state.date === "today" && isToday)
+          || (state.date === "weekend" && isWeekend)
+          || (state.date === "day" && localDay(eventDate) === state.day))
+        && (!state.categories.size || state.categories.has(event.category))
         && (event.price === null || event.price === undefined || event.price <= state.maxPrice)
         && (!state.freeOnly || event.price === 0)
         && (!state.englishFriendly || event.english)

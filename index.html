@@ -65,26 +65,16 @@
                 <button type="button" data-filter="date" data-value="today">Today</button>
                 <button type="button" data-filter="date" data-value="weekend">Weekend</button>
               </div>
+              <input id="dateInput" type="date" aria-label="Specific day">
             </div>
 
             <div class="filter-block">
               <div class="filter-title">
                 <i data-lucide="sparkles"></i>
-                <span>Category</span>
+                <span>Categories</span>
+                <strong id="categoryCount">Any</strong>
               </div>
-              <select id="categorySelect" aria-label="Category">
-                <option value="all">All categories</option>
-              </select>
-            </div>
-
-            <div class="filter-block">
-              <div class="filter-title">
-                <i data-lucide="map-pin"></i>
-                <span>District</span>
-              </div>
-              <select id="districtSelect" aria-label="District">
-                <option value="all">All districts</option>
-              </select>
+              <div class="check-list" id="categoryFilters" role="group" aria-label="Categories"></div>
             </div>
 
             <div class="filter-block">
