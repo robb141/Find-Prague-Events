@@ -145,3 +145,10 @@ python3 fetch_events.py --list-sources
 - Ticketportal Prague Congress Centre listings: `https://www.ticketportal.cz/Venue/1201393`
 - Kudy z nudy Prague calendar: `https://www.kudyznudy.cz/kalendar-akci/hlavni-mesto-praha`
 - Forum Karlín events: `https://www.forumkarlin.cz/en/events/`
+- Divadlo Gong (Praha 9, Vysočany) program: `https://www.divadlogong.cz/program/`
+- PVA EXPO Praha (Praha 9, Letňany) calendar: `https://pvaexpo.cz/cs/akce`
+- Eventbrite Prague science & tech: `https://www.eventbrite.com/d/czech-republic--prague/science-and-tech--events/`
+- confs.tech conference data (per-topic JSON): `https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/<year>/<topic>.json`
+
+Eventbrite and confs.tech are optional sources: fetch failures there are recorded
+as health warnings but do not block a strict-health refresh.
