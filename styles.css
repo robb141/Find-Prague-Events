@@ -181,7 +181,9 @@ input[type="checkbox"] {
   align-content: end;
   gap: 26px;
   min-height: inherit;
-  padding: clamp(28px, 5vw, 60px);
+  width: min(1480px, 100%);
+  margin-inline: auto;
+  padding: clamp(28px, 5vw, 60px) clamp(14px, 3vw, 30px);
   padding-bottom: clamp(30px, 7vw, 78px);
 }
 
@@ -216,7 +218,7 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
-  max-width: 870px;
+  width: min(870px, 100%);
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 8px;
@@ -718,7 +720,7 @@ input[type="date"] {
 
   .hero-overlay {
     gap: 18px;
-    padding: 22px 14px 34px;
+    padding: 22px 10px 34px;
   }
 
   .eyebrow {
