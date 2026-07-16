@@ -150,5 +150,8 @@ python3 fetch_events.py --list-sources
 - Eventbrite Prague science & tech: `https://www.eventbrite.com/d/czech-republic--prague/science-and-tech--events/`
 - confs.tech conference data (per-topic JSON): `https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/<year>/<topic>.json`
 
-Eventbrite and confs.tech are optional sources: fetch failures there are recorded
-as health warnings but do not block a strict-health refresh.
+Venue-only and tech sources (O2 arena, Forum Karlín, Divadlo Gong, PVA Expo,
+Eventbrite, confs.tech) are optional: fetch failures there are recorded as
+health warnings but do not block a strict-health refresh. The aggregator
+sources (Prague.eu, CityBee, Ticketmaster, and the other listing sites) still
+fail the health check when unreachable.

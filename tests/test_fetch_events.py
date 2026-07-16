@@ -483,11 +483,12 @@ class HealthTests(unittest.TestCase):
             for index in range(fetch_events.MIN_HEALTHY_EVENTS)
         ]
         health = {
-            "Eventbrite tech": {
+            group: {
                 "events": 0,
                 "pagesFetched": 0,
                 "pagesExpected": 1,
             }
+            for group in ("Eventbrite tech", "Divadlo Gong", "O2 arena")
         }
 
         with patch.object(
