@@ -83,9 +83,16 @@ CONFS_TECH_TOPICS = [
     "testing", "typescript", "ux",
 ]
 
-# Optional groups may fail to fetch (bot protection, missing yearly files)
-# without blocking a strict-health refresh.
-OPTIONAL_SOURCE_GROUPS = {"Eventbrite tech", "confs.tech"}
+# Optional groups may fail to fetch (venue outages, bot protection, missing
+# yearly files) without blocking a strict-health refresh.
+OPTIONAL_SOURCE_GROUPS = {
+    "O2 arena",
+    "Forum Karlín",
+    "Divadlo Gong",
+    "PVA Expo",
+    "Eventbrite tech",
+    "confs.tech",
+}
 
 ALL_SOURCES = (
     SOURCES + GOOUT_SOURCES + O2_SOURCES + CITYBEE_SOURCES
