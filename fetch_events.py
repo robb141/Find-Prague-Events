@@ -8,14 +8,13 @@ import re
 import ssl
 import sys
 import unicodedata
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-
 
 SOURCES = [
     ("Prague.eu events", "https://prague.eu/en/akce-kategorie/events/"),
@@ -1280,7 +1279,7 @@ def main():
     events, errors, health = collect(args.days)
     issues = validate_health(events, errors, health, args.days)
     report = {
-        "checkedAt": datetime.now(timezone.utc).isoformat(),
+        "checkedAt": datetime.now(UTC).isoformat(),
         "eventCount": len(events),
         "imageCount": sum(bool(event.get("imageUrl")) for event in events),
         "sources": health,
