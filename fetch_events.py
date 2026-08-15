@@ -35,13 +35,15 @@ O2_SOURCES = [
     ("O2 arena events", "https://www.o2arena.cz/en/events/"),
 ]
 
-CITYBEE_SOURCES = [
-    ("CityBee events", "https://www.citybee.cz/akce/"),
-    ("CityBee events page 2", "https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/2/"),
-    ("CityBee events page 3", "https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/3/"),
-    ("CityBee events page 4", "https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/4/"),
-    ("CityBee events page 5", "https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/5/"),
-]
+CITYBEE_BASE_URL = "https://www.citybee.cz/akce/"
+CITYBEE_PAGE_URL_TEMPLATE = "https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/{page}/"
+# Safety cap so a markup change on the site can never turn this into an
+# unbounded crawl; the real site currently has a handful of pages.
+CITYBEE_MAX_PAGES = 40
+# Used only if the pagination bar can't be found/parsed on page 1 (site
+# markup changed unexpectedly); matches the old hardcoded page count so the
+# source degrades gracefully instead of only fetching a single page.
+CITYBEE_FALLBACK_PAGES = 5
 
 TICKETMASTER_SOURCES = [
     ("Ticketmaster Prague", "https://www.ticketmaster.cz/search?keyword=Praha"),
@@ -95,7 +97,8 @@ OPTIONAL_SOURCE_GROUPS = {
 }
 
 ALL_SOURCES = (
-    SOURCES + GOOUT_SOURCES + O2_SOURCES + CITYBEE_SOURCES
+    SOURCES + GOOUT_SOURCES + O2_SOURCES
+    + [("CityBee events (paginated)", CITYBEE_BASE_URL)]
     + TICKETMASTER_SOURCES + TICKETPORTAL_SOURCES + KUDY_SOURCES
     + FORUM_KARLIN_SOURCES + GONG_SOURCES + PVA_SOURCES
     + EVENTBRITE_SOURCES
@@ -514,12 +517,93 @@ def extract_citybee_events(markup, source_name, now, days):
             "color": COLORS[index % len(COLORS)],
             "tags": ["CityBee"],
             "description": description[:240],
-            "source": source_name.replace(" page 2", "").replace(" page 3", "").replace(" page 4", "").replace(" page 5", ""),
+            "source": re.sub(r" page \d+$", "", source_name),
             "sourceUrl": source_url,
             "imageUrl": image_url,
         })
 
     return events
+
+
+def citybee_page_url(page):
+    if page <= 1:
+        return CITYBEE_BASE_URL
+    return CITYBEE_PAGE_URL_TEMPLATE.format(page=page)
+
+
+def detect_citybee_last_page(markup):
+    """Find the highest CityBee page number from the pagination bar.
+
+    Returns None if the pagination bar can't be found at all (site markup
+    changed), so callers can fall back to a fixed page count instead of
+    silently only fetching page 1.
+    """
+    pager_match = re.search(r'<ul class="pager">(.*?)</ul>', markup, re.S)
+    if not pager_match:
+        return None
+    pager_html = pager_match.group(1)
+
+    # The "last" link (» ) points straight at the final page, which is
+    # reliable even if the visible numbered links are truncated with an
+    # ellipsis for long listings.
+    last_link_match = re.search(r'<li class="last">\s*<a href="([^"]*)"', pager_html)
+    if last_link_match and last_link_match.group(1):
+        page_match = re.search(r'/strana/(\d+)/', last_link_match.group(1))
+        if page_match:
+            return int(page_match.group(1))
+
+    # Fall back to the highest page number among the visible numbered links
+    # (covers the case where we're already on the last page and its own
+    # "last" link is empty, or the markup omits that link entirely).
+    page_numbers = [int(n) for n in re.findall(r'/strana/(\d+)/', pager_html)]
+    if page_numbers:
+        return max(page_numbers)
+
+    # A pager bar with no page links at all means there's only one page.
+    return 1
+
+
+def fetch_citybee_events(now, days):
+    """Fetch every CityBee events page, discovering the true page count.
+
+    Page 1 is always fetched first; its pagination bar tells us how many
+    pages actually exist. If that detection fails (site markup changed) we
+    fall back to CITYBEE_FALLBACK_PAGES so the source still returns a
+    reasonable number of events instead of just page 1. As a second safety
+    net, we also stop early if a page beyond the first comes back with no
+    events, since CityBee clamps out-of-range page requests to an empty
+    listing rather than 404ing.
+    """
+    events = []
+    pages_fetched = 0
+    warnings = []
+    last_page = 1
+    page = 1
+
+    while page <= CITYBEE_MAX_PAGES:
+        source_name = "CityBee events" if page == 1 else f"CityBee events page {page}"
+        url = citybee_page_url(page)
+        try:
+            markup = fetch(url)
+        except Exception as exc:
+            warnings.append(f"{source_name}: {exc}")
+            break
+        pages_fetched += 1
+
+        if page == 1:
+            detected = detect_citybee_last_page(markup)
+            last_page = min(detected if detected is not None else CITYBEE_FALLBACK_PAGES, CITYBEE_MAX_PAGES)
+
+        page_events = extract_citybee_events(markup, source_name, now, days)
+        if not page_events and page > 1:
+            break
+        events.extend(page_events)
+
+        if page >= last_page:
+            break
+        page += 1
+
+    return events, pages_fetched, last_page, warnings
 
 
 def extract_ticketmaster_events(markup, source_name, now, days):
@@ -1039,7 +1123,6 @@ def collect(days):
         ("Prague.eu", SOURCES, extract_tile_events),
         ("GoOut", GOOUT_SOURCES, extract_goout_events),
         ("O2 arena", O2_SOURCES, extract_o2_events),
-        ("CityBee", CITYBEE_SOURCES, extract_citybee_events),
         ("Ticketportal", TICKETPORTAL_SOURCES, extract_ticketportal_events),
         ("Kudy z nudy", kudy_pages, extract_kudy_events),
         ("Forum Karlín", FORUM_KARLIN_SOURCES, extract_forum_karlin_events),
@@ -1072,6 +1155,17 @@ def collect(days):
         }
         if group_warnings:
             health[group_name]["warnings"] = group_warnings
+
+    citybee_events, citybee_pages_fetched, citybee_pages_expected, citybee_warnings = fetch_citybee_events(now, days)
+    for event in citybee_events:
+        add_event(by_key, event)
+    health["CityBee"] = {
+        "events": len(citybee_events),
+        "pagesFetched": citybee_pages_fetched,
+        "pagesExpected": citybee_pages_expected,
+    }
+    if citybee_warnings:
+        errors.extend(citybee_warnings)
 
     ticketmaster_key = os.environ.get("TICKETMASTER_API_KEY")
     ticketmaster_events = []
