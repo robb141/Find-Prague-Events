@@ -218,12 +218,22 @@ function priceText(price) {
   return price ? `${price} Kc` : "Free";
 }
 
+function safeHref(url) {
+  try {
+    const parsed = new URL(url, location.href);
+    if (!["http:", "https:"].includes(parsed.protocol)) return "#";
+    return escapeHtml(parsed.href);
+  } catch {
+    return "#";
+  }
+}
+
 function eventImageMarkup(event) {
   if (!event.imageUrl) return "";
   try {
     const imageUrl = new URL(event.imageUrl, location.href);
     if (!["http:", "https:"].includes(imageUrl.protocol)) return "";
-    return `<img src="${imageUrl.href}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
+    return `<img src="${escapeHtml(imageUrl.href)}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
   } catch {
     return "";
   }
@@ -490,27 +500,27 @@ function renderList(items) {
     const date = new Date(event.date);
     return `
       <div class="event-card ${event.id === state.selectedId ? "active" : ""}">
-        <button class="event-select" type="button" data-id="${event.id}" aria-label="Show details for ${event.title}">
+        <button class="event-select" type="button" data-id="${escapeHtml(event.id)}" aria-label="Show details for ${escapeHtml(event.title)}">
           <span class="date-tile">
             <span>${date.toLocaleString("en-GB", { month: "short" })}</span>
             <strong>${date.getDate()}</strong>
           </span>
           <span class="event-body">
-            <h3 class="event-title">${event.title}</h3>
+            <h3 class="event-title">${escapeHtml(event.title)}</h3>
             <span class="event-meta">
               <span><i data-lucide="clock"></i>${formatTime.format(date)}</span>
-              <span><i data-lucide="map-pin"></i>${event.district}</span>
-              <span><i data-lucide="building-2"></i>${event.venue}</span>
+              <span><i data-lucide="map-pin"></i>${escapeHtml(event.district)}</span>
+              <span><i data-lucide="building-2"></i>${escapeHtml(event.venue)}</span>
             </span>
             <span class="tag-row">
-              <span class="tag">${event.category}</span>
+              <span class="tag">${escapeHtml(event.category)}</span>
               ${event.english ? `<span class="tag">English-friendly</span>` : ""}
-              ${event.tags.slice(0, 2).map(tag => `<span class="tag">${tag}</span>`).join("")}
+              ${event.tags.slice(0, 2).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
             </span>
           </span>
           <span class="price-pill">${priceText(event.price)}</span>
         </button>
-        <a class="card-open" href="${event.sourceUrl}" target="_blank" rel="noopener" aria-label="Open ${event.title} on ${event.source || "source site"}">
+        <a class="card-open" href="${safeHref(event.sourceUrl)}" target="_blank" rel="noopener" aria-label="Open ${escapeHtml(event.title)} on ${escapeHtml(event.source || "source site")}">
           <i data-lucide="external-link"></i>
           <span>Open</span>
         </a>
@@ -544,13 +554,13 @@ function renderDetail(event) {
     <div class="detail-media ${event.imageUrl ? "has-image" : ""}">
       ${eventImageMarkup(event)}
       <div class="detail-media-copy">
-        <h3>${event.title}</h3>
-        <p>${event.category} in ${event.district}</p>
+        <h3>${escapeHtml(event.title)}</h3>
+        <p>${escapeHtml(event.category)} in ${escapeHtml(event.district)}</p>
       </div>
     </div>
     <div class="detail-content">
       <div class="detail-actions">
-        <a class="primary-btn" href="${event.sourceUrl}" target="_blank" rel="noopener">
+        <a class="primary-btn" href="${safeHref(event.sourceUrl)}" target="_blank" rel="noopener">
           <i data-lucide="ticket"></i>
           <span>View event</span>
         </a>
@@ -562,12 +572,12 @@ function renderDetail(event) {
         </button>
       </div>
       <div class="detail-line"><i data-lucide="calendar"></i><strong>${formatDate.format(date)}</strong> at ${formatTime.format(date)}</div>
-      <div class="detail-line"><i data-lucide="map-pin"></i><strong>${event.venue}</strong>, ${event.district}</div>
+      <div class="detail-line"><i data-lucide="map-pin"></i><strong>${escapeHtml(event.venue)}</strong>, ${escapeHtml(event.district)}</div>
       <div class="detail-line"><i data-lucide="wallet"></i><strong>${priceText(event.price)}</strong></div>
-      <div class="detail-line"><i data-lucide="external-link"></i><strong>${event.source || "Source"}</strong></div>
-      <p>${event.description}</p>
+      <div class="detail-line"><i data-lucide="external-link"></i><strong>${escapeHtml(event.source || "Source")}</strong></div>
+      <p>${escapeHtml(event.description)}</p>
       <div class="tag-row">
-        ${event.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
+        ${event.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
         ${event.english ? `<span class="tag">English-friendly</span>` : `<span class="tag">Czech-led</span>`}
       </div>
     </div>
