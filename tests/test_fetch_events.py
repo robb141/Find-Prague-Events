@@ -145,13 +145,15 @@ class TicketmasterFeedTests(unittest.TestCase):
         self.assertEqual(feed_metadata["num_events"], 3)
 
     def test_missing_czech_feed_is_rejected(self):
-        with patch.object(fetch_events, "fetch", return_value='{"countries": {}}'):
-            with self.assertRaisesRegex(ValueError, "CZ JSON feed"):
-                fetch_events.fetch_ticketmaster_feed_events(
-                    "test-key",
-                    datetime(2026, 6, 10, 9, 0),
-                    30,
-                )
+        with (
+            patch.object(fetch_events, "fetch", return_value='{"countries": {}}'),
+            self.assertRaisesRegex(ValueError, "CZ JSON feed"),
+        ):
+            fetch_events.fetch_ticketmaster_feed_events(
+                "test-key",
+                datetime(2026, 6, 10, 9, 0),
+                30,
+            )
 
 
 class CategoryTests(unittest.TestCase):

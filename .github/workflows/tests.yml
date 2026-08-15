@@ -23,5 +23,13 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Lint Python (ruff)
+        run: |
+          python3 -m pip install ruff
+          ruff check .
+
+      - name: Lint JS (eslint)
+        run: npx --yes eslint script.js sw.js
+
       - name: Run tests
         run: python3 -m unittest discover -s tests -v
