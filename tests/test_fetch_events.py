@@ -415,6 +415,181 @@ class ConfsTechTests(unittest.TestCase):
         self.assertEqual(events[0]["date"], "2026-06-20T12:00:00")
 
 
+def citybee_card(event_id, title, date_str, venue="Prague"):
+    return f"""
+        <div class="vevent card" >
+            <div class="cbthumb">
+                <a href="https://www.citybee.cz/kultura/:/akce/{event_id}/">
+                    <img src="https://c.citybee.cz/images/{event_id}.jpg" alt="" class="photo" />
+                </a>
+            </div>
+            <h3><a class="url" href="https://www.citybee.cz/kultura/:/akce/{event_id}/"><span class="summary display-none">{title}</span>{title}</a></h3>
+            <p class="meta">
+                <span class="dtstart display-none">{date_str}</span>
+                <span class="location display-none">{venue}</span>
+            </p>
+            <p><span class="description display-none">Event listed by CityBee.</span>Event listed by CityBee.</p>
+        </div>
+    """
+
+
+def citybee_pager(current, last, links=None):
+    if links is None:
+        links = list(range(1, last + 1))
+    numbered = "".join(
+        f'<li class="active">{n}</li>' if n == current
+        else f'<li><a href="https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/{n}/">{n}</a></li>'
+        for n in links
+    )
+    last_href = "" if current >= last else f"https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/{last}/"
+    return f"""
+        <ul class="pager">
+        <li class="first"><a href="">&laquo;</a></li>
+        <li class="prev"><a href="">&lt;</a></li>
+        {numbered}
+        <li class="next"><a href="">&gt;</a></li>
+        <li class="last"><a href="{last_href}">&raquo;</a></li>
+        </ul>
+    """
+
+
+def citybee_page_markup(cards_html, current, last, links=None):
+    return f"<html><body><div class='card-list'>{cards_html}</div>{citybee_pager(current, last, links)}</body></html>"
+
+
+class CityBeeExtractorTests(unittest.TestCase):
+    def test_parses_card_fields_within_window(self):
+        markup = citybee_card("1", "Romský Bašavel 2026", "2026-06-20T15:00", "Praha 4")
+        events = fetch_events.extract_citybee_events(
+            markup, "CityBee events", datetime(2026, 6, 10, 9, 0), 30
+        )
+
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["title"], "Romský Bašavel 2026")
+        self.assertEqual(events[0]["venue"], "Praha 4")
+        self.assertEqual(events[0]["source"], "CityBee events")
+
+    def test_source_label_strips_page_suffix(self):
+        markup = citybee_card("1", "Some Event", "2026-06-20T15:00")
+        events = fetch_events.extract_citybee_events(
+            markup, "CityBee events page 7", datetime(2026, 6, 10, 9, 0), 30
+        )
+
+        self.assertEqual(events[0]["source"], "CityBee events")
+
+
+class CityBeePaginationTests(unittest.TestCase):
+    def test_detects_last_page_from_pager_bar(self):
+        markup = citybee_page_markup("", current=1, last=4)
+
+        self.assertEqual(fetch_events.detect_citybee_last_page(markup), 4)
+
+    def test_detects_last_page_when_only_one_page_exists(self):
+        markup = "<html><body><div class='card-list'></div><ul class=\"pager\"></ul></body></html>"
+
+        self.assertEqual(fetch_events.detect_citybee_last_page(markup), 1)
+
+    def test_returns_none_when_pager_missing(self):
+        markup = "<html><body><div class='card-list'></div></body></html>"
+
+        self.assertIsNone(fetch_events.detect_citybee_last_page(markup))
+
+    def test_fetches_all_discovered_pages_and_stops_at_last_page(self):
+        pages = {
+            1: citybee_page_markup(citybee_card("1", "Event One", "2026-06-20T15:00"), 1, 3),
+            2: citybee_page_markup(citybee_card("2", "Event Two", "2026-06-21T15:00"), 2, 3),
+            3: citybee_page_markup(citybee_card("3", "Event Three", "2026-06-22T15:00"), 3, 3),
+        }
+
+        def fake_fetch(url):
+            for page, markup in pages.items():
+                if fetch_events.citybee_page_url(page) == url:
+                    return markup
+            raise AssertionError(f"unexpected page fetched: {url}")
+
+        with patch.object(fetch_events, "fetch", side_effect=fake_fetch):
+            events, pages_fetched, pages_expected, warnings = fetch_events.fetch_citybee_events(
+                datetime(2026, 6, 10, 9, 0), 30
+            )
+
+        self.assertEqual(pages_fetched, 3)
+        self.assertEqual(pages_expected, 3)
+        self.assertEqual(warnings, [])
+        self.assertEqual(
+            {event["title"] for event in events},
+            {"Event One", "Event Two", "Event Three"},
+        )
+
+    def test_stops_early_when_a_later_page_is_empty(self):
+        # Pager claims 5 pages, but the site clamps out-of-range requests to
+        # an empty listing starting at page 3; the empty-page safety net
+        # should stop the crawl instead of fetching pages 4 and 5.
+        pages = {
+            1: citybee_page_markup(citybee_card("1", "Event One", "2026-06-20T15:00"), 1, 5),
+            2: citybee_page_markup(citybee_card("2", "Event Two", "2026-06-21T15:00"), 2, 5),
+            3: citybee_page_markup("", 3, 5),
+        }
+        fetched_urls = []
+
+        def fake_fetch(url):
+            fetched_urls.append(url)
+            for page, markup in pages.items():
+                if fetch_events.citybee_page_url(page) == url:
+                    return markup
+            raise AssertionError(f"unexpected page fetched: {url}")
+
+        with patch.object(fetch_events, "fetch", side_effect=fake_fetch):
+            events, pages_fetched, pages_expected, warnings = fetch_events.fetch_citybee_events(
+                datetime(2026, 6, 10, 9, 0), 30
+            )
+
+        self.assertEqual(pages_fetched, 3)
+        self.assertEqual(pages_expected, 5)
+        self.assertEqual(len(events), 2)
+        self.assertEqual(
+            fetched_urls,
+            [fetch_events.citybee_page_url(p) for p in (1, 2, 3)],
+        )
+
+    def test_falls_back_to_fixed_page_count_when_pager_cannot_be_parsed(self):
+        # Site markup changed enough that the pager bar isn't found; we
+        # should still keep walking pages up to the fallback count instead
+        # of only fetching page 1, using the empty-page check to stop.
+        pages = {
+            page: f"<html><body><div class='card-list'>{citybee_card(str(page), f'Event {page}', '2026-06-20T15:00')}</div></body></html>"
+            for page in range(1, fetch_events.CITYBEE_FALLBACK_PAGES + 1)
+        }
+
+        def fake_fetch(url):
+            for page, markup in pages.items():
+                if fetch_events.citybee_page_url(page) == url:
+                    return markup
+            raise AssertionError(f"unexpected page fetched: {url}")
+
+        with patch.object(fetch_events, "fetch", side_effect=fake_fetch):
+            events, pages_fetched, pages_expected, warnings = fetch_events.fetch_citybee_events(
+                datetime(2026, 6, 10, 9, 0), 30
+            )
+
+        self.assertEqual(pages_fetched, fetch_events.CITYBEE_FALLBACK_PAGES)
+        self.assertEqual(pages_expected, fetch_events.CITYBEE_FALLBACK_PAGES)
+        self.assertEqual(len(events), fetch_events.CITYBEE_FALLBACK_PAGES)
+
+    def test_records_warning_and_stops_when_first_page_fetch_fails(self):
+        def fake_fetch(url):
+            raise ValueError("boom")
+
+        with patch.object(fetch_events, "fetch", side_effect=fake_fetch):
+            events, pages_fetched, pages_expected, warnings = fetch_events.fetch_citybee_events(
+                datetime(2026, 6, 10, 9, 0), 30
+            )
+
+        self.assertEqual(events, [])
+        self.assertEqual(pages_fetched, 0)
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("boom", warnings[0])
+
+
 class HealthTests(unittest.TestCase):
     def test_health_reports_empty_source_and_bad_url(self):
         events = [
