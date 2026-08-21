@@ -139,8 +139,8 @@ python3 fetch_events.py --list-sources
 - GoOut Prague events: `https://goout.net/en/events/lez/`
 - O2 arena events: `https://www.o2arena.cz/en/events/`
 - CityBee events: `https://www.citybee.cz/akce/`
-- CityBee paginated listings: `https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/2/` through page 5
-- Ticketmaster Prague search: `https://www.ticketmaster.cz/search?keyword=Praha`
+- CityBee paginated listings: `https://www.citybee.cz/vyhledavani/:/akce/prehled/strana/{page}/` — the true page count is discovered from the site's pagination bar (capped at 40 pages as a safety limit), falling back to 5 pages if detection fails
+- Ticketmaster Prague search: `https://www.ticketmaster.cz/search?keyword=Praha` (plus 3 more paginated result pages)
 - Ticketportal O2 arena listings: `https://www.ticketportal.cz/venue/O2-arena?idpartner=382KD`
 - Ticketportal Prague Congress Centre listings: `https://www.ticketportal.cz/Venue/1201393`
 - Kudy z nudy Prague calendar: `https://www.kudyznudy.cz/kalendar-akci/hlavni-mesto-praha`
