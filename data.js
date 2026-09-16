@@ -1,2245 +1,6 @@
 window.CATEGORIES = ["Concerts", "Exhibitions", "Fairs & Expos", "Festivals", "Food Events", "GoOut", "IT & Tech", "Markets", "Open Days", "Sports", "Theatre", "Things to do"];
 window.EVENTS = [
   {
-    "id": "prague-eu-events-dvorak-prague-festival-2026-prague-radio-symphony-orchestra-centenary-concert-2026-09-15-1200",
-    "title": "Dvořák Prague Festival 2026 — Prague Radio Symphony Orchestra Centenary Concert",
-    "category": "Concerts",
-    "district": "Prague",
-    "venue": "Rudolfinum",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 50,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Classical Music",
-      "Prague.eu"
-    ],
-    "description": "Classical Music listed by Prague.eu concerts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu concerts",
-    "sourceUrl": "https://prague.eu/en/akce/dvorak-prague-2026-prague-radio-symphony-orchestra-centenary-concert/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/05/05092616/69c8436df5c3b35a0bf8183e_dvorakovapraha-2026-symfonicky-orchestr-ceskeho-rozhlasu-cpetr-neubert-022026-1.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-dvorak-prague-featival-concert-of-chamber-music-masterclasses-of-the-vienna-philharmonic-2026-09-15-1200",
-    "title": "Dvořák prague featival — Concert of Chamber Music Masterclasses of the Vienna Philharmonic",
-    "category": "Concerts",
-    "district": "Prague",
-    "venue": "Artium",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 57,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Classical Music",
-      "Prague.eu"
-    ],
-    "description": "Classical Music listed by Prague.eu concerts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu concerts",
-    "sourceUrl": "https://prague.eu/en/akce/dvorak-prague-featival-concert-of-chamber-music-masterclasses-of-the-vienna-philharmonic/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/25095415/69c8436df5c3b35a0bf8154c_dvorakovapraha-interpreti-2025-edison-pashko-d-1-0.avif@webp"
-  },
-  {
-    "id": "prague-eu-events-hall-22-holesovice-vegetable-market-2026-09-15-1200",
-    "title": "Hall 22 Holešovice Vegetable Market",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Market in Holešovice",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/holesovice-market/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/16130731/HALA-222744.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-kubanske-square-farmers-market-2026-09-15-1200",
-    "title": "Kubánské Square Farmers’ Market",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Farmers‘ Marketplace at Kubánské square",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 86,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/farmers-market-on-kubanske-square/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/03102548/AdobeStock_89974773.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-festival-m3-2026-09-15-1200",
-    "title": "Festival m3",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Prague — various places",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 80,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions + Prague.eu festivals",
-    "sourceUrl": "https://prague.eu/en/akce/festival-m3/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/12161219/Artur-Magrot-vizualizace_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-cirk-la-putyka-la-putyka-2026-09-15-1200",
-    "title": "Cirk La Putyka: La Putyka",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "Jatka78",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "New Circus & Physical Theatre",
-      "Prague.eu"
-    ],
-    "description": "New Circus & Physical Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/la-putyka/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13060305/d1-4.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-dvorak-prague-festival-2026-09-15-1200",
-    "title": "Dvořák Prague Festival",
-    "category": "Festivals",
-    "district": "Prague",
-    "venue": "Prague — various places",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 84,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "Festivals",
-      "Prague.eu"
-    ],
-    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu festivals",
-    "sourceUrl": "https://prague.eu/en/akce/dvorak-prague-festival/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053425/iv-3012.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-adam-holy-afterglow-2026-09-15-1200",
-    "title": "Adam Holý — Afterglow",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Fotograf Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 91,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Photography",
-      "Prague.eu"
-    ],
-    "description": "Photography listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/adam-holy-afterglow/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20122711/Holy_Renata.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-the-sun-the-moon-and-the-wind-2026-09-15-1200",
-    "title": "The Sun, the Moon and the Wind",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "Estates Theatre",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 67,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Ballet",
-      "Prague.eu"
-    ],
-    "description": "Ballet listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/the-sun-the-moon-and-the-wind/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/04/04214637/1728371261-baletnd_smv_24_09_slunecnik_prvni_hlavni_zkouska-c-serghei_gherciu-29.webp@webp"
-  },
-  {
-    "id": "prague-eu-events-prague-wine-harvest-2026-09-15-1200",
-    "title": "Prague Wine Harvest",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Prague — various places",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 85,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Trends & Tips",
-      "Prague.eu"
-    ],
-    "description": "Trends & Tips listed by Prague.eu events. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events",
-    "sourceUrl": "https://prague.eu/en/akce/prague-wine-harvest/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/08/27103411/igorzacharov_20200924__DSF0605.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-intervence-38-2026-09-15-1200",
-    "title": "Intervence #38",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 92,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/577078/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/09104747/Snimek-obrazovky-2026-06-09-104241.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-stories-2026-2026-09-15-1200",
-    "title": "Stories 2026",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "New Town Hall",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 54,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Themed Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/stories-2026/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20124053/20260720123823.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-my-country-ma-vlast-2026-09-15-1200",
-    "title": "My Country (Má vlast)",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "Azyl78",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 82,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Contemporary Dance",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Dance listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/my-country-ma-vlast/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/01/23142359/9772_1920_web_ma_vlast.png@webp"
-  },
-  {
-    "id": "prague-eu-events-european-heritage-days-2026-09-15-1200",
-    "title": "European Heritage Days",
-    "category": "Open Days",
-    "district": "Prague",
-    "venue": "Prague — various places",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 72,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "Open Days",
-      "Prague.eu"
-    ],
-    "description": "Open Days listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu festivals",
-    "sourceUrl": "https://prague.eu/en/akce/european-heritage-days/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13065946/160727-pct-big-00057-1-scaled.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-urban-pictus-2026-09-15-1200",
-    "title": "Urban Pictus",
-    "category": "Festivals",
-    "district": "Prague",
-    "venue": "Prague — various places",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Festivals",
-      "Prague.eu"
-    ],
-    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu festivals",
-    "sourceUrl": "https://prague.eu/en/akce/urban-pictus/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/24150520/PKP_5285.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-reka-lorincz-michaela-spruzinova-raw-matter-2026-09-15-1200",
-    "title": "Réka Lőrincz, Michaela Spružinová — Raw Matter",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Spot Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 69,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/reka-lorincz-michaela-spruzinova-raw-matter/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02145557/Snimek-obrazovky-2026-09-02-145220_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-from-the-shadows-to-the-light-2026-09-15-1200",
-    "title": "From the Shadows to the Light",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "The National Library of the Czech Republic",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Museum Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/from-the-shadows-to-the-light/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/04161013/6-scaled_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-julius-reichel-blood-inheritance-2026-09-15-1200",
-    "title": "Julius Reichel — Blood Inheritance",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Kostka Gallery — MeetFactory",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 73,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/julius-reichel-blood-inheritance/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/31153457/julius_reichel_3_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-gregory-nachmanovitch-adam-zufnicek-hollows-2026-09-15-1200",
-    "title": "Gregory Nachmanovitch & Adam Žufníček — Hollows",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Holešovická Šachta",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 53,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/gregory-nachmanovitch-adam-zufnicek-hollows/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02121151/783027931_18184460116409138_1560716546022272752_n_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-memory-of-touch-chapter-i-2026-09-15-1200",
-    "title": "Memory of Touch — Chapter I",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Kunsthalle Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": true,
-    "color": "#344b77",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/memory-of-touch-chapter-i/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/03160520/726850253_18404252629153264_2890577572518679139_n.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-headless-rider-2026-09-15-1200",
-    "title": "Headless Rider",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Prague City Gallery — House at the Stone Bell",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 64,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/headless-rider/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/21111740/Snimek-obrazovky-2026-07-21-111553-e1784628479154.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-dear-adriena-adriena-simotova-meda-mladkova-2026-09-15-1200",
-    "title": "Dear Adriena… Adriena Šimotová & Meda Mládková",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Museum Kampa",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Modernist Art",
-      "Prague.eu"
-    ],
-    "description": "Modernist Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/dear-adriena-adriena-simotova-meda-mladkova/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/05/29080516/web_MK.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-bronislava-bakule-mala-tomas-hruza-what-burns-remains-2026-09-15-1200",
-    "title": "Bronislava Bakule Malá, Tomáš Hrůza — What Burns, Remains",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Entrance Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 68,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/bronislava-bakule-mala-tomas-hruza-what-burns-remains/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02114537/kunstat_nahled-17-2_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-jan-matysek-phallomancers-2026-09-15-1200",
-    "title": "Jan Matýsek — Phallomancers",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Artwall",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 89,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/jan-matysek-phallomancers/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/26144147/matysek_01.jpeg@webp"
-  },
-  {
-    "id": "prague-eu-events-alessandra-svatek-matej-hrbek-love-2026-09-15-1200",
-    "title": "Alessandra Svatek, Matěj Hrbek — Love",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Artium",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 65,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/alessandra-svatek-matej-hrbek-love/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/19113151/Snimek-obrazovky-2026-08-19-111721_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-they-met-beneath-the-stone-they-met-in-liben-2026-09-15-1200",
-    "title": "They Met Beneath The Stone, They Met in Libeň",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Beseder Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/they-met-beneath-the-stone-they-met-in-liben/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/26145841/Her-Lidl_Suruvka_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-the-dancing-house-the-story-of-an-iconic-building-2026-09-15-1200",
-    "title": "The Dancing House — The Story of an Iconic Building",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Dancing House Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Architecture",
-      "Prague.eu"
-    ],
-    "description": "Architecture listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/the-dancing-house-the-story-of-an-iconic-building/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/22145202/2026-02-04-20-187-2048px.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-margarita-ivy-bystrik-klco-you-cant-return-you-are-here-2026-09-15-1200",
-    "title": "Margarita Ivy, Bystrík Klčo — You can’t return, you are here",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Karpuchina Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 83,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/margarita-ivy-bystrik-klco-you-cant-return-you-are-here/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02103347/FB-poster-credit-Daniel-Vojtisek_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-vit-soukup-retro-2026-09-15-1200",
-    "title": "Vít Soukup — Retro?",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Václav Špála Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 90,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/vit-soukup-retro/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02112856/thumb_5834_exhibition_big_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-vladimir-houdek-the-third-landscape-2026-09-15-1200",
-    "title": "Vladimír Houdek — The Third Landscape",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Campus Hybernská",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 70,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/vladimir-houdek-the-third-landscape/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/27132951/web_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-adolf-born-hana-purkrabkova-2026-09-15-1200",
-    "title": "Adolf Born & Hana Purkrábková",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Chodov Fortress",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 53,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/adolf-born-hana-purkrabkova/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08144059/vytava_born_purkrabkova.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-hana-novotna-paintings-collages-drawings-2026-09-15-1200",
-    "title": "Hana Novotná — Paintings, Collages, Drawings",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Chodov Fortress",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 60,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/hana-novotna-paintings-collages-drawings/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08144116/vystava_hana_novotna.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-dsc-secondary-second-drop-2026-09-15-1200",
-    "title": "DSC Secondary Second Drop",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "DSC Gallery",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 78,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/dsc-secondary-second-drop/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02095819/M084s_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-lesser-town-market-2026-09-15-1200",
-    "title": "Lesser Town Market",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Malostranské Square",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 82,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/lesser-town-market-2/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/23124248/518300639_1333113725488383_5521580299313940465_n.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-labyrinth-wandering-within-2026-09-15-1200",
-    "title": "Labyrinth — Wandering Within",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Prague City Gallery — Troja Château",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 89,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/labyrinth-wandering-within/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/31111746/IG_1080x1350_Lab_7_orez_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-abrakadabra-2026-09-15-1200",
-    "title": "Abrakadabra",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "Image Theatre",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 62,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Black Light & Shadow Theatre",
-      "Prague.eu"
-    ],
-    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/abrakadabra/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053527/abraka-dsc03819-edited.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-images-of-love-2026-09-15-1200",
-    "title": "Images of love",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "HILT black light theatre Prague",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Black Light & Shadow Theatre",
-      "Prague.eu"
-    ],
-    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/image-of-love/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/09/04134310/1x1-Black-Light-Theatre-HILT-images-OF-love-DUO-HEART-1.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-infrastructures-of-imagination-2026-09-15-1200",
-    "title": "Infrastructures of Imagination",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Gallery 35M2",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/infrastructures-of-imagination/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/10135507/Instagram-post-–-infra-2_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-antologia-2026-09-15-1200",
-    "title": "Antología",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "Black Light Theatre Srnec",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 73,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Black Light & Shadow Theatre",
-      "Prague.eu"
-    ],
-    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/antologia/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/20124109/485279798_1275791080659825_8091611875656143217_n.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-wernisch-2026-09-15-1200",
-    "title": "Wernisch",
-    "category": "Theatre",
-    "district": "Prague",
-    "venue": "La Fabrika",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 78,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Drama",
-      "Prague.eu"
-    ],
-    "description": "Drama listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu performing arts",
-    "sourceUrl": "https://prague.eu/en/akce/wernisch/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/10/02111531/1718198530-wernisch_hlavni-zkousky_foto-martin-spelda-1.webp@webp"
-  },
-  {
-    "id": "prague-eu-events-radka-bodzewicz-faust-2026-09-15-1200",
-    "title": "Radka Bodzewicz — Faust",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "DOX Centre for Contemporary Art",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 68,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/radka-bodzewicz-faust/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/06150408/final-freedom-2026-oil-acrylic-spray-and-pigment-on-canvas-170x160cm_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-andel-farmers-market-2026-09-15-1200",
-    "title": "anděl farmers’ market",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Farmers’ Market at Anděl",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 88,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/farmers-market-at-andel/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/06090901/IMG-20241002-WA0017.webp@webp"
-  },
-  {
-    "id": "prague-eu-events-radka-castkova-magdalena-simurdova-murmuring-matter-2026-09-15-1200",
-    "title": "Radka Částková, Magdalena Šimurdová — Murmuring Matter",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Pragovka Gallery / The White Room",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 92,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/radka-castkova-magdalena-simurdova-murmuring-matter/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08161327/Murmuring-Matter-Pragovka-Gallery.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-neruda-field-neumann-2026-09-15-1200",
-    "title": "Neruda, Field, Neumann",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Memorial of National Literature — Museum of Czech Literature",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 73,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Museum Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/neruda-field-neumann/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/02/02102634/news-unor.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-gifts-for-the-president-from-nearby-and-faraway-lands-ii-2026-09-15-1200",
-    "title": "Gifts for the President from Nearby and Faraway Lands II",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Prague Castle — Rosenberg Palace — Institute of Noblewomen",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 80,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Themed Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/gifts-for-the-president-from-nearby-and-faraway-lands-ii/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/09120651/24-a-25-23.7.25.japonsko-verij-talir.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-230-years-of-ngp-2026-09-15-1200",
-    "title": "230 Years of NGP",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "National Gallery Prague — Trade Fair Palace",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 77,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "Museum Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/230-years-of-the-ngp/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/23114836/Snimek-obrazovky-2026-03-23-113702_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-sherlock-holmes-the-exhibition-2026-09-15-1200",
-    "title": "Sherlock Holmes — The Exhibition",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": true,
-    "color": "#d63f2e",
-    "tags": [
-      "Themed Exhibitions",
-      "Prague.eu"
-    ],
-    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/sherlock-holmes-the-exhibition/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/04144512/IMG01568_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-ugly-czechoslovak-brutalism-19601989-2026-09-15-1200",
-    "title": "Ugly — Czechoslovak Brutalism 1960—1989",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Design Museum Prague",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Design",
-      "Prague.eu"
-    ],
-    "description": "Design listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/ugly-czechoslovak-brutalism-1960-1989/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/09091159/Hnusny_1080x1440_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-andros-2026-09-15-1200",
-    "title": "Andros",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "DOX Centre for Contemporary Art",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 72,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/andros/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02123011/ivan-pinkava-samotar_small.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-kopecky-forever-2026-09-15-1200",
-    "title": "Kopecký Forever",
-    "category": "Exhibitions",
-    "district": "Prague",
-    "venue": "Museum Kampa",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "Contemporary Art",
-      "Prague.eu"
-    ],
-    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu exhibitions",
-    "sourceUrl": "https://prague.eu/en/akce/kopecky-forever/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/20120216/1500x1500-dlazdice_mensi.jpg@webp"
-  },
-  {
-    "id": "goout-prague-events-harry-potter-the-exhibition-2026-09-15-1200",
-    "title": "Harry Potter: The Exhibition",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "PVA Expo Prague Letnany",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 58,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "Wands ready—Harry Potter: The Exhibition is coming to Prague! Harry Potter™: The Exhibition is a groundbreaking touring experience that celebrates the magical world of Harry Potter™ and beyond. Through immersive storytelling, cutting-edge t",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/harry-potter-the-exhibition/szfbdjy/",
-    "imageUrl": "https://goout.net/i/139/1395788-383.jpg"
-  },
-  {
-    "id": "goout-prague-events-lumia-gallery-2026-09-15-1200",
-    "title": "Lumia Gallery",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "Galerie audiovizuálního umění",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 63,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "*Akce Lumia Gallery: LOADED_03: Opening nové části + Makoto Inoue je součástí standardního vstupu do galerie.* **Lumia Gallery: Boundless imagination in light.** At Celetná 15, just a few steps from Old Town Square, a gallery hidden behind ",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/lumia-gallery/szakohy/",
-    "imageUrl": "https://goout.net/i/136/1361540-383.jpg"
-  },
-  {
-    "id": "goout-prague-events-sherlock-holmes-the-exhibition-2026-09-15-1200",
-    "title": "Sherlock Holmes: The Exhibition",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "OD Bílá Labuť",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 68,
-    "english": true,
-    "color": "#007f7a",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "The internationally acclaimed exhibition Sherlock Holmes: The Exhibition will transport you straight into the dark alleys of Victorian London, where every detail hides a clue and every step could be key to uncovering the truth. You’ll becom",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/sherlock-holmes-the-exhibition/sztfviy/",
-    "imageUrl": "https://goout.net/i/140/1401669-383.jpg"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-den-arnosta-lustiga-v-prazske-libni-2026-09-15-1200",
-    "title": "Den Arnošta Lustiga v pražské Libni",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Ke stému výročí narození Arnošta Lustiga se koná 15. září 2026 Den Arnošta Lustiga v Libni, v jeho rodišti.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/den-arnosta-lustiga-v-moravske-zemske-knihovne",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/a7/a7a8133c-d761-4b77-bce8-3ef14579ef40.webp?v=20260821082930"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-doktore-mluvte-se-mnou-2026-09-15-1200",
-    "title": "Doktore, mluvte se mnou",
-    "category": "Things to do",
-    "district": "Praha 10, Praha",
-    "venue": "Praha 10, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Autogramiáda a beseda k nové knize Ivany Karáskové, Radkina Honzáka, Pavla Pafka a Petra Bartůňka.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/doktore-mluvte-se-mnou",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/ca/ca31d320-fb9d-4108-9702-dd2319d13de4.webp?v=20260915085107"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-komentovana-prohlidka-vystavy-czech-press-photo-2025-s-jaroslavem-svobodou-2026-09-15-1200",
-    "title": "Komentovaná prohlídka výstavy Czech Press Photo 2025 s Jaroslavem Svobodou",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Téměř 800 nejlepších novinářských fotografií mapujících zásadní události uplynulého období .",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/komentovana-prohlidka-vystavy-czech-press-phot-1",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/90/900e3a2e-7aa3-4c86-a316-de8333fe645a.webp?v=20260915070935"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-krest-knihy-hrot-tuzky-2026-09-15-1200",
-    "title": "Křest knihy – Hrot tužky",
-    "category": "Things to do",
-    "district": "Praha 6, Praha",
-    "venue": "Praha 6, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Zveme na křest knihy z nakladatelství ArtMap a UJEP: Hrot tužky.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-knihy-hrot-tuzky",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/d8/d836d619-84ac-4ef9-a257-7eb46683260a.webp?v=20260915054825"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-swamp-desires-2026-09-15-1200",
-    "title": "Swamp Desires",
-    "category": "Things to do",
-    "district": "Praha 10, Praha",
-    "venue": "Praha 10, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Vernisáž: 14.09.2026 19:00. Výstava: 14.09. – 08.10.2026, jednadvatři gallery.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/vystava-swamp-desires",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/86/869d0eb4-11ca-4ee0-b225-ddb0e551bc9b.webp?v=20260914030556"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-koncert-michal-prokop-trio-2026-09-15-1200",
-    "title": "Koncert Michal Prokop Trio",
-    "category": "Things to do",
-    "district": "Praha 5, Praha",
-    "venue": "Praha 5, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 81,
-    "english": false,
-    "color": "#4b7b8a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Ikona české hudební scény v parku Portheimka.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/koncert-michal-prokop-trio",
-    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/4cd9b756-c661-4369-93a9-c91d81d00f39/hudebni-divadelni-akce-small.webp.aspx?ext=.webp"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-tomas-visek-jazz-goes-to-classic-2026-09-15-1200",
-    "title": "Tomáš Víšek – Jazz Goes To Classic",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 86,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Jazz téměř od svého počátku ovlivnil i mnoho skladatelů tzv. vážné hudby. Děje se tak dodnes, i když explozi 20. let 20. století už asi nic nepřekoná.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/tomas-visek-jazz-goes-to-classic",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/67/677f297c-820b-48b7-93b1-d2d9e35fef93.webp?v=20260907141037"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-mathias-sandberg-trio-video-2026-09-15-1200",
-    "title": "Mathias Sandberg Trio Video",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": false,
-    "color": "#344b77",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Pro nebývalý ohlas a nadšení obecenstva se vrací do Prahy kytarista a skladatel Mathias Sandberg!",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/mathias-sandberg-trio-fi-cz-dk",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/fb/fb165b04-531c-4779-95a3-d6102d30ec80.webp?v=20260907132730"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-bella-donna-2026-09-15-1200",
-    "title": "Bella Donna",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 64,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Začátek roku znamená nový vztah! Carmen, známá autorka kuchařek, sice proti mužům nic nemá, nicméně dřív nebo později ji každý její partner začne štvát.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/bella-donna",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/71/710a5baa-ec05-4f79-b2d2-d7529c687bae.webp?v=20260902192526"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-zlatnicke-poklady-premyslovske-doby-2026-09-15-1200",
-    "title": "Zlatnické poklady přemyslovské doby",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 69,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Přednáška z cyklu k výstavě Přemyslovci.",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/komentovane-prohlidky-vystavy-praveka-dobrodru-1",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/b0/b01fbe33-43de-4597-9403-49c070a3b92e.webp?v=20260901182656"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-ukazkovy-trenink-softballu-s-joudrs-praha-2026-09-15-1200",
-    "title": "Ukázkový trénink softballu s Joudrs Praha",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Softball – hra rozvíjející rychlost, sílu, obratnost, koordinaci a mnoho dalšího...",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/ukazkovy-trenink-softballu",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/37/370c0a5b-4577-4a94-9fa1-6767e5d0afc4.webp?v=20260830104433"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-1-dratovane-vzpominky-na-leto-2026-09-15-1200",
-    "title": "Drátované vzpomínky na léto",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Přijďte si uchovat vzpomínky na léto v podobě originální drátované dekorace. Přineste si vlastní mušle, kamínky, kousky naplaveného dřeva nebo jiné drobné poklady z prázdnin a společně z nich vytvoříme jedinečnou dekoraci inspirovanou mořem",
-    "source": "Kudy z nudy Prague page 1",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/jarni-dratovani-1",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/69/692020f0-e02c-40ff-bab2-060b1bb85335.webp?v=20260830090812"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-kondicni-cviceni-s-detmi-do-2-let-2026-09-15-1200",
-    "title": "Kondiční cvičení s dětmi do 2 let",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Přijďte si zacvičit – kondiční lekce s fyzioterapeutickými prvky, které posílí střed těla, naučí vás správnému bráničnímu dýchání a jeho koordinaci s pohybem. Zaměříme se na aktivaci pánevního dna, zlepšení flexibility páteře a osvojení spr",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/workshop-zensky-kruh-kondicni-cviceni-panevni-dno",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/b2/b220e8cb-4892-4193-920e-d1d4e8dac8ed.webp?v=20260830070712"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-joga-pro-zdrava-zada-2026-09-15-1200",
-    "title": "Jóga pro zdravá záda",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Jóga pro zdravá záda jsou lekce v pomalejším plynutí zaměřené na uvolnění zad a zlepšení pružnosti páteře, efektivní zapojení středu těla a práci s pánevním dnem.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/joga-pro-zdrava-zada-2",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/9d/9d029601-ca05-481a-adfa-3feab5e08557.webp?v=20260830070612"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-posledni-viking-2026-09-15-1200",
-    "title": "Poslední Viking",
-    "category": "Things to do",
-    "district": "Praha 9, Praha",
-    "venue": "Praha 9, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Servírujeme vám již devátý ročník letního kina na Pragovce, tentokrát se zastřešujícím tématem Vzájemné výhody. Letos budeme promítat v hale MaxSpace za Permanent Beer Fest každé úterý po setmění.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/letni-kino-posledni-viking",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/7c/7c365f00-6b6b-4e23-9a63-a2c221dc103b.webp?v=20260828161552"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-ostre-sledovane-vlaky-v-divadle-pod-palmovkou-2026-09-15-1200",
-    "title": "Ostře sledované vlaky v Divadle pod Palmovkou",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "„Pusa od hezkýho děvčete, to přece není proti staničním ani okupačním předpisům…“. Slavný tragikomický příběh lásky a hrdinství v nelehké době podle knižní předlohy Bohumila Hrabala.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/ostre-sledovane-vlaky-v-divadle-pod-palmovkou",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/2a/2a5c0de8-920a-42ec-9fdb-f2ec14dc595a.webp?v=20260826154006"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-dance-well-ozdravna-sila-tance-2026-09-15-1200",
-    "title": "Dance well – Ozdravná síla tance",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Ozdravná síla tance pro všechny bez ohledu na věk, pohybové omezení a zkušenosti.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/dance-well-ozdravna-sila-tance-7",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/ef/efa26b4b-335b-4ab8-8e3d-7050e3f815c2.webp?v=20260822110755"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-krest-knihy-novy-roman-aneb-nebezpeci-v-neprodleni-eugena-brikciuse-2026-09-15-1200",
-    "title": "Křest knihy Nový román aneb Nebezpečí v neprodlení Eugena Brikciuse",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 81,
-    "english": false,
-    "color": "#4b7b8a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Uvedení nové knihy Eugena Brikciuse, v němž ožívá nejbližší vedlejší svět, jenž se nápadně podobá Žižkovu…",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-knihy-novy-roman-aneb-nebezpeci-v-neprodleni",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/12/129a1c55-01c9-4b6b-9de4-ec077292a96e.webp?v=20260820195429"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-buddhisticka-architektura-stupy-klastery-a-pagody-2026-09-15-1200",
-    "title": "Buddhistická architektura – Stúpy, kláštery a pagody",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 86,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Přednáška z cyklu Náboženství v asijské architektuře.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/islamska-architektura-v-indonesii-lokalni-identita",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/8b/8bc71f8b-db6b-4bc0-b3a4-d4869b0479d2.webp?v=20260814192954"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-komentovana-vychazka-okolim-osady-baba-2026-09-15-1200",
-    "title": "Komentovaná vycházka okolím osady Baba",
-    "category": "Things to do",
-    "district": "Praha 6, Praha",
-    "venue": "Praha 6, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": false,
-    "color": "#344b77",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Prvorepublikové osadě Baba, unikátnímu experimentálnímu sídlišti, se věnujeme v oblíbené procházce Osada Baba – model nového bydlení. Záměrně se však vyhýbáme otázkám na stavby, které se nacházejí v bezprostředním okolí.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/komentovana-prochazka-okolim-osady-baba",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/7c/7ca4d430-f0d4-4d6a-8426-ddb98711f4c2.webp?v=20260814162843"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-farmarske-trhy-na-kubani-2026-2026-09-15-1200",
-    "title": "Farmářské trhy na Kubáni 2026",
-    "category": "Things to do",
-    "district": "Praha 10, Praha",
-    "venue": "Praha 10, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 64,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Na náměstí před metrem Kubánské náměstí najdete širokou nabídku čerstvé zeleniny, ovoce, pečiva, sýrů, masa i domácích marmelád. Atmosféra je zde vždy přátelská a uvolněná – můžete ochutnat speciality přímo od farmářů, popovídat si s nimi a",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/farmarske-trhy-na-kubani",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/70/701b70b6-c4da-41a9-9c9e-693ec6563414.webp?v=20260705084216"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-ohne-v-mlhach-2026-09-15-1200",
-    "title": "Ohně v mlhách",
-    "category": "Things to do",
-    "district": "Praha 5, Praha",
-    "venue": "Praha 5, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 69,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Laureáti Ceny Lieder Society z Mezinárodní pěvecké soutěže Antonína Dvořáka 2026 – mezzosopranistka Anna Moriová a klavírista Martin Levický – zaujali porotu i publikum mimořádně citlivou souhrou, silným emocionálním nábojem a vzácným vzáje",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/zpev-lasky-a-smrti-lieder-company",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/0c/0cf3fb53-481a-4fdc-bf47-f04878475d08.webp?v=20260528150441"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-ranni-joga-v-zahrade-atria-zizkov-2026-09-15-1200",
-    "title": "Ranní jóga v zahradě Atria Žižkov",
-    "category": "Things to do",
-    "district": "Praha 3, Praha",
-    "venue": "Praha 3, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Nejlépe se den začíná pohybem, ještě lépe jógou v naší zahradě. Každé úterní ráno jsou vítáni všichni bez ohledu na zkušenosti.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/joga-v-zahrade-atria-zizkov",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/07/07d6d6d9-7c12-4281-a8cf-018805d8578a.webp?v=20260516143615"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-2-za-dvermi-kancelari-2026-09-15-1200",
-    "title": "Za dveřmi kanceláří",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Skvělá komedie jednoho z nejúspěšnější a nejhranějších autorů současnosti Norma Fostera.",
-    "source": "Kudy z nudy Prague page 2",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/za-dvermi-kancelari",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/4d/4d8a1f7e-0492-4eae-a15c-b8c789637e29.webp?v=20260424163643"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-male-chytre-lzi-2026-09-15-1200",
-    "title": "Malé chytré lži",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Brilantní komedie ze života.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/male-chytre-lzi",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/c9/c95c217b-1758-42d5-8085-478259c3b88c.webp?v=20260409052217"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-uterni-trhy-na-andelu-2026-09-15-1200",
-    "title": "Úterní trhy na Andělu",
-    "category": "Things to do",
-    "district": "Praha 5, Praha",
-    "venue": "Praha 5, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Farmářské trhy na pěší zóně Anděl – Praha 5. Široký sortiment lokálních potravin, rukodělných výrobku a mnoho dalšího, včetně novinek od známých prodejců z největšího trhu na Kulaťáku. Poslední trh v roce 2026 se koná 10. listopadu.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/trhy-na-andelu",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/fa/fa8468be-3f53-4cce-b676-5f85ee1a40b9.webp?v=20260316104113"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-jejich-furiantky-2026-09-15-1200",
-    "title": "Jejich furiantky",
-    "category": "Things to do",
-    "district": "Praha 9, Praha",
-    "venue": "Praha 9, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Komedie z pera Oty Kovaříka inspirovaná dílem Ladislava Stroupežnického.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/jejich-furiantky",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/af/afc2b543-837a-44d9-b80d-2699d01c436d.webp?v=20260223120949"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-pesky-do-skoly-podzimni-vyzva-2026-2026-09-15-1200",
-    "title": "Pěšky do školy – podzimní výzva 2026",
-    "category": "Things to do",
-    "district": "Praha 6, Praha",
-    "venue": "Praha 6, Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Tradiční podzimní výzva, kterou pořádá organizace Pěšky městem. Cílem je nejen přivést děti k pravidelnému pohybu, ale také zvýšit dopravní bezpečnost v okolí škol. Akce se koná po celé republice, zapojit se mohou základní, mateřské i střed",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/pesky-do-skoly",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/91/91881bcb-41c2-4a3a-9a3d-78eca5763bfe.webp?v=20260908195708"
-  },
-  {
-    "id": "pva-expo-letnany-harry-pottertm-the-exhibition-2026-09-15-1200",
-    "title": "Harry Potter™: The Exhibition",
-    "category": "Exhibitions",
-    "district": "Letňany",
-    "venue": "PVA EXPO Praha",
-    "date": "2026-09-15T12:00:00",
-    "price": null,
-    "popularity": 58,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "PVA Expo",
-      "Praha 9"
-    ],
-    "description": "Výstava at PVA EXPO Praha in Letňany. Open the event page for opening hours, tickets, and details.",
-    "source": "PVA EXPO Letňany",
-    "sourceUrl": "http://pvaexpo.cz/cs/akce/497",
-    "imageUrl": "http://pvaexpo.cz/cdn/image/744/Z4CTZlQusMwZLYlO7xjZCSWSK8rL9YPy.jpg"
-  },
-  {
-    "id": "citybee-events-pribehy-nuklearnich-rodin-jak-se-v-cesku-pecuje-2026-09-15-1600",
-    "title": "Příběhy nukleárních rodin (Jak se v Česku pečuje)",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Studio Alta",
-    "date": "2026-09-15T16:00:00",
-    "price": null,
-    "popularity": 54,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Workshop pro rodiče malých dětí. Série tvůrčích setkání, která otevírají prostor pro sdílení zkušeností, hledání podpory a společné přemýšlení.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/138203-pribehy-nuklearnich-rodin-jak-se-v-cesku-pecuje/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138203/card_Detskehriste-1786433095.jpg"
-  },
-  {
-    "id": "citybee-events-michal-prokop-trio-zdarma-2026-09-15-1800",
-    "title": "Michal Prokop Trio | Zdarma",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Park Portheimka",
-    "date": "2026-09-15T18:00:00",
-    "price": null,
-    "popularity": 60,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Michal Prokop Trio vystoupí ve smíchovském parku Portheimka. Těšit se můžete na ty největší hity.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138715-michal-prokop-trio-zdarma/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138715/card_Michalprokop-1789142422.jpg"
-  },
-  {
-    "id": "citybee-events-letni-opera-giacomo-puccini-madame-butterfly-2026-09-15-1930",
-    "title": "Letní opera | Giacomo Puccini: Madame Butterfly",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Kino 35",
-    "date": "2026-09-15T19:30:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Nadčasový příběhu svedené a opuštěné ženy.. G.Puccini vytvořil operu mimořádné emocionální síly.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138481-letni-opera-giacomo-puccini-madame-butterfly/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_29492-21_202409_1787579286.jpg"
-  },
-  {
-    "id": "Z698xZu0Z1kfKGVx8",
-    "title": "TR/ST, support: teige",
-    "category": "Concerts",
-    "district": "Praha 1",
-    "venue": "Roxy",
-    "date": "2026-09-15T19:30:00",
-    "price": null,
-    "popularity": 72,
-    "english": true,
-    "color": "#7246a8",
-    "tags": [
-      "Ticketmaster",
-      "Rock"
-    ],
-    "description": "Uplatňuje se transakční poplatek ve výši 30Kč. Důvěra a smyslnost sobotní noci -- a po nich horečka. Do Prahy přijede kanadský hudebník TR/ST TR/ST, to je Robert Alfons -- producent, zpěvák, umělec. TR/ST, to jsou songy jednou zamlženě vábi",
-    "source": "Ticketmaster",
-    "sourceUrl": "https://www.ticketmaster.cz/event/tr-st-support-teige-vstupenky/513334890",
-    "imageUrl": "https://s1.ticketm.net/dam/a/7c4/efba4752-7fdf-4088-b278-c8e03f4647c4_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-  },
-  {
-    "id": "citybee-events-storytelling-u-ohne-2026-09-15-2000",
-    "title": "Storytelling u ohně",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Studio Alta",
-    "date": "2026-09-15T20:00:00",
-    "price": null,
-    "popularity": 72,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Zapalme oheň, nechme se ukonejšit jeho plameny a zaposlouchejme se do magických, hravých, děsivých, pohádkových a mnoha dalších příběhů.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138202-storytelling-u-ohne/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138202/card_StoryTelling-1786432627.jpg"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-divadelni-festival-kutna-hora-2026-2026-09-16-0000",
-    "title": "Divadelní festival Kutná Hora 2026",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Divadelní festival v Kutné Hoře je zaměřen na prezentaci nezávislého divadla v mezinárodním rozměru s důrazem na současná aktuální témata. Letos se uskuteční 16. – 19. září. Festival pořádá Divadlo X10.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/divadelni-festival-kutna-hora",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/a1/a146e250-c111-4a00-a08c-02ec2d09d1e8.webp?v=20260818144631"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-evropsky-tyden-mobility-2026-2026-09-16-0000",
-    "title": "Evropský týden mobility 2026",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Evropský týden mobility se již tradičně snaží upozorňovat na neudržitelný nárůst individuální automobilové dopravy ve městech a na různé způsoby jeho řešení. Každoročně se koná 16. až 22. září.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/evropsky-tyden-mobility",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/db/db3fdd01-49c2-446e-8bc2-3e4dd5666420.webp?v=20260622145114"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-noc-literatury-v-praze-2026-video-2026-09-16-0000",
-    "title": "Noc literatury v Praze 2026 Video",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 81,
-    "english": false,
-    "color": "#4b7b8a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Noc literatury znovu přiblíží široké veřejnosti novou tvorbu evropských spisovatelů v podání známých hereckých osobností na netradičních místech. Jubilejní dvacátý ročník se uskuteční ve středu 16. září 2026.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/noc-literatury-5",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/74/74422b43-2b78-4af6-b957-b495817eea0c.webp?v=20260113095830"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-for-arch-mezinarodni-stavebni-veletrh-2026-2026-09-16-0000",
-    "title": "For Arch – mezinárodní stavební veletrh 2026",
-    "category": "Things to do",
-    "district": "Praha 9, Praha",
-    "venue": "Praha 9, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 86,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Plánujete, stavíte, či rekonstruujete? Přijďte se poradit na stavební veletrh. 37. ročník veletrhu For Arch proběhne 16. – 19. září 2026 v Letňanech.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/for-arch-mezinarodni-stavebni-veletrh",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/d7/d7c01638-eac5-4cd3-a83f-29a18fb1ea23.webp?v=20251015111411"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-krest-vinylove-desky-miro-zbirka-2026-09-16-0000",
-    "title": "Křest vinylové desky Miro Žbirka",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": false,
-    "color": "#344b77",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Po 27 letech se vrací album, které Miro Žbirka původně vytvořil pro své děti a které si postupně oblíbili malí i velcí posluchači. Songs for Boys & Girls nyní dostává novou podobu – vůbec poprvé vychází jako 2LP. Jeho slavnostní křest se us",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-vinylove-desky-miro-zbirka-songs-for-boys-a",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/1c/1ceca229-2d28-4fd2-99cb-eac175b595ee.webp?v=20260914151003"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-pikantni-historky-v-tresoru-2026-09-16-0000",
-    "title": "Pikantní historky v Tresoru",
-    "category": "Things to do",
-    "district": "Praha 2, Praha",
-    "venue": "Praha 2, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 64,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Stand-up: Pikantní historky v Tresoru! Připravte se na večer plný humoru, nečekaných situací a příběhů, které jsou možná až příliš blízké realitě.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/stand-up-pikantni-historky-v-tresoru",
-    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/4cd9b756-c661-4369-93a9-c91d81d00f39/hudebni-divadelni-akce-small.webp.aspx?ext=.webp"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-festival-autorskeho-cteni-ve-vlaku-2026-2026-09-16-0000",
-    "title": "Festival autorského čtení ve vlaku 2026",
-    "category": "Things to do",
-    "district": "Praha 2, Praha",
-    "venue": "Praha 2, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 69,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Přední čeští spisovatelé čtou ze svých knih cestujícím.",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/cteni-ve-vlaku-literarni-festival-krizuje-cr-na-ko",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/08/086b3342-0d87-4339-92b5-e9aa48c97ef1.webp?v=20260913042745"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-prazsky-oktoberfest-2026-2026-09-16-0000",
-    "title": "Pražský Oktoberfest 2026",
-    "category": "Things to do",
-    "district": "Praha 9, Praha",
-    "venue": "Praha 9, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Pražský Oktoberfest – Prague Oktoberfest je zpět. Tentokrát se přesunujeme do industriálního prostředí bývalé továrny Praga s úžasným geniem loci. Od středy 16. do neděle 20. září zde vznikne nefalšovaná bavorská pivní zahrádka – Biergarten",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/vysocansky-oktoberfest",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/86/867c4033-d174-445e-ab20-89a8c4752762.webp?v=20260911183012"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-3-kabinet-zivota-sbirka-oldricha-uttendorfskeho-v-galerii-magnus-art-2026-09-16-0000",
-    "title": "Kabinet života – Sbírka Oldřicha Uttendorfského v Galerii Magnus Art",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Lékař a diplomat Oldřich Uttendorfský už přes 60 let sbírá umělecká díla z celého světa. Vzhledem k jeho profesi jej vždy fascinovala díla, která se nějakým způsobem věnují koloběhu života. Nyní máte výjimečnou možnost jeho výjimečnou sbírk",
-    "source": "Kudy z nudy Prague page 3",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/vystava-kabinet-zivota-sbirka-oldricha-uttendorfsk",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/7a/7a8d4c71-28f8-4f2d-8204-ac33d1153816.webp?v=20260909134656"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-hetty-kate-quintet-jazz-in-four-seasons-video-2026-09-16-0000",
-    "title": "Hetty Kate Quintet – Jazz in Four Seasons Video",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/hetty-kate-quartet-aus-cz",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/dd/ddd3329b-cc09-443c-8bd1-698812a95e29.webp?v=20260907132744"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-filmovy-vecer-ve-story-b-2026-09-16-0000",
-    "title": "Filmový večer: ve Story B",
-    "category": "Things to do",
-    "district": "Praha 4, Praha",
-    "venue": "Praha 4, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Když se náš čas na Zemi chýlí ke konci, je skupina výzkumníků pověřena nejdůležitějším posláním v lidských dějinách: cestou za hranice naší galaxie, při které má za úkol najít mezi hvězdami pro lidstvo nový domov.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/filmovy-vecer-interstellar-ve-story-b",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/6e/6e06e4fe-7b7a-4d0c-b515-b913d8e3c916.webp?v=20260901204141"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-pavel-sedlacek-85-2026-09-16-0000",
-    "title": "Pavel Sedláček 85",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Pavel Sedláček, rock’n‘rollová legenda, chystá jubilejní koncert ke svým 85. narozeninám a to 16. září 2026 v pražském Lucerna Music baru.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/pavel-sedlacek-cadillac-80",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/75/75260054-5f0e-4da0-9dbd-caa91d90819f.webp?v=20260901103020"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-ukazkovy-trenink-softballu-s-joudrs-praha-2026-09-16-0000",
-    "title": "Ukázkový trénink softballu s Joudrs Praha",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Softball – hra rozvíjející rychlost, sílu, obratnost, koordinaci a mnoho dalšího...",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/ukazkovy-trenink-softballu",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/37/370c0a5b-4577-4a94-9fa1-6767e5d0afc4.webp?v=20260830104433"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-prochazka-s-romanem-na-tema-prostituce-drogy-a-kradeze-2026-09-16-0000",
-    "title": "Procházka s Romanem na téma prostituce, drogy a krádeže",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 81,
-    "english": false,
-    "color": "#4b7b8a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Roman je milovník módy, donedávna žil pod mostem ve stanu a přesto, že si prošel cestou děcáku, drog a prostituce, je to ten největší srandista a miláček. Nedávno se vrátil z vězení.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/prochazka-s-romanem-na-tema-prostituce-drogy-a-1",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/89/89b3c914-8908-4645-b9a4-f4209409cdec.webp?v=20260827142800"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-havet-v-divadle-pod-palmovkou-2026-09-16-0000",
-    "title": "Havěť v Divadle pod Palmovkou",
-    "category": "Things to do",
-    "district": "Praha 8, Praha",
-    "venue": "Praha 8, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 86,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Představení Tomáše Dianišky představuje říši hmyzu, v níž se svět George Orwella mísí s motivy z díla bratří Čapků a béčkovými horory.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/havet-v-divadle-pod-palmovkou",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/40/402916b7-07b6-49c1-8edf-6e049f921dac.webp?v=20260826141620"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-jak-se-obejit-bez-hodinoveho-manzela-lehke-elektricke-opravy-2026-09-16-0000",
-    "title": "Jak se obejít bez hodinového manžela – Lehké elektrické opravy",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 59,
-    "english": false,
-    "color": "#344b77",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Nová série workshopů v Cirkulární dílně - Jak se obejít bez hodinového manžela vznikla ve spolupráci s projektem SheBuilds. Naučit se vrtat, spojovat dřevo a opravovat věci.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/hyb4-dilna-jak-se-obejit-bez-hodinoveho-manzela-2",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/84/84ce9bfa-b88e-4e05-9e1b-9c7b2b63ed20.webp?v=20260824030607"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-oko-tygra-2026-09-16-0000",
-    "title": "Oko tygra",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 64,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Komedie jednoho herce o krizi středního věku. Hraje Marek Němec.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/oko-tygra-3",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/0f/0f295fbe-ffa0-487c-b914-9f85b368db04.webp?v=20260822105233"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-netopyri-noc-na-toulcove-dvore-2026-2026-09-16-0000",
-    "title": "Netopýří noc na Toulcově dvoře 2026",
-    "category": "Things to do",
-    "district": "Praha 10, Praha",
-    "venue": "Praha 10, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 69,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Fascinují vás netopýři? Na této akci budete mít možnost seznámit se životem netopýrů a setkat se zblízka s hendikepovanými netopýry. Vydáme se také s ultrazvukovými detektory ven sledovat lovecké aktivity netopýrů v jejich přirozeném prostř",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/netopyri-noc-v-toulcove-dvore",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/81/818fcb9e-ad3e-4d4f-8c5a-7ba733335f8b.webp?v=20260811201523"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-classic-ballet-gala-video-2026-09-16-0000",
-    "title": "Classic Ballet Gala Video",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "To nejkrásnější z klasického baletu v jednom večeru.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/classic-ballet-gala",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/3d/3d1be0b7-ae0f-4a16-95f2-601cca07f7b1.webp?v=20260810165824"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-4-hrave-dejiny-s-anglictinou-pevnost-vysehrad-plna-tajemnych-znaku-2026-09-16-0000",
-    "title": "Hravé dějiny s angličtinou – Pevnost Vyšehrad plná tajemných znaků",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 79,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Poznávejte legendy hravě, společně a pod širým nebem.",
-    "source": "Kudy z nudy Prague page 4",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/bajni-premyslovci-the-legendary-premyslids",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/f3/f38148de-e3b7-4f0d-a5dd-565c9f434050.webp?v=20260805153800"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-koncert-mlada-praha-young-prague-v-historickem-sale-novomestske-radnice-2026-09-16-0000",
-    "title": "Koncert Mladá Praha – Young Prague v historickém sále Novoměstské radnice",
-    "category": "Things to do",
-    "district": "Praha 2, Praha",
-    "venue": "Praha 2, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Zahajovací koncert 32. ročníku mezinárodního hudebního festivalu vážné hudby podporujícího mladé začínající umělce – instrumentalisty, pěvce, komorní soubory, dirigenty i hudební skladatele.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/koncert-mlada-praha-young-prague-v-historickem-sal",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/fa/fa8f5e17-f8e8-4b0e-baab-f3b76161a78c.webp?v=20260615155156"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-hrave-dejiny-s-anglictinou-program-pro-rodiny-s-detmi-2026-09-16-0000",
-    "title": "Hravé dějiny s angličtinou – program pro rodiny s dětmi",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 61,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Poznávejte město hravě, společně a venku! Zažijte s námi deset jedinečných setkání, která propojí poznání, pohyb, jazyk i společný čas. Lekce probíhají formou tematických vycházek po městě s povídáním o historii a jsou plné her a nenásilnéh",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/krouzek-pro-rodiny-s-detmi-hrave-dejiny-s-anglicti",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/f1/f16e409c-0e58-4e53-97a1-7f75e8b45755.webp?v=20260804142921"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-happy-birthday-dear-marilyn-komentovana-prohlidka-vystavy-s-letnim-drinkem-2026-09-16-0000",
-    "title": "Happy Birthday Dear Marilyn – komentovaná prohlídka výstavy s letním drinkem",
-    "category": "Things to do",
-    "district": "Praha, Praha",
-    "venue": "Praha, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Srdečně vás zveme na komentovanou prohlídku výstavy Marilyn Monroe 100 do České Galerie Moderního Umění na Betlémském náměstí. Přijďte objevit Marilyn Monroe tak, jak ji možná neznáte – ve fotografiích, obrazech a příbězích, které přetrvaly",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/happy-birthday-dear-marilyn",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/13/13bc1975-f15b-452d-8c38-3850297860ad.webp?v=20260723024931"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-pribeh-rodu-havlovych-putovni-exterierova-vystava-v-praze-2026-09-16-0000",
-    "title": "Příběh rodu Havlových – putovní exteriérová výstava v Praze",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 71,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Unikátní exteriérová výstava, konaná u příležitosti 90. výročí narození Václava Havla, nabízí vhled do historie rodu Havlových od poloviny 17. století. Uskuteční se postupně na Praze 2, Praze 5 a Praze 1.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/pribeh-rodu-havlovych-putovni-exterierova-vystava",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/cc/cc8ebeb6-629c-4fef-b41c-1044a4ddae8f.webp?v=20260722082423"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-palacky-a-jezek-od-narodniho-obrozeni-k-osvobozenemu-divadlu-2026-09-16-0000",
-    "title": "Palacký a Ježek – Od národního obrození k Osvobozenému divadlu",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 76,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Komentované prohlídky dvou unikátních objektů v srdci Prahy s architektonickými zastávkami.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/palacky-jezek-od-narodniho-obrozeni-k-osvobozenemu",
-    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/68f17529-4642-41f2-bbc2-210a97479267/86eff137-51b4-4a47-8258-990ed5ff86fc-small.webp.aspx?ext=.webp"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-hrdy-budzes-2026-09-16-0000",
-    "title": "Hrdý Budžes",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-16T00:00:00",
-    "price": null,
-    "popularity": 81,
-    "english": false,
-    "color": "#4b7b8a",
-    "tags": [
-      "Kudy z nudy"
-    ],
-    "description": "Barbora Hrzánová ve vždy vyprodané inscenaci Hrdý Budžes.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/prima-hvezdne-leto-hrdy-budzes",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/bc/bcd6893d-f3ea-4b5a-9448-23cab788f1c3.webp?v=20260326161630"
-  },
-  {
-    "id": "prague-eu-events-hall-22-holesovice-vegetable-market-2026-09-16-0730",
-    "title": "Hall 22 Holešovice Vegetable Market",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Market in Holešovice",
-    "date": "2026-09-16T07:30:00",
-    "price": null,
-    "popularity": 79,
-    "english": true,
-    "color": "#33794c",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/holesovice-market/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/16130731/HALA-222744.jpg@webp"
-  },
-  {
-    "id": "prague-eu-events-farmers-markets-at-jirak-2026-09-16-0800",
-    "title": "Farmers’ Markets at Jiřák",
-    "category": "Markets",
-    "district": "Prague",
-    "venue": "Farmers’ Market at Jiřák",
-    "date": "2026-09-16T08:00:00",
-    "price": null,
-    "popularity": 88,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "Markets",
-      "Prague.eu"
-    ],
-    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
-    "source": "Prague.eu events + Prague.eu markets",
-    "sourceUrl": "https://prague.eu/en/akce/farmers-martkets-at-jirak/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/05092347/01jzp-1.jpg@webp"
-  },
-  {
     "id": "prague-eu-events-prague-proms-2026-ruchadze-band-amsterdam-beyond-2026-09-16-1200",
     "title": "Prague Proms 2026 — Ruchadze Band — Amsterdam Beyond",
     "category": "Concerts",
@@ -2247,9 +8,9 @@ window.EVENTS = [
     "venue": "The Loop Jazz Club",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 50,
     "english": true,
-    "color": "#007f7a",
+    "color": "#7246a8",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -2267,9 +28,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 57,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#33794c",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -2280,6 +41,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/05/02105317/Andrea-Marcon_4-©Marco-Borggreve-1.jpg@webp"
   },
   {
+    "id": "prague-eu-events-hall-22-holesovice-vegetable-market-2026-09-16-1200",
+    "title": "Hall 22 Holešovice Vegetable Market",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Market in Holešovice",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 72,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/holesovice-market/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/16130731/HALA-222744.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-festival-m3-2026-09-16-1200",
     "title": "Festival m3",
     "category": "Exhibitions",
@@ -2287,9 +68,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2307,9 +88,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "New Circus & Physical Theatre",
       "Prague.eu"
@@ -2327,9 +108,9 @@ window.EVENTS = [
     "venue": "2 venues",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -2347,9 +128,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -2367,9 +148,9 @@ window.EVENTS = [
     "venue": "Fotograf Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Photography",
       "Prague.eu"
@@ -2387,9 +168,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ballet",
       "Prague.eu"
@@ -2400,6 +181,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/04/04214637/1728371261-baletnd_smv_24_09_slunecnik_prvni_hlavni_zkouska-c-serghei_gherciu-29.webp@webp"
   },
   {
+    "id": "prague-eu-events-farmers-markets-at-jirak-2026-09-16-1200",
+    "title": "Farmers’ Markets at Jiřák",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Farmers’ Market at Jiřák",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/farmers-martkets-at-jirak/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/05092347/01jzp-1.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-prague-wine-harvest-2026-09-16-1200",
     "title": "Prague Wine Harvest",
     "category": "Things to do",
@@ -2407,9 +208,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Trends & Tips",
       "Prague.eu"
@@ -2427,9 +228,9 @@ window.EVENTS = [
     "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2447,9 +248,9 @@ window.EVENTS = [
     "venue": "New Town Hall",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -2467,9 +268,9 @@ window.EVENTS = [
     "venue": "Azyl78",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Contemporary Dance",
       "Prague.eu"
@@ -2487,9 +288,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Open Days",
       "Prague.eu"
@@ -2507,9 +308,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -2527,9 +328,9 @@ window.EVENTS = [
     "venue": "Spot Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 69,
+    "popularity": 62,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2547,9 +348,9 @@ window.EVENTS = [
     "venue": "The National Library of the Czech Republic",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -2567,9 +368,9 @@ window.EVENTS = [
     "venue": "Kostka Gallery — MeetFactory",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2587,9 +388,9 @@ window.EVENTS = [
     "venue": "Holešovická Šachta",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2607,9 +408,9 @@ window.EVENTS = [
     "venue": "Kunsthalle Praha",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2627,9 +428,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — House at the Stone Bell",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2647,9 +448,9 @@ window.EVENTS = [
     "venue": "Museum Kampa",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Modernist Art",
       "Prague.eu"
@@ -2667,9 +468,9 @@ window.EVENTS = [
     "venue": "Entrance Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2687,9 +488,9 @@ window.EVENTS = [
     "venue": "Artwall",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2707,9 +508,9 @@ window.EVENTS = [
     "venue": "Artium",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2727,9 +528,9 @@ window.EVENTS = [
     "venue": "Beseder Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2747,9 +548,9 @@ window.EVENTS = [
     "venue": "Dancing House Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Architecture",
       "Prague.eu"
@@ -2767,9 +568,9 @@ window.EVENTS = [
     "venue": "Karpuchina Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2787,9 +588,9 @@ window.EVENTS = [
     "venue": "Václav Špála Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2807,9 +608,9 @@ window.EVENTS = [
     "venue": "Campus Hybernská",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2827,9 +628,9 @@ window.EVENTS = [
     "venue": "Chodov Fortress",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2847,9 +648,9 @@ window.EVENTS = [
     "venue": "Chodov Fortress",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2867,9 +668,9 @@ window.EVENTS = [
     "venue": "DSC Gallery",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2887,9 +688,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — Troja Château",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2907,9 +708,9 @@ window.EVENTS = [
     "venue": "Wow Black Light Theatre",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -2927,9 +728,9 @@ window.EVENTS = [
     "venue": "Gallery 35M2",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -2947,9 +748,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -2967,9 +768,9 @@ window.EVENTS = [
     "venue": "La Fabrika",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -2987,9 +788,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3007,9 +808,9 @@ window.EVENTS = [
     "venue": "Pragovka Gallery / The White Room",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3027,9 +828,9 @@ window.EVENTS = [
     "venue": "Memorial of National Literature — Museum of Czech Literature",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -3047,9 +848,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Rosenberg Palace — Institute of Noblewomen",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -3067,9 +868,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Trade Fair Palace",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -3087,9 +888,9 @@ window.EVENTS = [
     "venue": "",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -3107,9 +908,9 @@ window.EVENTS = [
     "venue": "Design Museum Prague",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Design",
       "Prague.eu"
@@ -3127,9 +928,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3147,9 +948,9 @@ window.EVENTS = [
     "venue": "Museum Kampa",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3158,6 +959,615 @@ window.EVENTS = [
     "source": "Prague.eu events + Prague.eu exhibitions",
     "sourceUrl": "https://prague.eu/en/akce/kopecky-forever/",
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/20120216/1500x1500-dlazdice_mensi.jpg@webp"
+  },
+  {
+    "id": "goout-prague-events-harry-potter-the-exhibition-2026-09-16-1200",
+    "title": "Harry Potter: The Exhibition",
+    "category": "GoOut",
+    "district": "Prague",
+    "venue": "PVA Expo Prague Letnany",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 58,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "GoOut"
+    ],
+    "description": "Wands ready—Harry Potter: The Exhibition is coming to Prague! Harry Potter™: The Exhibition is a groundbreaking touring experience that celebrates the magical world of Harry Potter™ and beyond. Through immersive storytelling, cutting-edge t",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/harry-potter-the-exhibition/szxbdjy/",
+    "imageUrl": "https://goout.net/i/139/1395788-383.jpg"
+  },
+  {
+    "id": "goout-prague-events-lumia-gallery-2026-09-16-1200",
+    "title": "Lumia Gallery",
+    "category": "GoOut",
+    "district": "Prague",
+    "venue": "Galerie audiovizuálního umění",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 63,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "GoOut"
+    ],
+    "description": "*Akce Lumia Gallery: LOADED_03: Opening nové části + Makoto Inoue je součástí standardního vstupu do galerie.* **Lumia Gallery: Boundless imagination in light.** At Celetná 15, just a few steps from Old Town Square, a gallery hidden behind ",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/lumia-gallery/szakohy/",
+    "imageUrl": "https://goout.net/i/136/1361540-383.jpg"
+  },
+  {
+    "id": "goout-prague-events-sherlock-holmes-the-exhibition-2026-09-16-1200",
+    "title": "Sherlock Holmes: The Exhibition",
+    "category": "GoOut",
+    "district": "Prague",
+    "venue": "OD Bílá Labuť",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 68,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "GoOut"
+    ],
+    "description": "**Do you love mysteries and crime stories? Visit one of the largest detective exhibitions and solve the case of the century!** Test your sharp thinking, powers of observation and eye for detail, and solve a detective case written specifical",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/sherlock-holmes-the-exhibition/szogviy/",
+    "imageUrl": "https://goout.net/i/140/1401669-383.jpg"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-evropsky-tyden-mobility-2026-2026-09-16-1200",
+    "title": "Evropský týden mobility 2026",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Evropský týden mobility se již tradičně snaží upozorňovat na neudržitelný nárůst individuální automobilové dopravy ve městech a na různé způsoby jeho řešení. Každoročně se koná 16. až 22. září.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/evropsky-tyden-mobility",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/db/db3fdd01-49c2-446e-8bc2-3e4dd5666420.webp?v=20260622145114"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-noc-literatury-v-praze-2026-video-2026-09-16-1200",
+    "title": "Noc literatury v Praze 2026 Video",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Noc literatury znovu přiblíží široké veřejnosti novou tvorbu evropských spisovatelů v podání známých hereckých osobností na netradičních místech. Jubilejní dvacátý ročník se uskuteční ve středu 16. září 2026.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/noc-literatury-5",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/74/74422b43-2b78-4af6-b957-b495817eea0c.webp?v=20260113095830"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-for-arch-mezinarodni-stavebni-veletrh-2026-2026-09-16-1200",
+    "title": "For Arch – mezinárodní stavební veletrh 2026",
+    "category": "Things to do",
+    "district": "Praha 9, Praha",
+    "venue": "Praha 9, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Plánujete, stavíte, či rekonstruujete? Přijďte se poradit na stavební veletrh. 37. ročník veletrhu For Arch proběhne 16. – 19. září 2026 v Letňanech.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/for-arch-mezinarodni-stavebni-veletrh",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/d7/d7c01638-eac5-4cd3-a83f-29a18fb1ea23.webp?v=20251015111411"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-kabinet-zivota-sbirka-oldricha-uttendorfskeho-v-galerii-magnus-art-2026-09-16-1200",
+    "title": "Kabinet života – Sbírka Oldřicha Uttendorfského v Galerii Magnus Art",
+    "category": "Things to do",
+    "district": "Praha 8, Praha",
+    "venue": "Praha 8, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Starověká egyptská mumie kočky vedle poválečného českého umění, dílo Federica Díaze v sousedství japonského pohřebního roucha. Galerie Magnus Art představuje výběr z rozsáhlé sbírky Oldřicha Uttendorfského – lékaře, konzula Monackého knížec",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/vystava-kabinet-zivota-sbirka-oldricha-uttendorfsk",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/8b/8b0c7974-d7a7-4ac7-9b82-088edab6ab6a.webp?v=20260916105316"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-pikantni-historky-v-tresoru-2026-09-16-1200",
+    "title": "Pikantní historky v Tresoru",
+    "category": "Things to do",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Stand-up: Pikantní historky v Tresoru! Připravte se na večer plný humoru, nečekaných situací a příběhů, které jsou možná až příliš blízké realitě.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/stand-up-pikantni-historky-v-tresoru",
+    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/4cd9b756-c661-4369-93a9-c91d81d00f39/hudebni-divadelni-akce-small.webp.aspx?ext=.webp"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-gala-festival-vin-na-male-strane-2026-09-16-1200",
+    "title": "Gala festival vín na Malé Straně",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Užijte si večer plný vína, gastronomie a živé hudby v Hotelu Hoffmeister na pražské Malé Straně. VII. ročník Gala Festivalu vín nabídne více než 100 vinných vzorků ze starého i nového kontinentu, středomořské speciality, tematické BBQ, live",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/gala-festival-vin-na-male-strane",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/3d/3d90fe2d-83d2-472b-a727-915dce1d9451.webp?v=20260915141823"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-krest-vinylove-desky-miro-zbirka-2026-09-16-1200",
+    "title": "Křest vinylové desky Miro Žbirka",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 86,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Po 27 letech se vrací album, které Miro Žbirka původně vytvořil pro své děti a které si postupně oblíbili malí i velcí posluchači. Songs for Boys & Girls nyní dostává novou podobu – vůbec poprvé vychází jako 2LP. Jeho slavnostní křest se us",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-vinylove-desky-miro-zbirka-songs-for-boys-a",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/1c/1ceca229-2d28-4fd2-99cb-eac175b595ee.webp?v=20260914151003"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-festival-autorskeho-cteni-ve-vlaku-2026-2026-09-16-1200",
+    "title": "Festival autorského čtení ve vlaku 2026",
+    "category": "Things to do",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 59,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Přední čeští spisovatelé čtou ze svých knih cestujícím.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/cteni-ve-vlaku-literarni-festival-krizuje-cr-na-ko",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/08/086b3342-0d87-4339-92b5-e9aa48c97ef1.webp?v=20260913042745"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-prazsky-oktoberfest-2026-2026-09-16-1200",
+    "title": "Pražský Oktoberfest 2026",
+    "category": "Things to do",
+    "district": "Praha 9, Praha",
+    "venue": "Praha 9, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Pražský Oktoberfest – Prague Oktoberfest je zpět. Tentokrát se přesunujeme do industriálního prostředí bývalé továrny Praga s úžasným geniem loci. Od středy 16. do neděle 20. září zde vznikne nefalšovaná bavorská pivní zahrádka – Biergarten",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/vysocansky-oktoberfest",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/86/867c4033-d174-445e-ab20-89a8c4752762.webp?v=20260911183012"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-hetty-kate-quintet-jazz-in-four-seasons-video-2026-09-16-1200",
+    "title": "Hetty Kate Quintet – Jazz in Four Seasons Video",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/hetty-kate-quartet-aus-cz",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/dd/ddd3329b-cc09-443c-8bd1-698812a95e29.webp?v=20260907132744"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-filmovy-vecer-ve-story-b-2026-09-16-1200",
+    "title": "Filmový večer: ve Story B",
+    "category": "Things to do",
+    "district": "Praha 4, Praha",
+    "venue": "Praha 4, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Když se náš čas na Zemi chýlí ke konci, je skupina výzkumníků pověřena nejdůležitějším posláním v lidských dějinách: cestou za hranice naší galaxie, při které má za úkol najít mezi hvězdami pro lidstvo nový domov.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/filmovy-vecer-interstellar-ve-story-b",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/6e/6e06e4fe-7b7a-4d0c-b515-b913d8e3c916.webp?v=20260901204141"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-1-pavel-sedlacek-85-2026-09-16-1200",
+    "title": "Pavel Sedláček 85",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Pavel Sedláček, rock’n‘rollová legenda, chystá jubilejní koncert ke svým 85. narozeninám a to 16. září 2026 v pražském Lucerna Music baru.",
+    "source": "Kudy z nudy Prague page 1",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/pavel-sedlacek-cadillac-80",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/75/75260054-5f0e-4da0-9dbd-caa91d90819f.webp?v=20260901103020"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-ukazkovy-trenink-softballu-s-joudrs-praha-2026-09-16-1200",
+    "title": "Ukázkový trénink softballu s Joudrs Praha",
+    "category": "Things to do",
+    "district": "Praha 8, Praha",
+    "venue": "Praha 8, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Softball – hra rozvíjející rychlost, sílu, obratnost, koordinaci a mnoho dalšího...",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/ukazkovy-trenink-softballu",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/37/370c0a5b-4577-4a94-9fa1-6767e5d0afc4.webp?v=20260830104433"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-prochazka-s-romanem-na-tema-prostituce-drogy-a-kradeze-2026-09-16-1200",
+    "title": "Procházka s Romanem na téma prostituce, drogy a krádeže",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Roman je milovník módy, donedávna žil pod mostem ve stanu a přesto, že si prošel cestou děcáku, drog a prostituce, je to ten největší srandista a miláček. Nedávno se vrátil z vězení.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prochazka-s-romanem-na-tema-prostituce-drogy-a-1",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/89/89b3c914-8908-4645-b9a4-f4209409cdec.webp?v=20260827142800"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-havet-v-divadle-pod-palmovkou-2026-09-16-1200",
+    "title": "Havěť v Divadle pod Palmovkou",
+    "category": "Things to do",
+    "district": "Praha 8, Praha",
+    "venue": "Praha 8, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Představení Tomáše Dianišky představuje říši hmyzu, v níž se svět George Orwella mísí s motivy z díla bratří Čapků a béčkovými horory.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/havet-v-divadle-pod-palmovkou",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/40/402916b7-07b6-49c1-8edf-6e049f921dac.webp?v=20260826141620"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-jak-se-obejit-bez-hodinoveho-manzela-lehke-elektricke-opravy-2026-09-16-1200",
+    "title": "Jak se obejít bez hodinového manžela – Lehké elektrické opravy",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Nová série workshopů v Cirkulární dílně - Jak se obejít bez hodinového manžela vznikla ve spolupráci s projektem SheBuilds. Naučit se vrtat, spojovat dřevo a opravovat věci.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/hyb4-dilna-jak-se-obejit-bez-hodinoveho-manzela-2",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/84/84ce9bfa-b88e-4e05-9e1b-9c7b2b63ed20.webp?v=20260824030607"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-oko-tygra-2026-09-16-1200",
+    "title": "Oko tygra",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Komedie jednoho herce o krizi středního věku. Hraje Marek Němec.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/oko-tygra-3",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/0f/0f295fbe-ffa0-487c-b914-9f85b368db04.webp?v=20260822105233"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-netopyri-noc-na-toulcove-dvore-2026-2026-09-16-1200",
+    "title": "Netopýří noc na Toulcově dvoře 2026",
+    "category": "Things to do",
+    "district": "Praha 10, Praha",
+    "venue": "Praha 10, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Fascinují vás netopýři? Na této akci budete mít možnost seznámit se životem netopýrů a setkat se zblízka s hendikepovanými netopýry. Vydáme se také s ultrazvukovými detektory ven sledovat lovecké aktivity netopýrů v jejich přirozeném prostř",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/netopyri-noc-v-toulcove-dvore",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/81/818fcb9e-ad3e-4d4f-8c5a-7ba733335f8b.webp?v=20260811201523"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-classic-ballet-gala-video-2026-09-16-1200",
+    "title": "Classic Ballet Gala Video",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 86,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "To nejkrásnější z klasického baletu v jednom večeru.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/classic-ballet-gala",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/3d/3d1be0b7-ae0f-4a16-95f2-601cca07f7b1.webp?v=20260810165824"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-hrave-dejiny-s-anglictinou-pevnost-vysehrad-plna-tajemnych-znaku-2026-09-16-1200",
+    "title": "Hravé dějiny s angličtinou – Pevnost Vyšehrad plná tajemných znaků",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 59,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Poznávejte legendy hravě, společně a pod širým nebem.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/bajni-premyslovci-the-legendary-premyslids",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/f3/f38148de-e3b7-4f0d-a5dd-565c9f434050.webp?v=20260805153800"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-koncert-mlada-praha-young-prague-v-historickem-sale-novomestske-radnice-2026-09-16-1200",
+    "title": "Koncert Mladá Praha – Young Prague v historickém sále Novoměstské radnice",
+    "category": "Things to do",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Zahajovací koncert 32. ročníku mezinárodního hudebního festivalu vážné hudby podporujícího mladé začínající umělce – instrumentalisty, pěvce, komorní soubory, dirigenty i hudební skladatele.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/koncert-mlada-praha-young-prague-v-historickem-sal",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/fa/fa8f5e17-f8e8-4b0e-baab-f3b76161a78c.webp?v=20260615155156"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-hrave-dejiny-s-anglictinou-program-pro-rodiny-s-detmi-2026-09-16-1200",
+    "title": "Hravé dějiny s angličtinou – program pro rodiny s dětmi",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Poznávejte město hravě, společně a venku! Zažijte s námi deset jedinečných setkání, která propojí poznání, pohyb, jazyk i společný čas. Lekce probíhají formou tematických vycházek po městě s povídáním o historii a jsou plné her a nenásilnéh",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/krouzek-pro-rodiny-s-detmi-hrave-dejiny-s-anglicti",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/f1/f16e409c-0e58-4e53-97a1-7f75e8b45755.webp?v=20260804142921"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-happy-birthday-dear-marilyn-komentovana-prohlidka-vystavy-s-letnim-drinkem-2026-09-16-1200",
+    "title": "Happy Birthday Dear Marilyn – komentovaná prohlídka výstavy s letním drinkem",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Srdečně vás zveme na komentovanou prohlídku výstavy Marilyn Monroe 100 do České Galerie Moderního Umění na Betlémském náměstí. Přijďte objevit Marilyn Monroe tak, jak ji možná neznáte – ve fotografiích, obrazech a příbězích, které přetrvaly",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/happy-birthday-dear-marilyn",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/13/13bc1975-f15b-452d-8c38-3850297860ad.webp?v=20260723024931"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-2-pribeh-rodu-havlovych-putovni-exterierova-vystava-v-praze-2026-09-16-1200",
+    "title": "Příběh rodu Havlových – putovní exteriérová výstava v Praze",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Unikátní exteriérová výstava, konaná u příležitosti 90. výročí narození Václava Havla, nabízí vhled do historie rodu Havlových od poloviny 17. století. Uskuteční se postupně na Praze 2, Praze 5 a Praze 1.",
+    "source": "Kudy z nudy Prague page 2",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/pribeh-rodu-havlovych-putovni-exterierova-vystava",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/cc/cc8ebeb6-629c-4fef-b41c-1044a4ddae8f.webp?v=20260722082423"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-3-palacky-a-jezek-od-narodniho-obrozeni-k-osvobozenemu-divadlu-2026-09-16-1200",
+    "title": "Palacký a Ježek – Od národního obrození k Osvobozenému divadlu",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Komentované prohlídky dvou unikátních objektů v srdci Prahy s architektonickými zastávkami.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/palacky-jezek-od-narodniho-obrozeni-k-osvobozenemu",
+    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/68f17529-4642-41f2-bbc2-210a97479267/86eff137-51b4-4a47-8258-990ed5ff86fc-small.webp.aspx?ext=.webp"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-3-hrdy-budzes-2026-09-16-1200",
+    "title": "Hrdý Budžes",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Barbora Hrzánová ve vždy vyprodané inscenaci Hrdý Budžes.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prima-hvezdne-leto-hrdy-budzes",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/bc/bcd6893d-f3ea-4b5a-9448-23cab788f1c3.webp?v=20260326161630"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-3-kazdy-muze-byt-umelcem-2026-09-16-1200",
+    "title": "Každý může být umělcem",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Na výstavě v Muzeu Kampa můžete obdivovat 110 obrazů, které namalovali lidé s mentálním postižením. Letošní téma výstavy nese název Vidím svět jinak – a je to tak v pořádku.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/kazdy-muze-byt-umelcem",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/fb/fb46629a-48e1-43dd-92a1-ac91a4ede421.webp?v=20260916050920"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-3-swamp-desires-2026-09-16-1200",
+    "title": "Swamp Desires",
+    "category": "Things to do",
+    "district": "Praha 10, Praha",
+    "venue": "Praha 10, Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Vernisáž: 14.09.2026 19:00. Výstava: 14.09. – 08.10.2026, jednadvatři gallery.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/vystava-swamp-desires",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/86/869d0eb4-11ca-4ee0-b225-ddb0e551bc9b.webp?v=20260914030556"
+  },
+  {
+    "id": "pva-expo-letnany-harry-pottertm-the-exhibition-2026-09-16-1200",
+    "title": "Harry Potter™: The Exhibition",
+    "category": "Exhibitions",
+    "district": "Letňany",
+    "venue": "PVA EXPO Praha",
+    "date": "2026-09-16T12:00:00",
+    "price": null,
+    "popularity": 58,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "PVA Expo",
+      "Praha 9"
+    ],
+    "description": "Výstava at PVA EXPO Praha in Letňany. Open the event page for opening hours, tickets, and details.",
+    "source": "PVA EXPO Letňany",
+    "sourceUrl": "http://pvaexpo.cz/cs/akce/497",
+    "imageUrl": "http://pvaexpo.cz/cdn/image/744/Z4CTZlQusMwZLYlO7xjZCSWSK8rL9YPy.jpg"
   },
   {
     "id": "pva-expo-letnany-forum-stavebnictvi-2026-2026-09-16-1200",
@@ -3207,9 +1617,9 @@ window.EVENTS = [
     "venue": "Magnus Art Galerie",
     "date": "2026-09-16T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 72,
     "english": false,
-    "color": "#344b77",
+    "color": "#9e3f4f",
     "tags": [
       "CityBee"
     ],
@@ -3219,82 +1629,6 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138644/card_Utte-1788850543.jpg"
   },
   {
-    "id": "citybee-events-page-4-festival-autorskeho-cteni-ve-vlaku-2026-09-16-1200",
-    "title": "Festival autorského Čtení ve vlaku",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Festival autorského Čtení ve vlaku",
-    "date": "2026-09-16T12:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Přední čeští spisovatelé čtou ze svých knih cestujícím.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/138730-festival-autorskeho-cteni-ve-vlaku/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_550229530_13977_1789371877.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-krouzek-pro-rodiny-s-detmi-hrave-dejiny-s-anglictinou-2026-09-16-1200",
-    "title": "Kroužek pro rodiny s dětmi: Hravé dějiny s angličtinou",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Prague City Tourism",
-    "date": "2026-09-16T12:00:00",
-    "price": null,
-    "popularity": 68,
-    "english": false,
-    "color": "#7246a8",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Zažij Prahu: podzimní kroužek pro děti",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138223-krouzek-pro-rodiny-s-detmi-hrave-dejiny-s-anglictinou/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_lide_48_-2_1786523066.jpg"
-  },
-  {
-    "id": "goout-prague-events-klub-pratel-19561989-architektura-vsem-2026-09-16-1430",
-    "title": "Klub přátel 1956–1989: Architektura všem",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "Trade Fair Palace",
-    "date": "2026-09-16T14:30:00",
-    "price": 0,
-    "popularity": 78,
-    "english": true,
-    "color": "#c8941d",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "Event listed by GoOut. Open the source page for tickets, venue details, and current availability.",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/klub-pratel-1956-1989-architektura-vsem/szmimmy/",
-    "imageUrl": "https://goout.net/i/128/1286303-383.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-palacky-jezek-2026-09-16-1500",
-    "title": "Palacký & Ježek:",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Památník Františka Palackého a Františka Ladislava Riegra",
-    "date": "2026-09-16T15:00:00",
-    "price": null,
-    "popularity": 78,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Od národního obrození k Osvobozenému divadlu Komentované prohlídky dvou unikátních objektů v srdci Prahy s architektonickými zastávkami",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/136816-palacky-amp-jezek/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_palacky_rieger__1777901099.jpg"
-  },
-  {
     "id": "citybee-events-festival-pameti-naroda-2026-09-16-1600",
     "title": "Festival Paměti národa",
     "category": "Things to do",
@@ -3302,7 +1636,7 @@ window.EVENTS = [
     "venue": "Paměť národa",
     "date": "2026-09-16T16:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 54,
     "english": false,
     "color": "#7246a8",
     "tags": [
@@ -3314,82 +1648,6 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138164/card_Vlajka(3)-1786176113.jpg"
   },
   {
-    "id": "citybee-events-page-4-film-za-stovku-soukromy-zivot-2026-09-16-1600",
-    "title": "FILM ZA STOVKU | Soukromý život",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Kino 35",
-    "date": "2026-09-16T16:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Jodie Foster, Daniel Auteuil, Virginie Efira v napínavém příběhu hledání...",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138692-film-za-stovku-soukromy-zivot/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_la_vie_privee_1789134264.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-ocima-kuratoru-promeny-expozice-umeni-asie-napric-prostorem-a-casem-japonske-umeni-2026-09-16-1630",
-    "title": "Očima kurátorů: Proměny expozice Umění Asie napříč prostorem a časem - japonské umění",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Národní galerie Praha – Salmovský palác",
-    "date": "2026-09-16T16:30:00",
-    "price": null,
-    "popularity": 62,
-    "english": false,
-    "color": "#344b77",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Na komentované prohlídce si představíme florální a krajinné prvky v korejské a japonské malbě vycházející z čínské literární tradice.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138566-ocima-kuratoru-promeny-expozice-umeni-asie-napric-prostorem-a-casem-japonske-umeni/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138566/card_NGjapArt-1788080145.jpg"
-  },
-  {
-    "id": "goout-prague-events-laska-z-mladi-2026-09-16-1700",
-    "title": "Láska z mládí",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "Bez Zábradlí Theatre",
-    "date": "2026-09-16T17:00:00",
-    "price": null,
-    "popularity": 83,
-    "english": true,
-    "color": "#4b7b8a",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "Event listed by GoOut. Open the source page for tickets, venue details, and current availability.",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/laska-z-mladi/szhukjy/",
-    "imageUrl": "https://goout.net/i/120/1201697-383.jpg"
-  },
-  {
-    "id": "goout-prague-events-cistirna1906-live-josefina-dusk-2026-09-16-1730",
-    "title": "Čistírna1906 Live: Josefina Dusk",
-    "category": "GoOut",
-    "district": "Prague",
-    "venue": "Čistírna1906",
-    "date": "2026-09-16T17:30:00",
-    "price": null,
-    "popularity": 73,
-    "english": true,
-    "color": "#9e3f4f",
-    "tags": [
-      "GoOut"
-    ],
-    "description": "Event listed by GoOut. Open the source page for tickets, venue details, and current availability.",
-    "source": "GoOut Prague events",
-    "sourceUrl": "https://goout.net/en/cistirna1906-live-josefina-dusk/szeehly/",
-    "imageUrl": "https://goout.net/i/139/1396206-383.jpg"
-  },
-  {
     "id": "citybee-events-jak-mluvit-s-teenagerem-o-dusevnim-zdravi-2026-09-16-1730",
     "title": "Jak mluvit s teenagerem o duševním zdraví?",
     "category": "Things to do",
@@ -3397,7 +1655,7 @@ window.EVENTS = [
     "venue": "Městská knihovna v Praze",
     "date": "2026-09-16T17:30:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 60,
     "english": false,
     "color": "#33794c",
     "tags": [
@@ -3416,7 +1674,7 @@ window.EVENTS = [
     "venue": "Česká centra",
     "date": "2026-09-16T18:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 66,
     "english": false,
     "color": "#007f7a",
     "tags": [
@@ -3428,44 +1686,6 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_583332895_14086_1783948700.jpg"
   },
   {
-    "id": "citybee-events-page-4-prochazka-s-romanem-na-tema-prostituce-drogy-a-kradeze-2026-09-16-1800",
-    "title": "Procházka s Romanem na téma Prostituce, drogy a krádeže",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Pragulic - Poznej Prahu jinak!",
-    "date": "2026-09-16T18:00:00",
-    "price": null,
-    "popularity": 80,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Roman je milovník módy, žil don pod mostem ve stanu a přesto, že si prošel cestou děcáku, drog a prostituce, je to ten největší srandista a miláček.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/137868-prochazka-s-romanem-na-tema-prostituce-drogy-a-kradeze/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_roman-06_1718525810.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-horke-svatky-2026-09-16-1800",
-    "title": "Hořké svátky",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Kino 35",
-    "date": "2026-09-16T18:00:00",
-    "price": null,
-    "popularity": 58,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Nový film Padra Almodóvara",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138693-horke-svatky/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_171270645_lsvb9_1789134360.jpg"
-  },
-  {
     "id": "Z698xZu0Z1kjJ7KAO",
     "title": "JAZZ SABBATH",
     "category": "Concerts",
@@ -3473,9 +1693,9 @@ window.EVENTS = [
     "venue": "Gauč na Výstavišti",
     "date": "2026-09-16T18:30:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 81,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Blues"
@@ -3486,103 +1706,65 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/840/9c9a26f5-b843-4a93-962b-b948f8ea2840_SOURCE"
   },
   {
-    "id": "citybee-events-page-4-kocouri-pani-figgove-live-letni-podcastova-scena-2026-09-16-1900",
-    "title": "Kocouři paní Figgové LIVE - Letní podcastová scéna",
+    "id": "kudy-z-nudy-prague-page-3-kulinarska-cesta-gault-millau-signature-dish-dinner-2026-2026-09-17-0000",
+    "title": "Kulinářská cesta Gault&Millau Signature Dish Dinner 2026",
     "category": "Things to do",
-    "district": "Prague",
-    "venue": "Trojský pivovar",
-    "date": "2026-09-16T19:00:00",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 66,
     "english": false,
-    "color": "#4b7b8a",
+    "color": "#007f7a",
     "tags": [
-      "CityBee"
+      "Kudy z nudy"
     ],
-    "description": "Letní podcastová scéna v Trojském pivovaru uvádí: Kocouři paní Figgové LIVE",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/137570-kocouri-pani-figgove-live-letni-podcastova-scena/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_screenshot_2026_1781268580.jpg"
+    "description": "První ročník unikátní kulinářské regionální tour Gault&Millau s mimořádnými večery Signature Dish Dinner se koná postupně v osmi restauracích, které představí svá exkluzivní degustační menu, a to v termínech od června do října 2026.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/kulinarska-cesta-gault-millau-signature-dish-dinne",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/a4/a486a655-9fac-4328-892c-6c38206a5da1.webp?v=20260619100820"
   },
   {
-    "id": "citybee-events-page-4-josefina-dusk-2026-09-16-1900",
-    "title": "Josefina Dusk",
+    "id": "kudy-z-nudy-prague-page-3-skecirek-ii-2026-09-17-0000",
+    "title": "Skečírek II",
     "category": "Things to do",
-    "district": "Prague",
-    "venue": "Stará čistírna odpadních vod v Bubenči",
-    "date": "2026-09-16T19:00:00",
-    "price": null,
-    "popularity": 70,
-    "english": false,
-    "color": "#d63f2e",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Josefina Dusk proměňuje pocity úzkosti a paniky v hravě dystopický, hutný, techno pop s manickou vílí energií.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138066-josefina-dusk/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_748597636_15050_1784804994.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-35-mezinarodni-hudebni-festival-mlada-praha-young-prag-2026-09-16-1900",
-    "title": "35. mezinárodní hudební festival Mladá Praha/Young Prag",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Novoměstská radnice",
-    "date": "2026-09-16T19:00:00",
+    "district": "Praha 9, Praha",
+    "venue": "Praha 9, Praha",
+    "date": "2026-09-17T00:00:00",
     "price": null,
     "popularity": 76,
     "english": false,
-    "color": "#344b77",
+    "color": "#c8941d",
     "tags": [
-      "CityBee"
+      "Kudy z nudy"
     ],
-    "description": "Koncert ve Velkém sale Novoměstské radnice",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138432-35-mezinarodni-hudebni-festival-mlada-praha-young-prag/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_20260610131353_1787305178.jpg"
+    "description": "Divoký divadelní večírek plný humoru, absurdity a živé hudby.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/skecirek-ii-divadlo-aqualung",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/d4/d481a766-751c-4279-b374-259aba9324ab.webp?v=20260916015112"
   },
   {
-    "id": "citybee-events-page-4-zradci-prvni-stul-2026-09-16-2000",
-    "title": "Zrádci - První stůl",
+    "id": "kudy-z-nudy-prague-page-3-podoby-milostneho-vztahu-ke-svetu-2026-09-17-0000",
+    "title": "Podoby milostného vztahu ke světu",
     "category": "Things to do",
-    "district": "Prague",
-    "venue": "Kongresové centrum",
-    "date": "2026-09-16T20:00:00",
+    "district": "Praha 6, Praha",
+    "venue": "Praha 6, Praha",
+    "date": "2026-09-17T00:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 81,
     "english": false,
-    "color": "#7246a8",
+    "color": "#4b7b8a",
     "tags": [
-      "CityBee"
+      "Kudy z nudy"
     ],
-    "description": "Premiéra první epizody přichází spolu s jedinečnou live show, která posouvá hranice zážitku daleko za běžné představy.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/zabava/:/akce/138728-zradci-prvni-stul/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_orig_2026831215_1789371221.jpg"
+    "description": "Zveme vás na site-specific večer v Čistírně 1906 věnovaný dokumentu Podoby milostného vztahu ke světu — film o umělci Miloši Šejnovi, který svým tělem vstupuje do krajiny a rozpouští v ní vlastní ego.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/podoby-milostneho-vztahu-ke-svetu-predpremiera",
+    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/6a162552-8b56-4c2f-b169-cf458423de98/spolecenske-akce-small.webp.aspx?ext=.webp"
   },
   {
-    "id": "citybee-events-page-4-sirat-verze-s-angl-titulky-2026-09-16-2015",
-    "title": "Sirat (verze s angl. titulky)",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Kino 35",
-    "date": "2026-09-16T20:15:00",
-    "price": null,
-    "popularity": 54,
-    "english": false,
-    "color": "#33794c",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Poušť, techno, starostlivý táta.. film na který nezapomente",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138694-sirat-verze-s-angl-titulky/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_170120352_21vcl_1789134418.jpg"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-kulinarska-cesta-gault-millau-signature-dish-dinner-2026-2026-09-17-0000",
-    "title": "Kulinářská cesta Gault&Millau Signature Dish Dinner 2026",
+    "id": "kudy-z-nudy-prague-page-3-goodbye-summer-networking-party-2026-09-17-0000",
+    "title": "Goodbye summer – networking party",
     "category": "Things to do",
     "district": "Praha 1, Praha",
     "venue": "Praha 1, Praha",
@@ -3594,17 +1776,17 @@ window.EVENTS = [
     "tags": [
       "Kudy z nudy"
     ],
-    "description": "První ročník unikátní kulinářské regionální tour Gault&Millau s mimořádnými večery Signature Dish Dinner se koná postupně v osmi restauracích, které představí svá exkluzivní degustační menu, a to v termínech od června do října 2026.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/kulinarska-cesta-gault-millau-signature-dish-dinne",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/a4/a486a655-9fac-4328-892c-6c38206a5da1.webp?v=20260619100820"
+    "description": "Rozlučte se s létem stylově! Čeká vás odpoledne a večer plný hudby, skvělého jídla, drinků, umění a příjemné atmosféry. A samozřejmě i spousta příležitostí poznat nové zajímavé lidi.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/goodbye-summer-networking-party",
+    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/6a162552-8b56-4c2f-b169-cf458423de98/spolecenske-akce-small.webp.aspx?ext=.webp"
   },
   {
-    "id": "kudy-z-nudy-prague-page-5-podoby-milostneho-vztahu-ke-svetu-2026-09-17-0000",
-    "title": "Podoby milostného vztahu ke světu",
+    "id": "kudy-z-nudy-prague-page-3-krest-knihy-tvrdy-zasah-valerie-podrazske-2026-09-17-0000",
+    "title": "Křest knihy Tvrdý zásah Valérie Podrázské",
     "category": "Things to do",
-    "district": "Praha 6, Praha",
-    "venue": "Praha 6, Praha",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
     "date": "2026-09-17T00:00:00",
     "price": null,
     "popularity": 59,
@@ -3613,17 +1795,17 @@ window.EVENTS = [
     "tags": [
       "Kudy z nudy"
     ],
-    "description": "Zveme vás na site-specific večer v Čistírně 1906 věnovaný dokumentu Podoby milostného vztahu ke světu — film o umělci Miloši Šejnovi, který svým tělem vstupuje do krajiny a rozpouští v ní vlastní ego.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/podoby-milostneho-vztahu-ke-svetu-predpremiera",
-    "imageUrl": "https://cdn.kudyznudy.cz/getmedia/6a162552-8b56-4c2f-b169-cf458423de98/spolecenske-akce-small.webp.aspx?ext=.webp"
+    "description": "Co se stane, když se potkají dva lidé, kteří si na první pohled nemají co říct, ale oba si s sebou nesou vlastní bolest? Přijďte na slavnostní křest knihy Tvrdý zásah od Valérie Podrázské do Paláce knih na Václavském náměstí v Praze.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-knihy-tvrdy-zasah-valerie-podrazske",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/16/167ac1ce-974f-41c5-812b-33b105e4f7c3.webp?v=20260914152407"
   },
   {
-    "id": "kudy-z-nudy-prague-page-5-krest-knihy-tvrdy-zasah-valerie-podrazske-2026-09-17-0000",
-    "title": "Křest knihy Tvrdý zásah Valérie Podrázské",
+    "id": "kudy-z-nudy-prague-page-3-znak-up-night-5-2026-09-17-0000",
+    "title": "Znak-up Night 5",
     "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
     "date": "2026-09-17T00:00:00",
     "price": null,
     "popularity": 64,
@@ -3632,17 +1814,17 @@ window.EVENTS = [
     "tags": [
       "Kudy z nudy"
     ],
-    "description": "Co se stane, když se potkají dva lidé, kteří si na první pohled nemají co říct, ale oba si s sebou nesou vlastní bolest? Přijďte na slavnostní křest knihy Tvrdý zásah od Valérie Podrázské do Paláce knih na Václavském náměstí v Praze.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/krest-knihy-tvrdy-zasah-valerie-podrazske",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/16/167ac1ce-974f-41c5-812b-33b105e4f7c3.webp?v=20260914152407"
+    "description": "Stand-up, storytelling a slam poetry. Večer plný smíchu, příběhů, poezie a v neposlední řadě znakového jazyka.",
+    "source": "Kudy z nudy Prague page 3",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/znak-up-night-4",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/36/362295a5-0c19-4a41-b4ef-b8e9561ca319.webp?v=20260914050837"
   },
   {
-    "id": "kudy-z-nudy-prague-page-5-znak-up-night-5-2026-09-17-0000",
-    "title": "Znak-up Night 5",
+    "id": "kudy-z-nudy-prague-page-3-salon-amadeus-vecer-po-mozartovsku-v-mozartove-interaktivnim-muzeu-2026-09-17-0000",
+    "title": "Salon Amadeus – večer po mozartovsku v Mozartově interaktivním muzeu",
     "category": "Things to do",
-    "district": "Praha 2, Praha",
-    "venue": "Praha 2, Praha",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
     "date": "2026-09-17T00:00:00",
     "price": null,
     "popularity": 69,
@@ -3651,32 +1833,13 @@ window.EVENTS = [
     "tags": [
       "Kudy z nudy"
     ],
-    "description": "Stand-up, storytelling a slam poetry. Večer plný smíchu, příběhů, poezie a v neposlední řadě znakového jazyka.",
-    "source": "Kudy z nudy Prague page 5",
-    "sourceUrl": "https://www.kudyznudy.cz/akce/znak-up-night-4",
-    "imageUrl": "https://cdn.kudyznudy.cz/files/36/362295a5-0c19-4a41-b4ef-b8e9561ca319.webp?v=20260914050837"
-  },
-  {
-    "id": "kudy-z-nudy-prague-page-5-salon-amadeus-vecer-po-mozartovsku-v-mozartove-interaktivnim-muzeu-2026-09-17-0000",
-    "title": "Salon Amadeus – večer po mozartovsku v Mozartově interaktivním muzeu",
-    "category": "Things to do",
-    "district": "Praha 1, Praha",
-    "venue": "Praha 1, Praha",
-    "date": "2026-09-17T00:00:00",
-    "price": null,
-    "popularity": 74,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "Kudy z nudy"
-    ],
     "description": "Komorní koncert v prostorách Mozartova interaktivního muzea nabídne jedinečnou možnost zažít atmosféru hudebních salonů 18. století. Návštěvníci se mohou těšit nejen na hudbu v autentickém prostředí, ale také na výjimečný výhled na Pražský ",
-    "source": "Kudy z nudy Prague page 5",
+    "source": "Kudy z nudy Prague page 3",
     "sourceUrl": "https://www.kudyznudy.cz/akce/salon-amadeus-vecer-po-mozartovsku-v-mozartove-int",
     "imageUrl": "https://cdn.kudyznudy.cz/files/0c/0c7bf665-2272-4af2-b453-2d6b50919db2.webp?v=20260914042704"
   },
   {
-    "id": "kudy-z-nudy-prague-page-5-plexus-2026-09-17-0000",
+    "id": "kudy-z-nudy-prague-page-3-plexus-2026-09-17-0000",
     "title": "Plexus",
     "category": "Things to do",
     "district": "Praha 6, Praha",
@@ -3690,9 +1853,428 @@ window.EVENTS = [
       "Kudy z nudy"
     ],
     "description": "Neklasické výstavní prostředí, rozprostírající se od interiéru melancholické vily přes romantickou zahradu až po nevlídnou fasádu Chittussiho nemocnice, je nedílnou součástí mnohovrstevnaté mezinárodní výstavy.",
-    "source": "Kudy z nudy Prague page 5",
+    "source": "Kudy z nudy Prague page 3",
     "sourceUrl": "https://www.kudyznudy.cz/akce/vystava-plexus",
     "imageUrl": "https://cdn.kudyznudy.cz/files/cc/cc0bed39-2a6f-43d6-9afd-55f503983b20.webp?v=20260912114326"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-beh-proti-nasili-v-obore-hvezda-2026-2026-09-17-0000",
+    "title": "Běh proti násilí v Oboře Hvězda 2026",
+    "category": "Things to do",
+    "district": "Praha 6, Praha",
+    "venue": "Praha 6, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "PDiakonie ČCE pořádá další ročník závodu Běh proti násilí.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/beh-proti-nasili-v-obore-hvezda",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/3d/3db4a7f8-daa1-45f7-92d2-21d06deed371.webp?v=20260911055013"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-vystup-z-rezidence-konrad-gubaa-the-wishing-table-2026-09-17-0000",
+    "title": "Výstup z rezidence: Konrad Gubała – The Wishing Table",
+    "category": "Things to do",
+    "district": "Praha 9, Praha",
+    "venue": "Praha 9, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Srdečně vás zveme na výstup z umělecké rezidence a prezentaci projektu The Wishing Table polského vizuálního umělce Konrada Gubały, která se uskuteční 17. září 2026 v 18:00.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/viktor-prokop-vystup-z-rezidence",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/b9/b901946e-ef14-45ae-b7eb-9fe1c124f561.webp?v=20260910180450"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-hra-lasky-a-nahody-2026-09-17-0000",
+    "title": "Hra lásky a náhody",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Studio Citadela zve na úspěšnou inscenaci mladých tvůrců z Kolekce PARCHANT na motivy hry Pierra de Marivauxe.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/hra-lasky-a-nahody-3",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/8b/8bff203f-c9d5-4e88-9e98-d3a6b51f3c93.webp?v=20260910081928"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-nova-ceska-ve-stare-skole-navsteva-u-babicky-2026-09-17-0000",
+    "title": "Nová česká ve Staré škole – Návštěva u babičky",
+    "category": "Things to do",
+    "district": "Praha 5, Praha",
+    "venue": "Praha 5, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Jsou jídla, která si nepamatujeme proto, že byla dokonalá. Pamatujeme si je proto, že byla uvařená s láskou a chutnala jako domov.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/nova-ceska-ve-stare-skole-navsteva-u-babicky",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/d5/d5a307cc-d6be-4c2c-8965-41ea6e6fab3a.webp?v=20260903203056"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-vy-nejste-zena-pane-2026-09-17-0000",
+    "title": "Vy nejste žena, pane!",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Komedie s písničkami, jejímž autorem je scénárista a režisér Karel Janák. Chodíte na seznamku? Tak bacha na to, koho si pozvete na rande. Průvodce láskou pro začátečníky.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/vy-nejste-zena-pane",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/cd/cd8d8b60-fc02-49a2-becf-9daa0b7b7dea.webp?v=20260903075930"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-architektonicky-manual-prazskych-hrbitovu-z-cyklu-setkani-s-2026-09-17-0000",
+    "title": "Architektonický manuál pražských hřbitovů z cyklu Setkání s …",
+    "category": "Things to do",
+    "district": "Praha 3, Praha",
+    "venue": "Praha 3, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Zveme vás na architektonický manuál pražských hřbitovů z cyklu Setkání s … Vlaďkou Holzapfelovou, Annou Oplatkovou a Kamilou Jurajdovou.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/architektonicky-manual-prazskych-hrbitovu-z-cyklu",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/bd/bd363f0a-663e-464c-b479-38bd21db5f64.webp?v=20260902132718"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-smyslohrani-2026-09-17-0000",
+    "title": "Smyslohraní",
+    "category": "Things to do",
+    "district": "Praha 10, Praha",
+    "venue": "Praha 10, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 86,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Všechny dětské ručičky rády bádají a tak jsme si pro Vás připravili smyslohraní na nejrůznější téma.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/smyslohrani-more",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/52/520770e9-0bd3-4dcc-8b3c-a78a39816946.webp?v=20260902071629"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-ceska-louka-z-kostek-v-botanicke-zahrade-v-praze-2026-09-17-0000",
+    "title": "Česká louka z kostek v Botanické zahradě v Praze",
+    "category": "Things to do",
+    "district": "Praha 7, Praha",
+    "venue": "Praha 7, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 59,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Přijďte od 17. do 20. září do Botanické zahrady Praha a zapojte se do tvorby jedinečné české louky z kostek LEGO. Postavte si vlastní květinu inspirovanou českou přírodou, přidejte ji do společné instalace a odneste si domů malou květinu LE",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prijdte-postavit-ceskou-louku-z-kostek-lego-do-bot",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/51/51de0e75-aab5-45d7-9a9a-785d063019ad.webp?v=20260831183647"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-dolni-vysehrad-zapomenute-mesto-komentovana-vychazka-2026-09-17-0000",
+    "title": "Dolní Vyšehrad: zapomenuté město – komentovaná vycházka",
+    "category": "Things to do",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Procházka nabídne jak příběhy domů a jejich obyvatel, tak i pohled na proměny jedné z nejzajímavějších částí historického Vyšehradu.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/dolni-vysehrad-zapomenute-mesto-komentovana-vychaz",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/42/429abd28-a9d1-4926-8df8-1941093870c2.webp?v=20260830195001"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-ladies-dance-2026-09-17-0000",
+    "title": "Ladies dance",
+    "category": "Things to do",
+    "district": "Praha 3, Praha",
+    "venue": "Praha 3, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Lekce pro slečny a dámy, které si chtějí užít tanec, probudit svou ženskost a znovu se napojit na své tělo. Čekají vás choreografie v různých tanečních stylech – od elegantních a smyslných pohybů až po energické a sebevědomé kombinace.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/tanecni-workshop-contemporary",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/e5/e5767b3f-3b66-4018-ac77-992aad546168.webp?v=20260830071115"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-prochazka-se-zuzkou-na-tema-prazska-drogova-scena-2026-09-17-0000",
+    "title": "Procházka se Zuzkou na téma Pražská drogová scéna",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Myslíte si, že víte, jak drogy ovlivňují život člověka? Vydejte se na prohlídku se Zuzkou, která začala s pervitinem už v patnácti letech. Bez přikrášlování vypráví o závislosti, životě na ulici i o tom, jak těžké je najít cestu zpět.",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prochazka-se-zuzkou-na-tema-prazska-drogova-scena",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/76/7693d6a9-d06d-4ba6-8f95-68971119f5ad.webp?v=20260827081223"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-4-herecka-sobotni-noci-2026-09-17-0000",
+    "title": "Herečka sobotní noci",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Pavla Tomicová v hlavní roli v komedii psané",
+    "source": "Kudy z nudy Prague page 4",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/herecka-sobotni-noci",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/61/6175014a-3676-4186-938c-55f6e494953c.webp?v=20260822105416"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-recko-a-rim-sex-moc-a-bohove-2026-09-17-0000",
+    "title": "Řecko a Řím – Sex, moc a bohové",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Přednáška z cyklu Mosty mezi světy: Příběhy, které nás spojují.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/plavba-kolem-antarktidy-prednaska-v-naprstkove-m",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/e0/e035dc95-5c21-4069-9741-f5a0e8c635c5.webp?v=20260814193047"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-komentovana-prochazka-prahou-s-rene-sevcikem-2026-09-17-0000",
+    "title": "Komentovaná procházka Prahou s René Ševčíkem",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Prahou, po místech, kde vykonávaly nejstarší řemeslo dívky a ženy na přelomu 19/20 století. Uvidíte veřejné domy, hospody, tančírny a ulice, kde tyto kněžky lásky působily. Celé je to vkusné, vtipné a s nadhledem, takže se nemusíte bát žádn",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prochazka-prahou-kde-se-provozovala-v-19-20-st-pla",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/45/4502d131-bb18-44e2-98b0-d00ab9ac76a1.webp?v=20260808105621"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-parkurove-zavody-v-chuchle-arene-praha-2026-2026-09-17-0000",
+    "title": "Parkurové závody v Chuchle Areně Praha 2026",
+    "category": "Things to do",
+    "district": "Praha 5, Praha",
+    "venue": "Praha 5, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Parkurové víkendy ve Velké Chuchli patří k originálním nabídkám využití volného času v hlavním městě.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/parkurove-zavody-v-chuchle-arene-praha",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/75/75a40b92-4b33-4398-aeea-cff1d8bc5a36.webp?v=20260203153116"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-specialni-prohlidka-se-sebastienem-trip-do-toxikovy-duse-2026-09-17-0000",
+    "title": "Speciální prohlídka se Sebastienem – Trip do toxikovy duše",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Sebastien vás provede syrovým příběhem života na ulici i drogové závislosti. Dnes na substituci, heroin nechal za sebou. Ukáže vám Nové Město očima člověka z okraje – místa, příběhy i realitu devadesátek, která se vás dotkne.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/specialni-prohlidka-sebastien-trip-do-toxikovy-dus",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/95/95a6740d-a5a4-41a0-b77f-3f3ce9698f14.webp?v=20260801102438"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-farmarske-trhy-na-kubani-2026-2026-09-17-0000",
+    "title": "Farmářské trhy na Kubáni 2026",
+    "category": "Things to do",
+    "district": "Praha 10, Praha",
+    "venue": "Praha 10, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Na náměstí před metrem Kubánské náměstí najdete širokou nabídku čerstvé zeleniny, ovoce, pečiva, sýrů, masa i domácích marmelád. Atmosféra je zde vždy přátelská a uvolněná – můžete ochutnat speciality přímo od farmářů, popovídat si s nimi a",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/farmarske-trhy-na-kubani",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/70/701b70b6-c4da-41a9-9c9e-693ec6563414.webp?v=20260705084216"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-prohlidky-botanicke-zahrady-praha-s-kuratory-kuratorske-provazeni-2026-09-17-0000",
+    "title": "Prohlídky Botanické zahrady Praha s kurátory – Kurátorské provázení",
+    "category": "Things to do",
+    "district": "Praha 8, Praha",
+    "venue": "Praha 8, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Kurátoři Botanické zahrady Praha vás opět zvou na prohlídky jednotlivých expozic. Ve vybrané čtvrtky od konce dubna do podzimu nahlédnete pod pokličku pěstování rostlin z celého světa. Kurátorské provázení nabízí návštěvníkům jedinečnou pří",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/kuratorske-provazeni-v-botanicke-zahrade",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/14/14666d4d-4795-4928-bf4b-a3f6648fd46c.webp?v=20260618050723"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-valdstejnske-leto-v-senatu-2026-09-17-0000",
+    "title": "Valdštejnské léto v Senátu",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 86,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Od května do konce září vystoupí ve Valdštejnské zahradě každý čtvrtek od 17:00 hudební a divadelní soubory z celé republiky pod záštitou jednotlivých senátorek a senátorů.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/valdstejnske-leto-v-senatu",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/9f/9f675048-cfdb-4b7e-83bb-2176e6380414.webp?v=20260506160923"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-mezinarodni-varhanni-festival-audite-organum-v-praze-2026-2026-09-17-0000",
+    "title": "Mezinárodní varhanní festival Audite Organum v Praze 2026",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 59,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Mezinárodní varhanní festival proběhne ve dnech 6. 8. – 24. 9. 2026, vždy ve čtvrtek v 19 hodin v bazilice sv. Jakuba většího ve Štupartské ulici.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/mezinarodni-varhanni-festival",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/ce/ce01e40c-bb43-41c1-a908-456d6e910d40.webp?v=20260317160346"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-komentovana-prohlidka-vystavou-antonin-dvorak-ve-fotografiich-2026-09-17-0000",
+    "title": "Komentovaná prohlídka výstavou Antonín Dvořák ve fotografiích",
+    "category": "Things to do",
+    "district": "Praha 2, Praha",
+    "venue": "Praha 2, Praha",
+    "date": "2026-09-17T00:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Přijďte si prohlédnout výstavu, kterou vás provede jedna z jejích kurátorek!",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/komentovana-prohlidka-vystavou-antonin-dvorak-ve-f-2",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/dc/dce16940-aac7-45ab-8bed-9a924352c454.webp?v=20260227132726"
+  },
+  {
+    "id": "prague-eu-events-hall-22-holesovice-vegetable-market-2026-09-17-0730",
+    "title": "Hall 22 Holešovice Vegetable Market",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Market in Holešovice",
+    "date": "2026-09-17T07:30:00",
+    "price": null,
+    "popularity": 72,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/holesovice-market/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/16130731/HALA-222744.jpg@webp"
   },
   {
     "id": "prague-eu-events-kubanske-square-farmers-market-2026-09-17-0800",
@@ -3702,9 +2284,9 @@ window.EVENTS = [
     "venue": "Farmers‘ Marketplace at Kubánské square",
     "date": "2026-09-17T08:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 79,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -3722,9 +2304,9 @@ window.EVENTS = [
     "venue": "Farmers’ Market at Jiřák",
     "date": "2026-09-17T08:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -3742,9 +2324,9 @@ window.EVENTS = [
     "venue": "Malostranské Square",
     "date": "2026-09-17T08:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -3762,9 +2344,9 @@ window.EVENTS = [
     "venue": "Divadlo X10",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 64,
     "english": true,
-    "color": "#c8941d",
+    "color": "#007f7a",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -3782,9 +2364,9 @@ window.EVENTS = [
     "venue": "Concert Hall of the Prague Conservatory",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 71,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#9e3f4f",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -3802,9 +2384,9 @@ window.EVENTS = [
     "venue": "Prague Botanical Garden, Fata Morgana greenhouse",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 55,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -3822,9 +2404,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3842,9 +2424,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -3862,9 +2444,9 @@ window.EVENTS = [
     "venue": "Fotograf Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Photography",
       "Prague.eu"
@@ -3882,9 +2464,9 @@ window.EVENTS = [
     "venue": "Waldstein Garden",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -3902,9 +2484,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Trends & Tips",
       "Prague.eu"
@@ -3922,9 +2504,9 @@ window.EVENTS = [
     "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -3942,9 +2524,9 @@ window.EVENTS = [
     "venue": "New Town Hall",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -3962,9 +2544,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Open Days",
       "Prague.eu"
@@ -3982,9 +2564,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -4002,9 +2584,9 @@ window.EVENTS = [
     "venue": "Spot Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 69,
+    "popularity": 62,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4022,9 +2604,9 @@ window.EVENTS = [
     "venue": "The National Library of the Czech Republic",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -4042,9 +2624,9 @@ window.EVENTS = [
     "venue": "Kostka Gallery — MeetFactory",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4062,9 +2644,9 @@ window.EVENTS = [
     "venue": "Holešovická Šachta",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4082,9 +2664,9 @@ window.EVENTS = [
     "venue": "Kunsthalle Praha",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4102,9 +2684,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — House at the Stone Bell",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4122,9 +2704,9 @@ window.EVENTS = [
     "venue": "Museum Kampa",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Modernist Art",
       "Prague.eu"
@@ -4142,9 +2724,9 @@ window.EVENTS = [
     "venue": "Entrance Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4162,9 +2744,9 @@ window.EVENTS = [
     "venue": "Artwall",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4182,9 +2764,9 @@ window.EVENTS = [
     "venue": "Artium",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4202,9 +2784,9 @@ window.EVENTS = [
     "venue": "Beseder Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4222,9 +2804,9 @@ window.EVENTS = [
     "venue": "Dancing House Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Architecture",
       "Prague.eu"
@@ -4242,9 +2824,9 @@ window.EVENTS = [
     "venue": "Karpuchina Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4262,9 +2844,9 @@ window.EVENTS = [
     "venue": "Václav Špála Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4282,9 +2864,9 @@ window.EVENTS = [
     "venue": "Campus Hybernská",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4302,9 +2884,9 @@ window.EVENTS = [
     "venue": "Chodov Fortress",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4322,9 +2904,9 @@ window.EVENTS = [
     "venue": "Chodov Fortress",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4342,9 +2924,9 @@ window.EVENTS = [
     "venue": "DSC Gallery",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4362,9 +2944,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — Troja Château",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4382,9 +2964,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -4402,9 +2984,9 @@ window.EVENTS = [
     "venue": "Gallery 35M2",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4422,9 +3004,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4442,9 +3024,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -4462,9 +3044,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -4482,9 +3064,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -4502,9 +3084,9 @@ window.EVENTS = [
     "venue": "Pragovka Gallery / The White Room",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4522,9 +3104,9 @@ window.EVENTS = [
     "venue": "Municipal House — Smetana Hall",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -4542,9 +3124,9 @@ window.EVENTS = [
     "venue": "Memorial of National Literature — Museum of Czech Literature",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -4562,9 +3144,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Rosenberg Palace — Institute of Noblewomen",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -4582,9 +3164,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Trade Fair Palace",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Museum Exhibitions",
       "Prague.eu"
@@ -4602,9 +3184,9 @@ window.EVENTS = [
     "venue": "",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -4622,9 +3204,9 @@ window.EVENTS = [
     "venue": "Design Museum Prague",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Design",
       "Prague.eu"
@@ -4642,9 +3224,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4662,9 +3244,9 @@ window.EVENTS = [
     "venue": "Museum Kampa",
     "date": "2026-09-17T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -4675,118 +3257,61 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/20120216/1500x1500-dlazdice_mensi.jpg@webp"
   },
   {
-    "id": "citybee-events-page-4-cesky-skokovy-pohar-velka-cena-prahy-2026-2026-09-17-1200",
-    "title": "Český skokový pohár - Velká cena Prahy 2026",
-    "category": "Things to do",
+    "id": "goout-prague-events-znak-up-night-5-2026-09-17-1700",
+    "title": "Znak-up Night 5",
+    "category": "GoOut",
     "district": "Prague",
-    "venue": "Chuchle Arena Praha",
-    "date": "2026-09-17T12:00:00",
+    "venue": "Loď Tajemství",
+    "date": "2026-09-17T17:00:00",
     "price": null,
-    "popularity": 60,
-    "english": false,
-    "color": "#007f7a",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Extraliga parkurového skákání v Chuchle Areně Praha",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/sport/:/akce/138649-cesky-skokovy-pohar-velka-cena-prahy-2026/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_cesky-skokovy-p_1788861848.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-ceska-louka-z-kostek-lego-2026-09-17-1200",
-    "title": "Česká louka z kostek LEGO ®",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Botanická zahrada hl. m. Prahy",
-    "date": "2026-09-17T12:00:00",
-    "price": null,
-    "popularity": 66,
-    "english": false,
-    "color": "#9e3f4f",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Od 17. do 20. září vyroste v Botanické zahradě jedinečná česká louka z kostek LEGO®. Přijďte postavit vlastní květinu inspirovanou českou přírodou.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138427-ceska-louka-z-kostek-lego/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138427/card_LegoBotanicka-1787214068.jpg"
-  },
-  {
-    "id": "citybee-events-page-4-call-filmova-premiera-2026-09-17-1200",
-    "title": "Call - filmová premiéra",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Bontonfilm",
-    "date": "2026-09-17T12:00:00",
-    "price": null,
-    "popularity": 72,
-    "english": false,
-    "color": "#c8941d",
-    "tags": [
-      "CityBee"
-    ],
-    "description": "Komorní film přináší na české poměry neobvyklý formát kombinující psychologické napětí s intimním rodinným dramatem.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/137479-call-filmova-premiera/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/137479/card_Call-1781100371.png"
-  },
-  {
-    "id": "citybee-events-page-4-kojot-vraci-uder-filmova-premiera-2026-09-17-1200",
-    "title": "Kojot vrací úder - filmová premiéra",
-    "category": "Things to do",
-    "district": "Prague",
-    "venue": "Bontonfilm",
-    "date": "2026-09-17T12:00:00",
-    "price": null,
-    "popularity": 78,
-    "english": false,
+    "popularity": 83,
+    "english": true,
     "color": "#4b7b8a",
     "tags": [
-      "CityBee"
+      "GoOut"
     ],
-    "description": "Kojot Vilda má konečně vlastní film! Po letech výbuchů a pádů vrací legendární smolař z Looney Tunes úder.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138513-kojot-vraci-uder-filmova-premiera/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138513/card_Kojotvraciuder-1787829580.jpg"
+    "description": "An evening full of laughter, stories, poetry and, last but not least, sign language. Stand-up comedy, storytelling and slam poetry – performers from these genres will come together on one stage with a Deaf presenter and interpreters into Cz",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/znak-up-night-5/szxsoly/",
+    "imageUrl": "https://goout.net/i/140/1404181-383.jpg"
   },
   {
-    "id": "citybee-events-page-4-komentovana-prohlidka-vystavou-a-dvorak-ve-fotografiic-2026-09-17-1600",
-    "title": "Komentovaná prohlídka výstavou A. Dvořák ve fotografiíc",
+    "id": "citybee-events-philia-novy-cirkus-na-lavce-holka-2026-09-17-1700",
+    "title": "PHILIA - nový cirkus na lávce HolKa",
     "category": "Things to do",
     "district": "Prague",
-    "venue": "Muzeum Antonína Dvořáka",
-    "date": "2026-09-17T16:00:00",
+    "venue": "Ostrov Štvanice",
+    "date": "2026-09-17T17:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 70,
     "english": false,
     "color": "#d63f2e",
     "tags": [
       "CityBee"
     ],
-    "description": "Přijďte si prohlédnout výstavu, kterou vás provede jedna z jejích kurátorek!",
+    "description": "Představení PHILIA spojuje tři performerky, které se na lanech spustí z lávky HolKa.",
     "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/135817-komentovana-prohlidka-vystavou-a-dvorak-ve-fotografiic/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_1095_foto_na_we_1772104040.jpg"
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138018-philia-novy-cirkus-na-lavce-holka/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138018/card_HolkaPhylia-1784188109.jpeg"
   },
   {
-    "id": "citybee-events-page-4-prochazka-se-zuzkou-na-tema-prazska-drogova-scena-2026-09-17-1700",
-    "title": "Procházka se Zuzkou na téma pražská drogová scéna",
-    "category": "Things to do",
+    "id": "goout-prague-events-arrested-development-2026-09-17-1800",
+    "title": "Arrested Development",
+    "category": "GoOut",
     "district": "Prague",
-    "venue": "Pragulic - Poznej Prahu jinak!",
-    "date": "2026-09-17T17:00:00",
-    "price": null,
-    "popularity": 56,
-    "english": false,
-    "color": "#344b77",
+    "venue": "Lucerna Music Bar",
+    "date": "2026-09-17T18:00:00",
+    "price": 850,
+    "popularity": 78,
+    "english": true,
+    "color": "#c8941d",
     "tags": [
-      "CityBee"
+      "GoOut"
     ],
-    "description": "Stále si myslíte, že drogy jsou bezva zábava a to správné uvolnění? Možná je na čase vyrazit na prohlídku se Zuzkou.",
-    "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/137911-prochazka-se-zuzkou-na-tema-prazska-drogova-scena/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_zuzka-05_1718526535.jpg"
+    "description": "**American legends Arrested Development are returning to Prague. These pioneers of alternative hip hop, who completely shattered preconceptions about what rap could sound like and be about in the early 1990s, will perform on September 17 at",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/arrested-development/sznrnjy/",
+    "imageUrl": "https://goout.net/i/127/1273957-383.jpg"
   },
   {
     "id": "citybee-events-dar-prevod-ci-problematicka-akvizice-2026-09-17-1800",
@@ -4796,9 +3321,9 @@ window.EVENTS = [
     "venue": "Národní galerie Praha – Veletržní palác",
     "date": "2026-09-17T18:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 76,
     "english": false,
-    "color": "#9e3f4f",
+    "color": "#344b77",
     "tags": [
       "CityBee"
     ],
@@ -4808,6 +3333,82 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138567/card_NGAkvizice-1788080541.png"
   },
   {
+    "id": "goout-prague-events-ploom-goodbye-summer-party-2026-09-17-1800",
+    "title": "Ploom Goodbye Summer Party",
+    "category": "GoOut",
+    "district": "Prague",
+    "venue": "Energy Pub",
+    "date": "2026-09-17T18:00:01",
+    "price": 100,
+    "popularity": 73,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "GoOut"
+    ],
+    "description": "The end of summer is here, but the fun is certainly not over. Ploom, in collaboration with Energy Pub Riegrovy sady, has organised a farewell event to mark the end of this year’s summer season. On 17 September 2026, visitors to Riegrovy sad",
+    "source": "GoOut Prague events",
+    "sourceUrl": "https://goout.net/en/ploom-goodbye-summer-party/szoeply/",
+    "imageUrl": "https://goout.net/i/140/1404273-383.jpg"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-prulet-britskych-stihacek-nad-prahou-2026-2026-09-18-0000",
+    "title": "Průlet britských stíhaček nad Prahou 2026",
+    "category": "Things to do",
+    "district": "Praha 1, Praha",
+    "venue": "Praha 1, Praha",
+    "date": "2026-09-18T00:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "U příležitosti Dne Vzdušných sil AČR a Dnů v NATO v Ostravě v pátek 18. září 2026 po 14. hodině nad Karlovým mostem v centru Prahy prolétnout britské proudové letouny BAE Hawk T1 ze skupiny Red Arrows královského letectva. Následně zamíří d",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/prulet-stihacek-nad-prahou",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/ca/ca556466-dd7d-49e1-a3e5-d3a711b5ea54.webp?v=20260916105046"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-merkado-latinska-amerika-na-jiraku-2026-2026-09-18-0000",
+    "title": "Merkádo – Latinská Amerika na Jiřáku 2026",
+    "category": "Things to do",
+    "district": "Praha 3, Praha",
+    "venue": "Praha 3, Praha",
+    "date": "2026-09-18T00:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Podzimní Festival Merkádo opět promění náměstí Jiřího z Poděbrad v Latinskou Ameriku.",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/merkado-lainska-amerika-na-jiraku",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/33/33be5e64-329f-4dff-9f97-0397d14e7121.webp?v=20260916065143"
+  },
+  {
+    "id": "kudy-z-nudy-prague-page-5-pristi-vlna-next-wave-v-praze-2026-33-rocnik-festivalu-2026-09-18-0000",
+    "title": "Příští vlna/next wave... v Praze 2026 – 33. ročník festivalu",
+    "category": "Things to do",
+    "district": "Praha, Praha",
+    "venue": "Praha, Praha",
+    "date": "2026-09-18T00:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "Kudy z nudy"
+    ],
+    "description": "Festival …příští vlna/next wave… s mottem Experiment žije! proběhne 18.–24. 9. v Praze a 10.–12. 10. v Brně. Nabídne přes 30 akcí, čtyři premiéry a slovenskou dramaturgickou linku. Zdůrazňuje experiment jako podstatu živého umění i způsob, ",
+    "source": "Kudy z nudy Prague page 5",
+    "sourceUrl": "https://www.kudyznudy.cz/akce/pristi-vlna-next-wave-v-praze-festivalu",
+    "imageUrl": "https://cdn.kudyznudy.cz/files/2c/2c4cfd1a-f120-46f3-94df-e5961e4b07e6.webp?v=20260907122507"
+  },
+  {
     "id": "prague-eu-events-andel-farmers-market-2026-09-18-0800",
     "title": "anděl farmers’ market",
     "category": "Markets",
@@ -4815,9 +3416,9 @@ window.EVENTS = [
     "venue": "Farmers’ Market at Anděl",
     "date": "2026-09-18T08:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -4835,9 +3436,9 @@ window.EVENTS = [
     "venue": "Peace Square",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 78,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#c8941d",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -4855,9 +3456,9 @@ window.EVENTS = [
     "venue": "The Loop Jazz Club",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 85,
     "english": true,
-    "color": "#344b77",
+    "color": "#4b7b8a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -4875,9 +3476,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 92,
     "english": true,
-    "color": "#7246a8",
+    "color": "#d63f2e",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -4895,9 +3496,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 54,
     "english": true,
-    "color": "#33794c",
+    "color": "#344b77",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -4908,6 +3509,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20115203/Candlelight-Ficus-e1787222534476.jpg@webp"
   },
   {
+    "id": "prague-eu-events-merkado-2026-09-18-1200",
+    "title": "Merkádo",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Jiřího z Poděbrad Square",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 82,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/merkado/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/06/11102915/TACOS-A-GUACAMOLE.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-davis-cup-qualifiers-czech-republic-vs-usa-2026-09-18-1200",
     "title": "Davis Cup Qualifiers — Czech Republic vs. USA",
     "category": "Sports",
@@ -4915,9 +3536,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -4935,9 +3556,9 @@ window.EVENTS = [
     "venue": "",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -4955,9 +3576,9 @@ window.EVENTS = [
     "venue": "Prague Botanical Garden, Fata Morgana greenhouse",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 55,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -4975,9 +3596,9 @@ window.EVENTS = [
     "venue": "Loď Tajemství",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -4988,6 +3609,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/05/26110234/7k6a9234.jpg@webp"
   },
   {
+    "id": "prague-eu-events-festival-m3-2026-09-18-1200",
+    "title": "Festival m3",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 73,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/festival-m3/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/12161219/Artur-Magrot-vizualizace_small.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-prague-proms-2026-09-18-1200",
     "title": "Prague Proms",
     "category": "Festivals",
@@ -4995,9 +3636,9 @@ window.EVENTS = [
     "venue": "2 venues",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -5008,6 +3649,106 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053315/cnso-1-foto-jan-maly.jpg@webp"
   },
   {
+    "id": "prague-eu-events-dvorak-prague-festival-2026-09-18-1200",
+    "title": "Dvořák Prague Festival",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 77,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/dvorak-prague-festival/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053425/iv-3012.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-adam-holy-afterglow-2026-09-18-1200",
+    "title": "Adam Holý — Afterglow",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Fotograf Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 84,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Photography",
+      "Prague.eu"
+    ],
+    "description": "Photography listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/adam-holy-afterglow/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20122711/Holy_Renata.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-prague-wine-harvest-2026-09-18-1200",
+    "title": "Prague Wine Harvest",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 78,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Trends & Tips",
+      "Prague.eu"
+    ],
+    "description": "Trends & Tips listed by Prague.eu events. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events",
+    "sourceUrl": "https://prague.eu/en/akce/prague-wine-harvest/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/08/27103411/igorzacharov_20200924__DSF0605.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-intervence-38-2026-09-18-1200",
+    "title": "Intervence #38",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 85,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/577078/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/09104747/Snimek-obrazovky-2026-06-09-104241.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-stories-2026-2026-09-18-1200",
+    "title": "Stories 2026",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "New Town Hall",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 92,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Themed Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/stories-2026/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20124053/20260720123823.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-bohemian-crown-jewels-habsburgs-500-2026-09-18-1200",
     "title": "Bohemian Crown Jewels — Habsburgs 500",
     "category": "Exhibitions",
@@ -5015,9 +3756,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Old Royal Palace",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -5028,6 +3769,166 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/07/24145409/klenoty-final-018-20260617-102714.jpg@webp"
   },
   {
+    "id": "prague-eu-events-my-country-ma-vlast-2026-09-18-1200",
+    "title": "My Country (Má vlast)",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "Azyl78",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 75,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Contemporary Dance",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Dance listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/my-country-ma-vlast/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/01/23142359/9772_1920_web_ma_vlast.png@webp"
+  },
+  {
+    "id": "prague-eu-events-european-heritage-days-2026-09-18-1200",
+    "title": "European Heritage Days",
+    "category": "Open Days",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 65,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Open Days",
+      "Prague.eu"
+    ],
+    "description": "Open Days listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/european-heritage-days/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13065946/160727-pct-big-00057-1-scaled.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-urban-pictus-2026-09-18-1200",
+    "title": "Urban Pictus",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 72,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/urban-pictus/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/24150520/PKP_5285.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-reka-lorincz-michaela-spruzinova-raw-matter-2026-09-18-1200",
+    "title": "Réka Lőrincz, Michaela Spružinová — Raw Matter",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Spot Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 62,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/reka-lorincz-michaela-spruzinova-raw-matter/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02145557/Snimek-obrazovky-2026-09-02-145220_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-from-the-shadows-to-the-light-2026-09-18-1200",
+    "title": "From the Shadows to the Light",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "The National Library of the Czech Republic",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 52,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Museum Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/from-the-shadows-to-the-light/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/04161013/6-scaled_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-julius-reichel-blood-inheritance-2026-09-18-1200",
+    "title": "Julius Reichel — Blood Inheritance",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Kostka Gallery — MeetFactory",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/julius-reichel-blood-inheritance/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/31153457/julius_reichel_3_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-gregory-nachmanovitch-adam-zufnicek-hollows-2026-09-18-1200",
+    "title": "Gregory Nachmanovitch & Adam Žufníček — Hollows",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Holešovická Šachta",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 91,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/gregory-nachmanovitch-adam-zufnicek-hollows/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02121151/783027931_18184460116409138_1560716546022272752_n_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-memory-of-touch-chapter-i-2026-09-18-1200",
+    "title": "Memory of Touch — Chapter I",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Kunsthalle Praha",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 67,
+    "english": true,
+    "color": "#d63f2e",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/memory-of-touch-chapter-i/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/03160520/726850253_18404252629153264_2890577572518679139_n.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-woodcutters-2026-09-18-1200",
     "title": "Woodcutters",
     "category": "Theatre",
@@ -5035,9 +3936,9 @@ window.EVENTS = [
     "venue": "Na Zábradlí Theatre",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 74,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -5048,6 +3949,246 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13055806/e4-12-scaled.jpg@webp"
   },
   {
+    "id": "prague-eu-events-headless-rider-2026-09-18-1200",
+    "title": "Headless Rider",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Prague City Gallery — House at the Stone Bell",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 57,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/headless-rider/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/21111740/Snimek-obrazovky-2026-07-21-111553-e1784628479154.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-dear-adriena-adriena-simotova-meda-mladkova-2026-09-18-1200",
+    "title": "Dear Adriena… Adriena Šimotová & Meda Mládková",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Museum Kampa",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 54,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Modernist Art",
+      "Prague.eu"
+    ],
+    "description": "Modernist Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/dear-adriena-adriena-simotova-meda-mladkova/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/05/29080516/web_MK.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-bronislava-bakule-mala-tomas-hruza-what-burns-remains-2026-09-18-1200",
+    "title": "Bronislava Bakule Malá, Tomáš Hrůza — What Burns, Remains",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Entrance Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/bronislava-bakule-mala-tomas-hruza-what-burns-remains/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02114537/kunstat_nahled-17-2_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-jan-matysek-phallomancers-2026-09-18-1200",
+    "title": "Jan Matýsek — Phallomancers",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Artwall",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 82,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/jan-matysek-phallomancers/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/26144147/matysek_01.jpeg@webp"
+  },
+  {
+    "id": "prague-eu-events-alessandra-svatek-matej-hrbek-love-2026-09-18-1200",
+    "title": "Alessandra Svatek, Matěj Hrbek — Love",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Artium",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 58,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/alessandra-svatek-matej-hrbek-love/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/19113151/Snimek-obrazovky-2026-08-19-111721_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-they-met-beneath-the-stone-they-met-in-liben-2026-09-18-1200",
+    "title": "They Met Beneath The Stone, They Met in Libeň",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Beseder Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 72,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/they-met-beneath-the-stone-they-met-in-liben/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/26145841/Her-Lidl_Suruvka_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-the-dancing-house-the-story-of-an-iconic-building-2026-09-18-1200",
+    "title": "The Dancing House — The Story of an Iconic Building",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Dancing House Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Architecture",
+      "Prague.eu"
+    ],
+    "description": "Architecture listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/the-dancing-house-the-story-of-an-iconic-building/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/22145202/2026-02-04-20-187-2048px.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-margarita-ivy-bystrik-klco-you-cant-return-you-are-here-2026-09-18-1200",
+    "title": "Margarita Ivy, Bystrík Klčo — You can’t return, you are here",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Karpuchina Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/margarita-ivy-bystrik-klco-you-cant-return-you-are-here/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02103347/FB-poster-credit-Daniel-Vojtisek_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-vit-soukup-retro-2026-09-18-1200",
+    "title": "Vít Soukup — Retro?",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Václav Špála Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 83,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/vit-soukup-retro/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02112856/thumb_5834_exhibition_big_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-vladimir-houdek-the-third-landscape-2026-09-18-1200",
+    "title": "Vladimír Houdek — The Third Landscape",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Campus Hybernská",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 63,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/vladimir-houdek-the-third-landscape/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/27132951/web_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-adolf-born-hana-purkrabkova-2026-09-18-1200",
+    "title": "Adolf Born & Hana Purkrábková",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Chodov Fortress",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 91,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/adolf-born-hana-purkrabkova/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08144059/vytava_born_purkrabkova.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-hana-novotna-paintings-collages-drawings-2026-09-18-1200",
+    "title": "Hana Novotná — Paintings, Collages, Drawings",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Chodov Fortress",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 53,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/hana-novotna-paintings-collages-drawings/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08144116/vystava_hana_novotna.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-cosmic-cabinet-2026-09-18-1200",
     "title": "Cosmic Cabinet",
     "category": "Theatre",
@@ -5055,9 +4196,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -5068,6 +4209,46 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/03/11180225/109c_moon-scaled-1.jpg@webp"
   },
   {
+    "id": "prague-eu-events-dsc-secondary-second-drop-2026-09-18-1200",
+    "title": "DSC Secondary Second Drop",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "DSC Gallery",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/dsc-secondary-second-drop/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02095819/M084s_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-labyrinth-wandering-within-2026-09-18-1200",
+    "title": "Labyrinth — Wandering Within",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Prague City Gallery — Troja Château",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 82,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/labyrinth-wandering-within/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/31111746/IG_1080x1350_Lab_7_orez_small.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-carmen-2026-09-18-1200",
     "title": "Carmen",
     "category": "Concerts",
@@ -5075,9 +4256,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -5095,9 +4276,9 @@ window.EVENTS = [
     "venue": "HILT black light theatre Prague",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -5115,9 +4296,9 @@ window.EVENTS = [
     "venue": "Wow Black Light Theatre",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -5128,6 +4309,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13060440/hero.jpg@webp"
   },
   {
+    "id": "prague-eu-events-infrastructures-of-imagination-2026-09-18-1200",
+    "title": "Infrastructures of Imagination",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Gallery 35M2",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 52,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/infrastructures-of-imagination/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/10135507/Instagram-post-–-infra-2_small.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-jazz-of-four-continents-2026-09-18-1200",
     "title": "Jazz of four continents",
     "category": "Festivals",
@@ -5135,9 +4336,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -5148,6 +4349,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/12/19093612/J4K_mozaika_listopad_2025_oprava-e1766133509463.jpg@webp"
   },
   {
+    "id": "prague-eu-events-radka-bodzewicz-faust-2026-09-18-1200",
+    "title": "Radka Bodzewicz — Faust",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "DOX Centre for Contemporary Art",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 61,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/radka-bodzewicz-faust/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/06150408/final-freedom-2026-oil-acrylic-spray-and-pigment-on-canvas-170x160cm_small.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-terribly-happy-ukrutne-stastni-2026-09-18-1200",
     "title": "Terribly Happy (Ukrutně šťastni)",
     "category": "Theatre",
@@ -5155,9 +4376,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -5175,9 +4396,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Concerts",
       "Prague.eu"
@@ -5188,6 +4409,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/31121434/AdobeStock_565483788.jpg@webp"
   },
   {
+    "id": "prague-eu-events-radka-castkova-magdalena-simurdova-murmuring-matter-2026-09-18-1200",
+    "title": "Radka Částková, Magdalena Šimurdová — Murmuring Matter",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Pragovka Gallery / The White Room",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 85,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/radka-castkova-magdalena-simurdova-murmuring-matter/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/08161327/Murmuring-Matter-Pragovka-Gallery.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-bila-voda-white-water-2026-09-18-1200",
     "title": "Bílá Voda (White Water)",
     "category": "Theatre",
@@ -5195,9 +4436,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -5208,6 +4449,146 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/25131347/1714151990-bila-voda_oblekana-zkouska_foto-petr-neubert-3.webp@webp"
   },
   {
+    "id": "prague-eu-events-neruda-field-neumann-2026-09-18-1200",
+    "title": "Neruda, Field, Neumann",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Memorial of National Literature — Museum of Czech Literature",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Museum Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/neruda-field-neumann/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/02/02102634/news-unor.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-gifts-for-the-president-from-nearby-and-faraway-lands-ii-2026-09-18-1200",
+    "title": "Gifts for the President from Nearby and Faraway Lands II",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Prague Castle — Rosenberg Palace — Institute of Noblewomen",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 73,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Themed Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/gifts-for-the-president-from-nearby-and-faraway-lands-ii/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/09120651/24-a-25-23.7.25.japonsko-verij-talir.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-230-years-of-ngp-2026-09-18-1200",
+    "title": "230 Years of NGP",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "National Gallery Prague — Trade Fair Palace",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 70,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Museum Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Museum Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/230-years-of-the-ngp/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/03/23114836/Snimek-obrazovky-2026-03-23-113702_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-sherlock-holmes-the-exhibition-2026-09-18-1200",
+    "title": "Sherlock Holmes — The Exhibition",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Themed Exhibitions",
+      "Prague.eu"
+    ],
+    "description": "Themed Exhibitions listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/sherlock-holmes-the-exhibition/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/04144512/IMG01568_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-ugly-czechoslovak-brutalism-19601989-2026-09-18-1200",
+    "title": "Ugly — Czechoslovak Brutalism 1960—1989",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Design Museum Prague",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 54,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Design",
+      "Prague.eu"
+    ],
+    "description": "Design listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/ugly-czechoslovak-brutalism-1960-1989/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/09091159/Hnusny_1080x1440_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-andros-2026-09-18-1200",
+    "title": "Andros",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "DOX Centre for Contemporary Art",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 65,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/andros/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/02123011/ivan-pinkava-samotar_small.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-kopecky-forever-2026-09-18-1200",
+    "title": "Kopecký Forever",
+    "category": "Exhibitions",
+    "district": "Prague",
+    "venue": "Museum Kampa",
+    "date": "2026-09-18T12:00:00",
+    "price": null,
+    "popularity": 67,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Contemporary Art",
+      "Prague.eu"
+    ],
+    "description": "Contemporary Art listed by Prague.eu exhibitions. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu exhibitions",
+    "sourceUrl": "https://prague.eu/en/akce/kopecky-forever/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/20120216/1500x1500-dlazdice_mensi.jpg@webp"
+  },
+  {
     "id": "citybee-events-merkado-latinska-amerika-na-jiraku-2026-09-18-1200",
     "title": "Merkádo - Latinská Amerika na Jiřáku",
     "category": "Things to do",
@@ -5215,9 +4596,9 @@ window.EVENTS = [
     "venue": "Merkado, z.s.",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 82,
     "english": false,
-    "color": "#c8941d",
+    "color": "#7246a8",
     "tags": [
       "CityBee"
     ],
@@ -5234,9 +4615,9 @@ window.EVENTS = [
     "venue": "Vinobraní na Grébovce",
     "date": "2026-09-18T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 54,
     "english": false,
-    "color": "#4b7b8a",
+    "color": "#33794c",
     "tags": [
       "CityBee"
     ],
@@ -5253,9 +4634,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-18T15:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Tennis"
@@ -5273,9 +4654,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-18T15:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 78,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Tennis"
@@ -5293,9 +4674,9 @@ window.EVENTS = [
     "venue": "Národní galerie Praha – Veletržní palác",
     "date": "2026-09-18T18:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 60,
     "english": false,
-    "color": "#d63f2e",
+    "color": "#007f7a",
     "tags": [
       "CityBee"
     ],
@@ -5312,9 +4693,9 @@ window.EVENTS = [
     "venue": "Lucerna Music Bar",
     "date": "2026-09-18T18:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 75,
     "english": true,
-    "color": "#344b77",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -5325,6 +4706,26 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/130/67d056c6-2548-4e24-9852-c31c8bbb7130_TABLET_LANDSCAPE_LARGE_16_9.jpg"
   },
   {
+    "id": "prague-eu-events-kubanske-square-farmers-market-2026-09-19-0800",
+    "title": "Kubánské Square Farmers’ Market",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Farmers‘ Marketplace at Kubánské square",
+    "date": "2026-09-19T08:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/farmers-market-on-kubanske-square/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/03102548/AdobeStock_89974773.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-naplavka-farmers-market-2026-09-19-0800",
     "title": "Náplavka Farmers’ Market",
     "category": "Markets",
@@ -5332,9 +4733,9 @@ window.EVENTS = [
     "venue": "Náplavka Farmers’ Market",
     "date": "2026-09-19T08:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -5352,9 +4753,9 @@ window.EVENTS = [
     "venue": "Farmers’ Market at Kulaťák",
     "date": "2026-09-19T08:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 79,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -5372,9 +4773,9 @@ window.EVENTS = [
     "venue": "Heřmaňák Farmers’ Market",
     "date": "2026-09-19T08:30:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -5385,16 +4786,16 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/22104330/FT-Hermanak-34.jpg@webp"
   },
   {
-    "id": "citybee-events-page-2-den-chytre-mobility-2026-2026-09-19-0900",
+    "id": "citybee-events-den-chytre-mobility-2026-2026-09-19-0900",
     "title": "Den chytré mobility 2026",
     "category": "Things to do",
     "district": "Prague",
     "venue": "Výstaviště Praha",
     "date": "2026-09-19T09:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 66,
     "english": false,
-    "color": "#7246a8",
+    "color": "#9e3f4f",
     "tags": [
       "CityBee"
     ],
@@ -5404,16 +4805,16 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138451/card_Valeobusik-1787389391.jpg"
   },
   {
-    "id": "citybee-events-page-2-den-otevrenych-dveri-2026-09-19-1000",
+    "id": "citybee-events-den-otevrenych-dveri-2026-09-19-1000",
     "title": "Den otevřených dveří",
     "category": "Things to do",
     "district": "Prague",
     "venue": "Švandovo divadlo na Smíchově",
     "date": "2026-09-19T10:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 84,
     "english": false,
-    "color": "#007f7a",
+    "color": "#d63f2e",
     "tags": [
       "CityBee"
     ],
@@ -5423,6 +4824,25 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138382/card_SvandakDOD-1787055568.jpeg"
   },
   {
+    "id": "citybee-events-zazit-mesto-jinak-2026-09-19-1000",
+    "title": "Zažít město jinak",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "AutoMat",
+    "date": "2026-09-19T10:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Sousedské slavnosti, jejichž podobu vytvářejí sami obyvatelé a obyvatelky daných lokalit.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/zabava/:/akce/138350-zazit-mesto-jinak/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_499991344_11020_1786966744.jpg"
+  },
+  {
     "id": "citybee-events-page-2-zazit-mesto-jinak-slezska-74-2026-09-19-1000",
     "title": "Zažít město jinak (Slezská 74)",
     "category": "Things to do",
@@ -5430,9 +4850,9 @@ window.EVENTS = [
     "venue": "Divadlo Procity",
     "date": "2026-09-19T10:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 54,
     "english": false,
-    "color": "#9e3f4f",
+    "color": "#7246a8",
     "tags": [
       "CityBee"
     ],
@@ -5442,6 +4862,25 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_untitled-77_1787333470.jpg"
   },
   {
+    "id": "citybee-events-page-2-hot-and-spicy-food-festival-na-smichovske-naplavce-2026-09-19-1100",
+    "title": "HOT and SPICY food festival na Smíchovské náplavce",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Food Event",
+    "date": "2026-09-19T11:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Přijďte si okořenit život!",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/135185-hot-and-spicy-food-festival-na-smichovske-naplavce/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/135185/card_754058092_1455535306600821_3340295800778985645_n-1789549128.jpg"
+  },
+  {
     "id": "citybee-events-page-2-den-s-myslivci-2026-09-19-1100",
     "title": "Den s myslivci",
     "category": "Things to do",
@@ -5449,9 +4888,9 @@ window.EVENTS = [
     "venue": "OMS PRAHA 3",
     "date": "2026-09-19T11:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 72,
     "english": false,
-    "color": "#4b7b8a",
+    "color": "#9e3f4f",
     "tags": [
       "CityBee"
     ],
@@ -5468,9 +4907,9 @@ window.EVENTS = [
     "venue": "Museum of Prague — Ctěnice Castle",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 61,
     "english": true,
-    "color": "#007f7a",
+    "color": "#7246a8",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -5488,9 +4927,9 @@ window.EVENTS = [
     "venue": "Náplavka — Hořejší embankment",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 68,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#33794c",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -5508,9 +4947,9 @@ window.EVENTS = [
     "venue": "Havlíček Gardens",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 75,
     "english": true,
-    "color": "#c8941d",
+    "color": "#007f7a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -5521,6 +4960,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/07/22133437/dsc-0077.jpg@webp"
   },
   {
+    "id": "prague-eu-events-merkado-2026-09-19-1200",
+    "title": "Merkádo",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Jiřího z Poděbrad Square",
+    "date": "2026-09-19T12:00:00",
+    "price": null,
+    "popularity": 82,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/merkado/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/06/11102915/TACOS-A-GUACAMOLE.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-dvorak-prague-festival-2026-antonin-dvorak-the-jacobin-2026-09-19-1200",
     "title": "Dvořák Prague Festival 2026 — Antonín Dvořák: The Jacobin",
     "category": "Concerts",
@@ -5528,9 +4987,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -5548,9 +5007,9 @@ window.EVENTS = [
     "venue": "The Loop Jazz Club",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -5568,9 +5027,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -5588,9 +5047,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -5608,9 +5067,9 @@ window.EVENTS = [
     "venue": "",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -5628,9 +5087,9 @@ window.EVENTS = [
     "venue": "Prague Exhibition Grounds",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -5648,9 +5107,9 @@ window.EVENTS = [
     "venue": "Prague Botanical Garden, Fata Morgana greenhouse",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 55,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -5668,9 +5127,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — Troja Château",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -5688,9 +5147,9 @@ window.EVENTS = [
     "venue": "Hvězda Game Reserve",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -5708,9 +5167,9 @@ window.EVENTS = [
     "venue": "Loď Tajemství",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -5728,9 +5187,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Old Royal Palace",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -5748,9 +5207,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ballet",
       "Prague.eu"
@@ -5768,9 +5227,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -5788,9 +5247,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -5808,9 +5267,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -5828,9 +5287,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -5848,9 +5307,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -5868,9 +5327,9 @@ window.EVENTS = [
     "venue": "Pražský hrad",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 72,
     "english": false,
-    "color": "#344b77",
+    "color": "#c8941d",
     "tags": [
       "CityBee"
     ],
@@ -5880,16 +5339,16 @@ window.EVENTS = [
     "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_sph_ckk_web_con_1787666757.jpg"
   },
   {
-    "id": "citybee-events-page-2-pickles-prague-festival-2026-09-19-1200",
+    "id": "citybee-events-pickles-prague-festival-2026-09-19-1200",
     "title": "Pickles Prague Festival",
     "category": "Things to do",
     "district": "Prague",
     "venue": "Výstaviště Praha",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 78,
     "english": false,
-    "color": "#33794c",
+    "color": "#4b7b8a",
     "tags": [
       "CityBee"
     ],
@@ -5906,9 +5365,9 @@ window.EVENTS = [
     "venue": "Trojský zámek",
     "date": "2026-09-19T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 60,
     "english": false,
-    "color": "#c8941d",
+    "color": "#33794c",
     "tags": [
       "CityBee"
     ],
@@ -5925,9 +5384,9 @@ window.EVENTS = [
     "venue": "Dvořákova Praha",
     "date": "2026-09-19T13:30:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 78,
     "english": false,
-    "color": "#d63f2e",
+    "color": "#c8941d",
     "tags": [
       "CityBee"
     ],
@@ -5944,9 +5403,9 @@ window.EVENTS = [
     "venue": "Zbraslavské trhy",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 84,
     "english": false,
-    "color": "#344b77",
+    "color": "#4b7b8a",
     "tags": [
       "CityBee"
     ],
@@ -5963,9 +5422,9 @@ window.EVENTS = [
     "venue": "Kulturní centrum Průhon",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 56,
     "english": false,
-    "color": "#7246a8",
+    "color": "#d63f2e",
     "tags": [
       "CityBee"
     ],
@@ -5982,9 +5441,9 @@ window.EVENTS = [
     "venue": "Rozhledna Doubravka",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 62,
     "english": false,
-    "color": "#33794c",
+    "color": "#344b77",
     "tags": [
       "CityBee"
     ],
@@ -6001,9 +5460,9 @@ window.EVENTS = [
     "venue": "Rozhledna Doubravka",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 68,
     "english": false,
-    "color": "#007f7a",
+    "color": "#7246a8",
     "tags": [
       "CityBee"
     ],
@@ -6020,9 +5479,9 @@ window.EVENTS = [
     "venue": "Městská část Praha - Čakovice",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 74,
     "english": false,
-    "color": "#9e3f4f",
+    "color": "#33794c",
     "tags": [
       "CityBee"
     ],
@@ -6039,9 +5498,9 @@ window.EVENTS = [
     "venue": "Dům dětí a mládeže Praha 12 - Monet",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 80,
     "english": false,
-    "color": "#c8941d",
+    "color": "#007f7a",
     "tags": [
       "CityBee"
     ],
@@ -6058,9 +5517,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 90,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Tennis"
@@ -6078,9 +5537,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-19T14:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Tennis"
@@ -6098,9 +5557,9 @@ window.EVENTS = [
     "venue": "Studio Alta",
     "date": "2026-09-19T18:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 86,
     "english": false,
-    "color": "#4b7b8a",
+    "color": "#9e3f4f",
     "tags": [
       "CityBee"
     ],
@@ -6117,9 +5576,9 @@ window.EVENTS = [
     "venue": "Náplavka — Rašínovo embankment",
     "date": "2026-09-20T10:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -6137,9 +5596,9 @@ window.EVENTS = [
     "venue": "Karlín Market",
     "date": "2026-09-20T11:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 58,
     "english": false,
-    "color": "#d63f2e",
+    "color": "#c8941d",
     "tags": [
       "CityBee"
     ],
@@ -6156,9 +5615,9 @@ window.EVENTS = [
     "venue": "Prague Exhibition Grounds",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -6176,9 +5635,9 @@ window.EVENTS = [
     "venue": "Karlínské Square",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 69,
+    "popularity": 62,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -6196,9 +5655,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — Troja Château",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -6216,9 +5675,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -6236,9 +5695,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -6256,9 +5715,9 @@ window.EVENTS = [
     "venue": "Hvězda Game Reserve",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -6276,9 +5735,9 @@ window.EVENTS = [
     "venue": "Loď Tajemství",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 59,
+    "popularity": 52,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -6296,9 +5755,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Old Royal Palace",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -6309,6 +5768,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/07/24145409/klenoty-final-018-20260617-102714.jpg@webp"
   },
   {
+    "id": "prague-eu-events-images-of-love-2026-09-20-1200",
+    "title": "Images of love",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "HILT black light theatre Prague",
+    "date": "2026-09-20T12:00:00",
+    "price": null,
+    "popularity": 69,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Black Light & Shadow Theatre",
+      "Prague.eu"
+    ],
+    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/image-of-love/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/09/04134310/1x1-Black-Light-Theatre-HILT-images-OF-love-DUO-HEART-1.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-antologia-2026-09-20-1200",
     "title": "Antología",
     "category": "Theatre",
@@ -6316,9 +5795,9 @@ window.EVENTS = [
     "venue": "Black Light Theatre Srnec",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -6336,9 +5815,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -6356,9 +5835,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -6376,9 +5855,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -6396,9 +5875,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -6416,9 +5895,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-20T12:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "New Circus & Physical Theatre",
       "Prague.eu"
@@ -6436,9 +5915,9 @@ window.EVENTS = [
     "venue": "Městská část Praha 10",
     "date": "2026-09-20T14:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 64,
     "english": false,
-    "color": "#344b77",
+    "color": "#4b7b8a",
     "tags": [
       "CityBee"
     ],
@@ -6455,9 +5934,9 @@ window.EVENTS = [
     "venue": "Divadlo Bravo!",
     "date": "2026-09-20T15:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 70,
     "english": false,
-    "color": "#7246a8",
+    "color": "#d63f2e",
     "tags": [
       "CityBee"
     ],
@@ -6474,9 +5953,9 @@ window.EVENTS = [
     "venue": "Fortuna Arena (SK Slavia Praha)",
     "date": "2026-09-20T18:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -6494,9 +5973,9 @@ window.EVENTS = [
     "venue": "Fuchs2",
     "date": "2026-09-20T20:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 78,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -6514,9 +5993,9 @@ window.EVENTS = [
     "venue": "Fuchs2",
     "date": "2026-09-20T20:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -6534,9 +6013,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -6554,9 +6033,9 @@ window.EVENTS = [
     "venue": "Forum Karlín",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Alternative Theatre",
       "Prague.eu",
@@ -6568,6 +6047,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/06/01120723/Daniel-Sloss-Bitter-generic-1600x900px-Just-Photo-Center-e1780308500874.jpg@webp"
   },
   {
+    "id": "prague-eu-events-cirk-la-putyka-la-putyka-2026-09-21-1200",
+    "title": "Cirk La Putyka: La Putyka",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "Jatka78",
+    "date": "2026-09-21T12:00:00",
+    "price": null,
+    "popularity": 94,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "New Circus & Physical Theatre",
+      "Prague.eu"
+    ],
+    "description": "New Circus & Physical Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/la-putyka/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13060305/d1-4.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-1984-2026-09-21-1200",
     "title": "1984",
     "category": "Theatre",
@@ -6575,9 +6074,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -6595,9 +6094,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -6615,9 +6114,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -6635,9 +6134,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Alternative Theatre",
       "Prague.eu"
@@ -6655,9 +6154,9 @@ window.EVENTS = [
     "venue": "Holešovická tržnice",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 76,
     "english": false,
-    "color": "#33794c",
+    "color": "#344b77",
     "tags": [
       "CityBee"
     ],
@@ -6674,9 +6173,9 @@ window.EVENTS = [
     "venue": "Život dětem",
     "date": "2026-09-21T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 82,
     "english": false,
-    "color": "#007f7a",
+    "color": "#7246a8",
     "tags": [
       "CityBee"
     ],
@@ -6693,9 +6192,9 @@ window.EVENTS = [
     "venue": "Divadlo U Hasičů",
     "date": "2026-09-21T20:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Comedy"
@@ -6713,9 +6212,9 @@ window.EVENTS = [
     "venue": "Forum Karlín",
     "date": "2026-09-21T20:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 87,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Comedy"
@@ -6726,6 +6225,46 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/21a/f33a1f1d-f5b6-4618-9ced-591d2924321a_SOURCE"
   },
   {
+    "id": "prague-eu-events-lesser-town-market-2026-09-22-0800",
+    "title": "Lesser Town Market",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Malostranské Square",
+    "date": "2026-09-22T08:00:00",
+    "price": null,
+    "popularity": 75,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/lesser-town-market-2/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/23124248/518300639_1333113725488383_5521580299313940465_n.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-andel-farmers-market-2026-09-22-0800",
+    "title": "anděl farmers’ market",
+    "category": "Markets",
+    "district": "Prague",
+    "venue": "Farmers’ Market at Anděl",
+    "date": "2026-09-22T08:00:00",
+    "price": null,
+    "popularity": 81,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Markets",
+      "Prague.eu"
+    ],
+    "description": "Markets listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/farmers-market-at-andel/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/06090901/IMG-20241002-WA0017.webp@webp"
+  },
+  {
     "id": "prague-eu-events-prague-proms-2026-james-bond-night-2026-09-22-1200",
     "title": "Prague Proms 2026 — James Bond Night",
     "category": "Concerts",
@@ -6733,9 +6272,9 @@ window.EVENTS = [
     "venue": "Municipal House — Smetana Hall",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -6753,9 +6292,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Convent of St Agnes of Bohemia",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -6773,9 +6312,9 @@ window.EVENTS = [
     "venue": "Waldstein Garden",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -6793,9 +6332,9 @@ window.EVENTS = [
     "venue": "Na Zábradlí Theatre",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -6806,6 +6345,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/09/23090245/KIV05635-1920x1280-1.jpg@webp"
   },
   {
+    "id": "prague-eu-events-antologia-2026-09-22-1200",
+    "title": "Antología",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "Black Light Theatre Srnec",
+    "date": "2026-09-22T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Black Light & Shadow Theatre",
+      "Prague.eu"
+    ],
+    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/antologia/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/20124109/485279798_1275791080659825_8091611875656143217_n.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-hamlet-2026-09-22-1200",
     "title": "Hamlet",
     "category": "Theatre",
@@ -6813,9 +6372,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -6833,9 +6392,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "New Circus & Physical Theatre",
       "Prague.eu"
@@ -6853,9 +6412,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -6873,9 +6432,9 @@ window.EVENTS = [
     "venue": "Holešovická tržnice",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 54,
     "english": false,
-    "color": "#9e3f4f",
+    "color": "#33794c",
     "tags": [
       "CityBee"
     ],
@@ -6892,9 +6451,9 @@ window.EVENTS = [
     "venue": "Ethera",
     "date": "2026-09-22T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 60,
     "english": false,
-    "color": "#c8941d",
+    "color": "#007f7a",
     "tags": [
       "CityBee"
     ],
@@ -6911,9 +6470,9 @@ window.EVENTS = [
     "venue": "Galerie Rudolfinum",
     "date": "2026-09-22T15:00:00",
     "price": 0,
-    "popularity": 78,
+    "popularity": 66,
     "english": false,
-    "color": "#4b7b8a",
+    "color": "#9e3f4f",
     "tags": [
       "CityBee"
     ],
@@ -6930,9 +6489,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-22T18:30:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 87,
     "english": true,
-    "color": "#c8941d",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -6950,14 +6509,14 @@ window.EVENTS = [
     "venue": "Music Club Modrá Vopice",
     "date": "2026-09-22T18:30:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 84,
     "english": true,
-    "color": "#007f7a",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Rock"
     ],
-    "description": "Uplatňuje se transakční poplatek ve výši 30 Kč. ZMĚNA MÍSTA KONÁNÍ - nově Modrá Vopice Místo ABYSMAL DAWN vystoupí HALYSIS. Technický death metal v té nejryzejší podobě. Colorado, Francie a L.A. spojují síly v pražském klubu Black Pes. Přip",
+    "description": "Uplatňuje se transakční poplatek ve výši 30 Kč. ZMĚNA MÍSTA KONÁNÍ - nově Modrá Vopice 18:30 - doors 19:30 - Halysis 20:15 - Gorod 21:30 - Allegaeon Předprodej skončí o půlnoci před koncertem, poté se dají zakoupit vstupenky i na místě. Mís",
     "source": "Ticketmaster",
     "sourceUrl": "https://www.ticketmaster.cz/event/allegaeon-gorod-halysis-vstupenky/1428124478",
     "imageUrl": "https://s1.ticketm.net/dam/a/852/6cc647eb-f94a-442b-b5d0-8fb69a5c8852_TABLET_LANDSCAPE_LARGE_16_9.jpg"
@@ -6970,9 +6529,9 @@ window.EVENTS = [
     "venue": "BACKSTAGE RESTAURANT u O2 areny",
     "date": "2026-09-22T18:30:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -6990,9 +6549,9 @@ window.EVENTS = [
     "venue": "Café V lese",
     "date": "2026-09-22T20:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 90,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7010,9 +6569,9 @@ window.EVENTS = [
     "venue": "MeetFactory",
     "date": "2026-09-22T20:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 78,
     "english": true,
-    "color": "#344b77",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7030,9 +6589,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Large Events",
       "Prague.eu"
@@ -7050,9 +6609,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -7070,9 +6629,9 @@ window.EVENTS = [
     "venue": "Municipal House",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7090,9 +6649,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -7110,9 +6669,9 @@ window.EVENTS = [
     "venue": "Municipal Library of Prague — Central Library",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -7130,9 +6689,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "New Circus & Physical Theatre",
       "Prague.eu"
@@ -7150,9 +6709,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -7170,9 +6729,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -7190,9 +6749,9 @@ window.EVENTS = [
     "venue": "Česká televize",
     "date": "2026-09-23T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 72,
     "english": false,
-    "color": "#d63f2e",
+    "color": "#c8941d",
     "tags": [
       "CityBee"
     ],
@@ -7209,9 +6768,9 @@ window.EVENTS = [
     "venue": "Městská knihovna v Praze",
     "date": "2026-09-23T18:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 78,
     "english": false,
-    "color": "#344b77",
+    "color": "#4b7b8a",
     "tags": [
       "CityBee"
     ],
@@ -7228,9 +6787,9 @@ window.EVENTS = [
     "venue": "Music Club Modrá Vopice",
     "date": "2026-09-23T19:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7248,9 +6807,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-23T19:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 93,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7268,9 +6827,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-23T19:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 87,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7288,14 +6847,14 @@ window.EVENTS = [
     "venue": "Café V lese",
     "date": "2026-09-23T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Rock"
     ],
-    "description": "ISABEL VAN GELDER EU & UK Tour 2026 23. 9. 2026 -- Café V lese, Praha Třiadvacetiletá zpěvačka Isabel van Gelder pochází z Amsterdamu a během krátké doby si vybudovala pověst jednoho z nejzajímavějších nových hlasů současného hudební scény.",
+    "description": "ISABEL VAN GELDER EU & UK Tour 2026 Special Guest: Johanela 23. 9. 2026 -- Café V lese, Praha Třiadvacetiletá zpěvačka Isabel van Gelder pochází z Amsterdamu a během krátké doby si vybudovala pověst jednoho z nejzajímavějších nových hlasů s",
     "source": "Ticketmaster",
     "sourceUrl": "https://www.ticketmaster.cz/event/isabel-van-gelder-vstupenky/240665289",
     "imageUrl": "https://s1.ticketm.net/dam/a/570/77c9700c-3524-4edd-a1c0-2189f7909570_SOURCE"
@@ -7308,9 +6867,9 @@ window.EVENTS = [
     "venue": "Prague Castle — Cathedral of St Vitus, St Wenceslas and St Adalbert",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -7328,9 +6887,9 @@ window.EVENTS = [
     "venue": "Municipal House",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7348,9 +6907,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7368,9 +6927,9 @@ window.EVENTS = [
     "venue": "Holešovice Market Hall",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7388,9 +6947,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -7408,9 +6967,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -7428,9 +6987,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -7448,9 +7007,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -7468,9 +7027,9 @@ window.EVENTS = [
     "venue": "Municipal House — Smetana Hall",
     "date": "2026-09-24T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -7481,6 +7040,63 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13052837/34-smetanova-sin-sirka.jpg@webp"
   },
   {
+    "id": "citybee-events-page-2-lustr-13-2026-09-24-1200",
+    "title": "LUSTR 13",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Holešovická tržnice",
+    "date": "2026-09-24T12:00:00",
+    "price": null,
+    "popularity": 84,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Přijďte objevit svět ilustrace a komiksu v jeho nejživější podobě!",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138609-lustr-13/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_lustr_1788425429.jpg"
+  },
+  {
+    "id": "citybee-events-page-2-art-stars-vytvarne-akcni-dilna-prvni-lekce-zdarma-2026-09-24-1700",
+    "title": "ART STARS: výtvarně-akční dílna | první lekce zdarma",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Galerie Rudolfinum",
+    "date": "2026-09-24T17:00:00",
+    "price": 0,
+    "popularity": 56,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Přijďte si vyzkoušet první lekci výtvarně-akční dílny ART STARS pro děti ve věku 12–16 let zcela zdarma! Těšíme se na viděnou v Galerii Rudolfinum.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/pro-deti/:/akce/138410-art-stars-vytvarne-akcni-dilna-prvni-lekce-zdarma/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_23_1787152535.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-230-let-ngp-live-zahajeni-prague-art-week-2026-09-24-1830",
+    "title": "230 let NGP LIVE + Zahájení PRAGUE ART WEEK",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Národní galerie Praha – Veletržní palác",
+    "date": "2026-09-24T18:30:00",
+    "price": 0,
+    "popularity": 54,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "K oslavám 230 let NGP se ve Veletržním paláci otevře série intervencí a budou zdarma zpřístupněny sbírkové expozice.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138574-230-let-ngp-live-zahajeni-prague-art-week/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138574/card_Veletrznipalac2-1788083645.jpg"
+  },
+  {
     "id": "Z698xZu0Z16vAg77fd",
     "title": "Matteo Lane: We Gotta Catch Up!",
     "category": "Things to do",
@@ -7488,9 +7104,9 @@ window.EVENTS = [
     "venue": "Divadlo Broadway",
     "date": "2026-09-24T19:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 75,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Comedy"
@@ -7508,9 +7124,9 @@ window.EVENTS = [
     "venue": "Žižkov Theater of Jára Cimrman",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -7528,9 +7144,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 74,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Open Days",
       "Prague.eu"
@@ -7548,9 +7164,9 @@ window.EVENTS = [
     "venue": "Municipal House",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7568,9 +7184,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7588,9 +7204,9 @@ window.EVENTS = [
     "venue": "Holešovice Market Hall",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7608,9 +7224,9 @@ window.EVENTS = [
     "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -7628,9 +7244,9 @@ window.EVENTS = [
     "venue": "Image Theatre",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 55,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Black Light & Shadow Theatre",
       "Prague.eu"
@@ -7648,9 +7264,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7668,9 +7284,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -7688,9 +7304,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -7708,9 +7324,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -7728,9 +7344,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Trade Fair Palace",
     "date": "2026-09-25T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Modernist Art",
       "Prague.eu"
@@ -7782,6 +7398,82 @@ window.EVENTS = [
     "imageUrl": "http://pvaexpo.cz/cdn/image/744/RQHawpHRN81ZJ9vtnyBnEArsNtX20XUI.png"
   },
   {
+    "id": "citybee-events-page-3-zlata-praha-detem-2026-09-25-1600",
+    "title": "Zlatá Praha dětem",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Česká televize",
+    "date": "2026-09-25T16:00:00",
+    "price": null,
+    "popularity": 60,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Odpoledne se StarDance.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138721-zlata-praha-detem/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_736218214_15521_1789368569.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-noc-vedy-2026-09-25-1700",
+    "title": "Noc vědy",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "VŠCHT",
+    "date": "2026-09-25T17:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Noc vědy je celoevropská vědecko-popularizační akce, která zapojuje všechny zájemce a zájemkyně do inspirujícího prostředí vědy.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/138366-noc-vedy/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_650049623_13566_1786982009.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-paw-krest-knihy-tri-pohledy-na-jedno-dilo-lukas-hofmann-sospiri-2026-09-25-1730",
+    "title": "PAW | Křest knihy Tři pohledy na jedno dílo – Lukáš Hofmann – Sospiri",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Národní galerie Praha – Veletržní palác",
+    "date": "2026-09-25T17:30:00",
+    "price": null,
+    "popularity": 72,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Křest knihy doprovodí diskuse mezi umělcem Lukášem Hofmannem a Michalem Novotným, ředitelem Sbírky umění po roce 1945.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138571-paw-krest-knihy-tri-pohledy-na-jedno-dilo-lukas-hofmann-sospiri/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138571/card_NGkrestknihy-1788082319.png"
+  },
+  {
+    "id": "citybee-events-page-3-beneficni-koncert-livie-aghove-pro-pestounske-rodiny-2026-09-25-1900",
+    "title": "Benefiční koncert Lívie Ághové pro pěstounské rodiny",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "CityBee podporuje",
+    "date": "2026-09-25T19:00:00",
+    "price": null,
+    "popularity": 78,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Benefiční koncert Lívie Ághové pro pěstounské rodiny se vrací!",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138587-beneficni-koncert-livie-aghove-pro-pestounske-rodiny/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_web_zuzana-hurn_1788335409.jpeg"
+  },
+  {
     "id": "Z698xZu0Z1krfk4PM",
     "title": "Spiritbox + special guests: Jinjer + Dying Wish",
     "category": "Concerts",
@@ -7789,9 +7481,9 @@ window.EVENTS = [
     "venue": "Forum Karlín",
     "date": "2026-09-25T19:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 81,
     "english": true,
-    "color": "#33794c",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -7809,9 +7501,9 @@ window.EVENTS = [
     "venue": "Radlická kulturní sportovna",
     "date": "2026-09-25T20:30:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 90,
     "english": true,
-    "color": "#c8941d",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -7829,9 +7521,9 @@ window.EVENTS = [
     "venue": "Náplavka Farmers’ Market",
     "date": "2026-09-26T08:00:00",
     "price": null,
-    "popularity": 79,
+    "popularity": 72,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -7849,9 +7541,9 @@ window.EVENTS = [
     "venue": "Farmers’ Market at Kulaťák",
     "date": "2026-09-26T08:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 79,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -7869,9 +7561,9 @@ window.EVENTS = [
     "venue": "Signal Space",
     "date": "2026-09-26T08:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 88,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "GoOut"
     ],
@@ -7888,9 +7580,9 @@ window.EVENTS = [
     "venue": "Flea Markets at Heřmaňák",
     "date": "2026-09-26T09:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -7901,6 +7593,44 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053509/313329358-545969150867920-6047105963627541439-n.jpg@webp"
   },
   {
+    "id": "citybee-events-page-3-nuselske-blesky-2026-09-26-1000",
+    "title": "Nuselské Blešky",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Nuselské Blešky",
+    "date": "2026-09-26T10:00:00",
+    "price": null,
+    "popularity": 84,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Setkání všech hledačů pokladů a milovníků haraburdí, starožitností, bazarů a sekáčů, v KOMUNITNÍ ZAHRADĚ MEČISLAVOVA.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/lifestyle/:/akce/138722-nuselske-blesky/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_718334781_18932_1789368801.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-den-hrdinu-2026-09-26-1100",
+    "title": "Den hrdinů",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Výstaviště Praha",
+    "date": "2026-09-26T11:00:00",
+    "price": null,
+    "popularity": 56,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Přijďte se přesvědčit, že hrdinové nejsou jen na obrazovce. Hrdinové jsou mezi námi každý den.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/pro-deti/:/akce/138029-den-hrdinu/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_den_hrdinu-15_1789020917.jpg"
+  },
+  {
     "id": "prague-eu-events-heroes-day-2026-09-26-1200",
     "title": "Heroes’ Day",
     "category": "Festivals",
@@ -7908,9 +7638,9 @@ window.EVENTS = [
     "venue": "Prague Exhibition Grounds",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -7928,9 +7658,9 @@ window.EVENTS = [
     "venue": "Villa Richter",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -7948,9 +7678,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -7968,9 +7698,9 @@ window.EVENTS = [
     "venue": "Chuchle Arena Praha – Racecourse",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -7988,9 +7718,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 61,
+    "popularity": 54,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8008,9 +7738,9 @@ window.EVENTS = [
     "venue": "Holešovice Market Hall",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8028,9 +7758,9 @@ window.EVENTS = [
     "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -8048,9 +7778,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -8068,9 +7798,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 79,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8088,9 +7818,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 73,
+    "popularity": 66,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -8108,9 +7838,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Concerts",
       "Prague.eu"
@@ -8128,9 +7858,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8148,9 +7878,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -8168,9 +7898,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8188,9 +7918,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Trade Fair Palace",
     "date": "2026-09-26T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Modernist Art",
       "Prague.eu"
@@ -8228,9 +7958,9 @@ window.EVENTS = [
     "venue": "Cross Club",
     "date": "2026-09-26T18:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 81,
     "english": true,
-    "color": "#7246a8",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8248,9 +7978,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-26T20:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 84,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -8268,9 +7998,9 @@ window.EVENTS = [
     "venue": "",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -8288,9 +8018,9 @@ window.EVENTS = [
     "venue": "Botanical Garden of the Natural Sciences Faculty of Charles University",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 66,
+    "popularity": 59,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Themed Exhibitions",
       "Prague.eu"
@@ -8308,9 +8038,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8328,9 +8058,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Concerts",
       "Prague.eu"
@@ -8348,9 +8078,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8368,9 +8098,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -8388,9 +8118,9 @@ window.EVENTS = [
     "venue": "National Gallery Prague — Trade Fair Palace",
     "date": "2026-09-27T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Modernist Art",
       "Prague.eu"
@@ -8408,9 +8138,9 @@ window.EVENTS = [
     "venue": "SUBZERO",
     "date": "2026-09-27T19:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8428,9 +8158,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-27T19:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 72,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -8448,9 +8178,9 @@ window.EVENTS = [
     "venue": "Straka Academy and Gardens",
     "date": "2026-09-28T00:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Open Days",
       "Prague.eu"
@@ -8468,9 +8198,9 @@ window.EVENTS = [
     "venue": "Obecní dům - Municipal House",
     "date": "2026-09-28T01:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 84,
     "english": true,
-    "color": "#33794c",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Fairs & Festivals"
@@ -8488,9 +8218,9 @@ window.EVENTS = [
     "venue": "Lucerna Cinema",
     "date": "2026-09-28T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8508,9 +8238,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-09-28T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8528,9 +8258,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-28T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -8548,9 +8278,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-28T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -8568,9 +8298,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-09-28T12:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -8579,6 +8309,25 @@ window.EVENTS = [
     "source": "Prague.eu events + Prague.eu performing arts",
     "sourceUrl": "https://prague.eu/en/akce/promeny/",
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/10/11101716/1770292502-promeny-oblekana-zkouska_foto-pavel-hejny-5.webp@webp"
+  },
+  {
+    "id": "citybee-events-page-3-svatovaclavske-velebeni-2026-2026-09-28-1300",
+    "title": "Svatováclavské velebení 2026",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Městská část Praha 4",
+    "date": "2026-09-28T13:00:00",
+    "price": null,
+    "popularity": 62,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Přijďte s námi oslavit Den české státnosti na již tradiční Svatováclavské velebení.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/zabava/:/akce/137919-svatovaclavske-velebeni-2026/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_728929372_14167_1783494859.jpg"
   },
   {
     "id": "Z698xZu0Z1Aavke_",
@@ -8608,9 +8357,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-09-28T16:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 72,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -8628,9 +8377,9 @@ window.EVENTS = [
     "venue": "MeetFactory",
     "date": "2026-09-28T17:30:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 81,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8648,9 +8397,9 @@ window.EVENTS = [
     "venue": "Church of Sts Simon and Jude",
     "date": "2026-09-29T12:00:00",
     "price": null,
-    "popularity": 89,
+    "popularity": 82,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -8668,9 +8417,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-29T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Alternative Theatre",
       "Prague.eu"
@@ -8688,9 +8437,9 @@ window.EVENTS = [
     "venue": "Lucerna Cinema",
     "date": "2026-09-29T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8708,9 +8457,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-29T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -8748,9 +8497,9 @@ window.EVENTS = [
     "venue": "Bike Jesus",
     "date": "2026-09-29T19:30:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 93,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8761,6 +8510,25 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/48b/2b13f6b7-4585-4925-8891-36105005648b_TABLET_LANDSCAPE_LARGE_16_9.jpg"
   },
   {
+    "id": "citybee-events-page-3-letni-opera-balanchine-bejart-pite-2026-09-29-2000",
+    "title": "Letní opera | Balanchine / Béjart / Pite",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Kino 35",
+    "date": "2026-09-29T20:00:00",
+    "price": 0,
+    "popularity": 68,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Baletní inscenace Pařížské národní opery. Zdarma",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138480-letni-opera-balanchine-bejart-pite/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_30060-2016-17-p_1787579220.jpg"
+  },
+  {
     "id": "Z698xZu0Z1kaZFsO_",
     "title": "Father Of Peace – The Year Of Madness & The Mystery Century Tour",
     "category": "Concerts",
@@ -8768,9 +8536,9 @@ window.EVENTS = [
     "venue": "MeetFactory",
     "date": "2026-09-29T20:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 81,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8788,9 +8556,9 @@ window.EVENTS = [
     "venue": "SaSaZu",
     "date": "2026-09-29T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 75,
     "english": true,
-    "color": "#7246a8",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -8808,9 +8576,9 @@ window.EVENTS = [
     "venue": "SaSaZu",
     "date": "2026-09-29T20:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 72,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -8828,9 +8596,9 @@ window.EVENTS = [
     "venue": "Gabriel Loci",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -8848,9 +8616,9 @@ window.EVENTS = [
     "venue": "Lucerna Cinema",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 94,
+    "popularity": 87,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8868,9 +8636,9 @@ window.EVENTS = [
     "venue": "2 venues",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -8888,9 +8656,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Ballet",
       "Prague.eu"
@@ -8908,9 +8676,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -8928,9 +8696,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-09-30T12:00:00",
     "price": null,
-    "popularity": 53,
+    "popularity": 91,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -8941,6 +8709,25 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/01/08094209/2.Mirka-Novak-scaled-1-e1767861867485.jpg@webp"
   },
   {
+    "id": "citybee-events-page-3-beseda-s-tonyou-graves-2026-09-30-1730",
+    "title": "Beseda s Tonyou Graves",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Městská knihovna v Praze",
+    "date": "2026-09-30T17:30:00",
+    "price": null,
+    "popularity": 74,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Srdečně zveme všechny fanoušky Tonyi Graves na osobní setkání o tom, jaký je pro ni život nejen v záři reflektorů.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138536-beseda-s-tonyou-graves/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138536/card_TanyaGraves-1787844928.png"
+  },
+  {
     "id": "Z698xZu0Z16vaMZJAa",
     "title": "Haken",
     "category": "Concerts",
@@ -8948,9 +8735,9 @@ window.EVENTS = [
     "venue": "Roxy",
     "date": "2026-09-30T18:30:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 90,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Metal"
@@ -8961,6 +8748,25 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/ed7/6358c338-8396-49bb-83e4-c6ec882daed7_SOURCE"
   },
   {
+    "id": "citybee-events-page-3-vernisaz-vystavy-crested-macistan-2026-09-30-1900",
+    "title": "Vernisáž výstavy Crested/mâcistan",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Galerie Rudolfinum",
+    "date": "2026-09-30T19:00:00",
+    "price": null,
+    "popularity": 80,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Vernisáž výstavy Crested/mâcistan: Tanya Lukin Linklater and Duane Linklater v Galerii Rudolfinum.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138606-vernisaz-vystavy-crested-macistan/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_2_1788389910.jpg"
+  },
+  {
     "id": "Z698xZu0Z16evAfvqe",
     "title": "THE DEAR HUNTER, RIVER HOUSE",
     "category": "Concerts",
@@ -8968,9 +8774,9 @@ window.EVENTS = [
     "venue": "Rock Café",
     "date": "2026-09-30T19:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 90,
     "english": true,
-    "color": "#c8941d",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -8988,9 +8794,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9008,9 +8814,9 @@ window.EVENTS = [
     "venue": "2 venues",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9028,9 +8834,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9048,9 +8854,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Ballet",
       "Prague.eu"
@@ -9068,9 +8874,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9088,9 +8894,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -9108,9 +8914,9 @@ window.EVENTS = [
     "venue": "Karlín Musical Theatre",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -9128,9 +8934,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — House of Photography",
     "date": "2026-10-01T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -9141,6 +8947,25 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/19134337/1-99999x750_small.jpg@webp"
   },
   {
+    "id": "citybee-events-page-3-den-architektury-2026-16-rocnik-festivalu-2026-10-01-1200",
+    "title": "Den architektury 2026 | 16. ročník festivalu",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Kruh z. s. - Den architektury",
+    "date": "2026-10-01T12:00:00",
+    "price": null,
+    "popularity": 86,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Den architektury letos otevře téma bydlení.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/138441-den-architektury-2026-16-rocnik-festivalu/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_779322916_20380_1787313682.jpg"
+  },
+  {
     "id": "Z698xZu0Z16v1b0wGx",
     "title": "THE AMITY AFFLICTION, SILENT PLANET, VARIALS, ORTHODOX",
     "category": "Concerts",
@@ -9148,9 +8973,9 @@ window.EVENTS = [
     "venue": "Roxy",
     "date": "2026-10-01T17:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9168,9 +8993,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-01T18:30:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 84,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -9188,9 +9013,9 @@ window.EVENTS = [
     "venue": "BACKSTAGE RESTAURANT u O2 areny",
     "date": "2026-10-01T18:30:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -9208,9 +9033,9 @@ window.EVENTS = [
     "venue": "Futurum Music Bar",
     "date": "2026-10-01T18:30:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 81,
     "english": true,
-    "color": "#33794c",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9228,9 +9053,9 @@ window.EVENTS = [
     "venue": "Cargo Gallery",
     "date": "2026-10-01T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 93,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9248,9 +9073,9 @@ window.EVENTS = [
     "venue": "SUBZERO",
     "date": "2026-10-01T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 75,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9268,9 +9093,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 86,
+    "popularity": 79,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -9288,9 +9113,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Large Events",
       "Prague.eu",
@@ -9310,9 +9135,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9330,9 +9155,9 @@ window.EVENTS = [
     "venue": "2 venues",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 70,
+    "popularity": 63,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9350,9 +9175,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9370,9 +9195,9 @@ window.EVENTS = [
     "venue": "Na Zábradlí Theatre",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 81,
+    "popularity": 74,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -9390,9 +9215,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9410,9 +9235,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -9430,9 +9255,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -9450,9 +9275,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -9470,9 +9295,9 @@ window.EVENTS = [
     "venue": "Karlín Musical Theatre",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -9490,9 +9315,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — House of Photography",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -9510,9 +9335,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 68,
+    "popularity": 61,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -9530,9 +9355,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-02T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -9630,9 +9455,9 @@ window.EVENTS = [
     "venue": "SaSaZu",
     "date": "2026-10-02T20:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 84,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Dance/Electronic"
@@ -9650,9 +9475,9 @@ window.EVENTS = [
     "venue": "O2 universum",
     "date": "2026-10-02T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 93,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9670,9 +9495,9 @@ window.EVENTS = [
     "venue": "O2 universum",
     "date": "2026-10-02T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 75,
     "english": true,
-    "color": "#7246a8",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -9709,9 +9534,9 @@ window.EVENTS = [
     "venue": "Heřmaňák Farmers’ Market",
     "date": "2026-10-03T08:30:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 65,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Markets",
       "Prague.eu"
@@ -9729,9 +9554,9 @@ window.EVENTS = [
     "venue": "Chodov Fortress",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -9749,9 +9574,9 @@ window.EVENTS = [
     "venue": "Energy pub Riegrovy sady",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 62,
+    "popularity": 55,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9769,9 +9594,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 69,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Dance",
       "Prague.eu"
@@ -9789,9 +9614,9 @@ window.EVENTS = [
     "venue": "Kramář Villa",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Open Days",
       "Prague.eu"
@@ -9809,9 +9634,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9829,9 +9654,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9849,9 +9674,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 71,
+    "popularity": 64,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -9869,9 +9694,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -9889,9 +9714,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -9909,9 +9734,9 @@ window.EVENTS = [
     "venue": "La Fabrika",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 91,
+    "popularity": 84,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Alternative Theatre",
       "Prague.eu"
@@ -9929,9 +9754,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -9949,9 +9774,9 @@ window.EVENTS = [
     "venue": "Prague City Gallery — House of Photography",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -9969,9 +9794,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-03T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -9982,23 +9807,23 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/08/20130900/conrad-botes_small.jpg@webp"
   },
   {
-    "id": "citybee-events-page-3-co-stvorilo-zeleznici-co-stvorila-zeleznice-2026-10-03-1200",
-    "title": "Co stvořilo železnici, co stvořila železnice",
+    "id": "citybee-events-page-3-zizkovska-drakiada-2026-10-03-1300",
+    "title": "Žižkovská drakiáda",
     "category": "Things to do",
     "district": "Prague",
-    "venue": "Národní technické muzeum",
-    "date": "2026-10-03T12:00:00",
+    "venue": "Městská část Praha 3",
+    "date": "2026-10-03T13:00:00",
     "price": null,
-    "popularity": 76,
+    "popularity": 58,
     "english": false,
-    "color": "#344b77",
+    "color": "#c8941d",
     "tags": [
       "CityBee"
     ],
-    "description": "Výstava originálním způsobem prezentuje příběh moderní kolejové dopravy jako jednoho z klíčových motorů proměny světa.",
+    "description": "Volné pouštění draků, možnost zakoupení draků na místě, výtvarné a pohybové workshopy pro děti...",
     "source": "CityBee events",
-    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/136247-co-stvorilo-zeleznici-co-stvorila-zeleznice/",
-    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/136247/card_Zeleznice-1774255322.jpg"
+    "sourceUrl": "https://www.citybee.cz/pro-deti/:/akce/138440-zizkovska-drakiada/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_555983087_12487_1787313371.jpg"
   },
   {
     "id": "Z698xZu0Z16vQK8Foz",
@@ -10008,9 +9833,9 @@ window.EVENTS = [
     "venue": "O2 universum",
     "date": "2026-10-03T19:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 93,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10028,9 +9853,9 @@ window.EVENTS = [
     "venue": "O2 universum",
     "date": "2026-10-03T19:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 75,
     "english": true,
-    "color": "#344b77",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10041,6 +9866,63 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/3a9/9341613b-7927-4276-98ce-849382c273a9_SOURCE"
   },
   {
+    "id": "citybee-events-page-3-festival-delikatnich-chuti-podzim-2026-2026-10-04-1000",
+    "title": "Festival delikátních chutí | Podzim 2026",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Novoměstská radnice",
+    "date": "2026-10-04T10:00:00",
+    "price": null,
+    "popularity": 64,
+    "english": false,
+    "color": "#4b7b8a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Nabídneme vám lákavé vůně i pochoutky, milou atmosféru a vřelá setkání v srdci Prahy.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/gastro/:/akce/138435-festival-delikatnich-chuti-podzim-2026/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_20260804152115_1787305683.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-prvni-nedele-v-mesici-zdarma-2026-10-04-1000",
+    "title": "První neděle v měsíci zdarma",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Ministerstvo kultury ČR",
+    "date": "2026-10-04T10:00:00",
+    "price": 0,
+    "popularity": 70,
+    "english": false,
+    "color": "#d63f2e",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Ministerstvo kultury České republiky od září otevírá stálé expozice zapojených státních muzeí a galerií každou první neděli v měsíci zdarma.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/poznani/:/akce/138592-prvni-nedele-v-mesici-zdarma/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_mamut_1788340370.jpg"
+  },
+  {
+    "id": "citybee-events-page-3-karlinske-polivkovani-2026-10-04-1100",
+    "title": "Karlínské polívkování",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Karlín Market",
+    "date": "2026-10-04T11:00:00",
+    "price": null,
+    "popularity": 76,
+    "english": false,
+    "color": "#344b77",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Těšit se můžete na širokou nabídku našich klasických českých polévek",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/gastro/:/akce/138627-karlinske-polivkovani/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_786898994_17576_1788522346.jpg"
+  },
+  {
     "id": "prague-eu-events-festival-of-delicious-flavors-2026-10-04-1200",
     "title": "Festival of Delicious Flavors",
     "category": "Food Events",
@@ -10048,9 +9930,9 @@ window.EVENTS = [
     "venue": "New Town Hall",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -10058,7 +9940,7 @@ window.EVENTS = [
     "description": "Food Events & Festivals listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
     "source": "Prague.eu events + Prague.eu markets",
     "sourceUrl": "https://prague.eu/en/akce/festival-of-delicious-flavors/",
-    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/05/06143149/569920990_1235536475276129_7825668549694414209_n.jpg@webp"
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/05/16090912/festival-delikatnich-chuti.jpg@webp"
   },
   {
     "id": "prague-eu-events-karlin-soup-festival-2026-10-04-1200",
@@ -10068,9 +9950,9 @@ window.EVENTS = [
     "venue": "Karlínské Square",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 52,
+    "popularity": 90,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -10088,9 +9970,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 80,
+    "popularity": 73,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Large Events",
       "Prague.eu"
@@ -10108,9 +9990,9 @@ window.EVENTS = [
     "venue": "Chuchle Arena Praha – Racecourse",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -10128,9 +10010,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -10148,9 +10030,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 83,
+    "popularity": 76,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -10168,9 +10050,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -10188,9 +10070,9 @@ window.EVENTS = [
     "venue": "DOX Centre for Contemporary Art",
     "date": "2026-10-04T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -10208,9 +10090,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-04T20:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 93,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -10228,9 +10110,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-04T20:30:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 93,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -10248,9 +10130,9 @@ window.EVENTS = [
     "venue": "MeetFactory",
     "date": "2026-10-05T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -10268,9 +10150,9 @@ window.EVENTS = [
     "venue": "Markéta Speedway",
     "date": "2026-10-05T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -10281,6 +10163,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/05/13140937/AR5X0893-1200x500-1.jpg@webp"
   },
   {
+    "id": "prague-eu-events-abrakadabra-2026-10-05-1200",
+    "title": "Abrakadabra",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "Image Theatre",
+    "date": "2026-10-05T12:00:00",
+    "price": null,
+    "popularity": 55,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Black Light & Shadow Theatre",
+      "Prague.eu"
+    ],
+    "description": "Black Light & Shadow Theatre listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/abrakadabra/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13053527/abraka-dsc03819-edited.jpg@webp"
+  },
+  {
     "id": "prague-eu-events-hedda-gabler-2026-10-05-1200",
     "title": "Hedda Gabler",
     "category": "Theatre",
@@ -10288,9 +10190,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-05T12:00:00",
     "price": null,
-    "popularity": 69,
+    "popularity": 62,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10308,9 +10210,9 @@ window.EVENTS = [
     "venue": "Rock Café",
     "date": "2026-10-05T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Alternative"
@@ -10328,9 +10230,9 @@ window.EVENTS = [
     "venue": "MeetFactory",
     "date": "2026-10-05T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 78,
     "english": true,
-    "color": "#7246a8",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Folk"
@@ -10348,9 +10250,9 @@ window.EVENTS = [
     "venue": "Jazz Dock",
     "date": "2026-10-06T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -10368,9 +10270,9 @@ window.EVENTS = [
     "venue": "4 venues",
     "date": "2026-10-06T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10388,9 +10290,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-06T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -10408,9 +10310,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-10-06T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10448,9 +10350,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 60,
+    "popularity": 53,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Large Events",
       "Prague.eu",
@@ -10470,9 +10372,9 @@ window.EVENTS = [
     "venue": "4 venues",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10490,9 +10392,9 @@ window.EVENTS = [
     "venue": "Karlín Musical Theatre",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -10510,9 +10412,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10530,9 +10432,9 @@ window.EVENTS = [
     "venue": "Na Zábradlí Theatre",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 56,
+    "popularity": 94,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10550,9 +10452,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10570,9 +10472,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-10-07T12:00:00",
     "price": null,
-    "popularity": 74,
+    "popularity": 67,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10590,9 +10492,9 @@ window.EVENTS = [
     "venue": "SUBZERO",
     "date": "2026-10-07T19:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10610,9 +10512,9 @@ window.EVENTS = [
     "venue": "Roxy",
     "date": "2026-10-07T19:30:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 72,
     "english": true,
-    "color": "#344b77",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hip-Hop/Rap"
@@ -10630,9 +10532,9 @@ window.EVENTS = [
     "venue": "Café V lese",
     "date": "2026-10-07T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 75,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Dance/Electronic"
@@ -10650,9 +10552,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-07T20:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 75,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10670,9 +10572,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-07T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 87,
     "english": true,
-    "color": "#007f7a",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10690,9 +10592,9 @@ window.EVENTS = [
     "venue": "Světozor Cinema",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10710,9 +10612,9 @@ window.EVENTS = [
     "venue": "4 venues",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 57,
+    "popularity": 50,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10730,9 +10632,9 @@ window.EVENTS = [
     "venue": "Karlín Musical Theatre",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 85,
+    "popularity": 78,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Musical Theatre",
       "Prague.eu"
@@ -10750,9 +10652,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -10770,9 +10672,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 55,
+    "popularity": 93,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -10790,9 +10692,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 64,
+    "popularity": 57,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -10810,9 +10712,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -10830,9 +10732,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 77,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Alternative Theatre",
       "Prague.eu"
@@ -10850,9 +10752,9 @@ window.EVENTS = [
     "venue": "Kunsthalle Praha",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -10870,9 +10772,9 @@ window.EVENTS = [
     "venue": "SaSaZu",
     "date": "2026-10-08T12:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 81,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10890,9 +10792,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-08T18:30:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 87,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -10910,9 +10812,9 @@ window.EVENTS = [
     "venue": "BACKSTAGE RESTAURANT u O2 areny",
     "date": "2026-10-08T18:30:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 93,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -10930,9 +10832,9 @@ window.EVENTS = [
     "venue": "Cargo Gallery",
     "date": "2026-10-08T19:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 87,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10950,9 +10852,9 @@ window.EVENTS = [
     "venue": "Futurum Music Bar",
     "date": "2026-10-08T19:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 90,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -10970,9 +10872,9 @@ window.EVENTS = [
     "venue": "Palác Akropolis",
     "date": "2026-10-08T19:30:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 78,
     "english": true,
-    "color": "#344b77",
+    "color": "#007f7a",
     "tags": [
       "Ticketmaster",
       "Dance/Electronic"
@@ -11010,9 +10912,9 @@ window.EVENTS = [
     "venue": "Světozor Cinema",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -11030,9 +10932,9 @@ window.EVENTS = [
     "venue": "Břevnov Monastery",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -11050,9 +10952,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 58,
+    "popularity": 51,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -11070,9 +10972,9 @@ window.EVENTS = [
     "venue": "State Opera",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -11090,9 +10992,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Concerts",
       "Prague.eu"
@@ -11110,9 +11012,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 69,
+    "popularity": 62,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11130,9 +11032,9 @@ window.EVENTS = [
     "venue": "Kunsthalle Praha",
     "date": "2026-10-09T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -11143,6 +11045,25 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/09/09120237/casino_small.jpg@webp"
   },
   {
+    "id": "citybee-events-page-3-artkryt-2026-2026-10-09-1200",
+    "title": "ArtKryt 2026",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Městská část Praha 2",
+    "date": "2026-10-09T12:00:00",
+    "price": null,
+    "popularity": 82,
+    "english": false,
+    "color": "#7246a8",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Unikátní prostory krytu Folimanka budou od pátku 9. října do neděle 11. října hostit díla současných pražských výtvarníků.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/kultura/:/akce/138359-artkryt-2026/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/138359/card_Paleta-1786976480.jpg"
+  },
+  {
     "id": "Z698xZu0Z1kbSjxfo",
     "title": "HumbookFest 2026",
     "category": "Fairs & Expos",
@@ -11150,9 +11071,9 @@ window.EVENTS = [
     "venue": "O2 universum",
     "date": "2026-10-10T08:30:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 72,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hobby/Special Interest Expos"
@@ -11170,9 +11091,9 @@ window.EVENTS = [
     "venue": "Světozor Cinema",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 88,
+    "popularity": 81,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivals",
       "Prague.eu"
@@ -11190,9 +11111,9 @@ window.EVENTS = [
     "venue": "Rugby Club Tatra Smíchov — FCC Rugby Aréna Tatra",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -11210,9 +11131,9 @@ window.EVENTS = [
     "venue": "Břevnov Monastery",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -11230,9 +11151,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 92,
+    "popularity": 85,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11250,9 +11171,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11270,9 +11191,9 @@ window.EVENTS = [
     "venue": "Kunsthalle Praha",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 63,
+    "popularity": 56,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Contemporary Art",
       "Prague.eu"
@@ -11324,6 +11245,25 @@ window.EVENTS = [
     "imageUrl": "http://pvaexpo.cz/cdn/image/744/38GNvt3KJYmCOilLIkoXME3CBOi6SKiR.jpg"
   },
   {
+    "id": "citybee-events-page-3-piccoli-barvy-a-ornamenty-2026-10-10-1200",
+    "title": "Piccoli. Barvy a ornamenty.",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Národní galerie Praha: Klášter sv. Anežky České",
+    "date": "2026-10-10T12:00:00",
+    "price": null,
+    "popularity": 54,
+    "english": false,
+    "color": "#33794c",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Tvůrčí dílny pro děti a hravé dospělé",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/pro-deti/:/akce/138642-piccoli-barvy-a-ornamenty/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_8ae1c5d104d28a8_1788781245.jpg"
+  },
+  {
     "id": "Z698xZu0Z16vjyjZZs",
     "title": "Kaizers Orchestra",
     "category": "Concerts",
@@ -11331,9 +11271,9 @@ window.EVENTS = [
     "venue": "Lucerna Music Bar",
     "date": "2026-10-10T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11344,6 +11284,25 @@ window.EVENTS = [
     "imageUrl": "https://s1.ticketm.net/dam/a/d99/eec83258-d1f6-4027-82c1-4fe7c1831d99_TABLET_LANDSCAPE_LARGE_16_9.jpg"
   },
   {
+    "id": "citybee-events-page-3-drakiada-2026-10-10-1400",
+    "title": "Drakiáda",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Dům dětí a mládeže Praha 6",
+    "date": "2026-10-10T14:00:00",
+    "price": null,
+    "popularity": 60,
+    "english": false,
+    "color": "#007f7a",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Čeká nás odpoledne plné radosti, barevných draků a zábavných aktivit.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/pro-deti/:/akce/138665-drakiada/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_pexels-ty-nguy-_1788939825.jpg"
+  },
+  {
     "id": "Z698xZu0Z1Apat70",
     "title": "MARIKA 70",
     "category": "Concerts",
@@ -11351,9 +11310,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-10T19:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 93,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11371,9 +11330,9 @@ window.EVENTS = [
     "venue": "Café V lese",
     "date": "2026-10-10T20:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 90,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11391,9 +11350,9 @@ window.EVENTS = [
     "venue": "Rudolfinum",
     "date": "2026-10-11T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Classical Music",
       "Prague.eu"
@@ -11411,9 +11370,9 @@ window.EVENTS = [
     "venue": "Břevnov Monastery",
     "date": "2026-10-11T12:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Festivities & Traditions",
       "Prague.eu"
@@ -11431,9 +11390,9 @@ window.EVENTS = [
     "venue": "Jazz Republic",
     "date": "2026-10-11T12:00:00",
     "price": null,
-    "popularity": 77,
+    "popularity": 70,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#4b7b8a",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -11451,9 +11410,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-11T12:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 71,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -11471,9 +11430,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-11T12:00:00",
     "price": null,
-    "popularity": 65,
+    "popularity": 58,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11491,9 +11450,9 @@ window.EVENTS = [
     "venue": "O2 arena",
     "date": "2026-10-11T15:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -11511,9 +11470,9 @@ window.EVENTS = [
     "venue": "BACKSTAGE RESTAURANT u O2 areny",
     "date": "2026-10-11T15:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 93,
     "english": true,
-    "color": "#c8941d",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Hockey"
@@ -11531,9 +11490,9 @@ window.EVENTS = [
     "venue": "epet Arena — AC Sparta Praha",
     "date": "2026-10-11T18:00:00",
     "price": null,
-    "popularity": 54,
+    "popularity": 92,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -11551,9 +11510,9 @@ window.EVENTS = [
     "venue": "ARCHA+",
     "date": "2026-10-11T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 75,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Folk"
@@ -11571,9 +11530,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-12T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#7246a8",
+    "color": "#344b77",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11591,9 +11550,9 @@ window.EVENTS = [
     "venue": "Forum Karlín",
     "date": "2026-10-12T13:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 93,
     "english": true,
-    "color": "#d63f2e",
+    "color": "#344b77",
     "tags": [
       "Ticketmaster",
       "Theatre"
@@ -11611,9 +11570,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-13T12:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 68,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Contemporary Dance",
       "Prague.eu"
@@ -11631,9 +11590,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-10-13T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Contemporary Dance",
       "Prague.eu"
@@ -11644,6 +11603,26 @@ window.EVENTS = [
     "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/03/03145510/jk2w3b58QjvSpYgy.jpg@webp"
   },
   {
+    "id": "prague-eu-events-wernisch-2026-10-13-1200",
+    "title": "Wernisch",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "La Fabrika",
+    "date": "2026-10-13T12:00:00",
+    "price": null,
+    "popularity": 71,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Drama",
+      "Prague.eu"
+    ],
+    "description": "Drama listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/wernisch/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/10/02111531/1718198530-wernisch_hlavni-zkousky_foto-martin-spelda-1.webp@webp"
+  },
+  {
     "id": "prague-eu-events-jazz-treasures-a-tribute-concert-to-the-american-jazz-masters-2026-10-13-1200",
     "title": "Jazz Treasures — A Tribute Concert to the American Jazz Masters",
     "category": "Concerts",
@@ -11651,9 +11630,9 @@ window.EVENTS = [
     "venue": "Reduta Jazz Club",
     "date": "2026-10-13T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -11671,9 +11650,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-13T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -11691,9 +11670,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-13T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11724,8 +11703,27 @@ window.EVENTS = [
     "imageUrl": "http://pvaexpo.cz/cdn/image/744/z1DabEQHrTjqr0jXibbZEMRHqegzGC7q.jpg"
   },
   {
+    "id": "citybee-events-page-3-remesla-zive-2026-2026-10-13-1200",
+    "title": "Řemesla živě 2026",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "Novoměstská radnice",
+    "date": "2026-10-13T12:00:00",
+    "price": null,
+    "popularity": 66,
+    "english": false,
+    "color": "#9e3f4f",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Akce věnovaná řemeslům a především těm, kdo jsou jejich mistry i každému, kdo se pro svou budoucí kariéru teprve rozhoduje.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/zabava/:/akce/138436-remesla-zive-2026/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/cards/card_20260417200947_1787305928.jpg"
+  },
+  {
     "id": "Z698xZu0Z16v8Ivw1K",
-    "title": "Tender",
+    "title": "Tender, support: Marjari",
     "category": "Concerts",
     "district": "Praha 10",
     "venue": "Café V lese",
@@ -11740,7 +11738,7 @@ window.EVENTS = [
     ],
     "description": "Uplatňuje se transakční poplatek ve výši 30Kč. I luxusní pokojíček může působit domácky: Tender přijedou do Prahy s novým albem Tender jsou James Cullen a Dan Cobb, dva na jihu Anglie usazení hudebníci, kterým se podařilo přetavit přátelstv",
     "source": "Ticketmaster",
-    "sourceUrl": "https://www.ticketmaster.cz/event/tender-vstupenky/1428072293",
+    "sourceUrl": "https://www.ticketmaster.cz/event/tender-support-marjari-vstupenky/1428072293",
     "imageUrl": "https://s1.ticketm.net/dam/a/4d7/a90c50f6-d022-495f-8504-57824fb134d7_SOURCE"
   },
   {
@@ -11751,9 +11749,9 @@ window.EVENTS = [
     "venue": "Bike Jesus",
     "date": "2026-10-13T20:00:00",
     "price": null,
-    "popularity": 75,
+    "popularity": 72,
     "english": true,
-    "color": "#33794c",
+    "color": "#7246a8",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11771,9 +11769,9 @@ window.EVENTS = [
     "venue": "Pražská křižovatka",
     "date": "2026-10-13T20:00:00",
     "price": null,
-    "popularity": 84,
+    "popularity": 87,
     "english": true,
-    "color": "#c8941d",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11791,9 +11789,9 @@ window.EVENTS = [
     "venue": "SUBZERO",
     "date": "2026-10-13T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 84,
     "english": true,
-    "color": "#007f7a",
+    "color": "#c8941d",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11811,9 +11809,9 @@ window.EVENTS = [
     "venue": "Bike Jesus",
     "date": "2026-10-13T20:00:00",
     "price": null,
-    "popularity": 78,
+    "popularity": 87,
     "english": true,
-    "color": "#007f7a",
+    "color": "#4b7b8a",
     "tags": [
       "Ticketmaster",
       "Rock"
@@ -11831,9 +11829,9 @@ window.EVENTS = [
     "venue": "Municipal Library of Prague — Central Library",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 82,
+    "popularity": 75,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Live Music & Gigs",
       "Prague.eu"
@@ -11851,9 +11849,9 @@ window.EVENTS = [
     "venue": "Jatka78",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 51,
+    "popularity": 89,
     "english": true,
-    "color": "#344b77",
+    "color": "#d63f2e",
     "tags": [
       "Contemporary Dance",
       "Prague.eu"
@@ -11871,9 +11869,9 @@ window.EVENTS = [
     "venue": "Prague — various places",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 67,
+    "popularity": 60,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Food Events & Festivals",
       "Prague.eu"
@@ -11891,9 +11889,9 @@ window.EVENTS = [
     "venue": "Královka Sports Hall",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 93,
+    "popularity": 86,
     "english": true,
-    "color": "#c8941d",
+    "color": "#9e3f4f",
     "tags": [
       "Sports",
       "Prague.eu"
@@ -11911,9 +11909,9 @@ window.EVENTS = [
     "venue": "Švanda’s Theatre in Smíchov",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 90,
+    "popularity": 83,
     "english": true,
-    "color": "#007f7a",
+    "color": "#33794c",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11931,9 +11929,9 @@ window.EVENTS = [
     "venue": "National Theatre",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 87,
+    "popularity": 80,
     "english": true,
-    "color": "#4b7b8a",
+    "color": "#c8941d",
     "tags": [
       "Opera",
       "Prague.eu"
@@ -11951,9 +11949,9 @@ window.EVENTS = [
     "venue": "Estates Theatre",
     "date": "2026-10-14T12:00:00",
     "price": null,
-    "popularity": 50,
+    "popularity": 88,
     "english": true,
-    "color": "#9e3f4f",
+    "color": "#007f7a",
     "tags": [
       "Drama",
       "Prague.eu"
@@ -11991,9 +11989,9 @@ window.EVENTS = [
     "venue": "Rock Café",
     "date": "2026-10-14T20:00:00",
     "price": null,
-    "popularity": 72,
+    "popularity": 75,
     "english": true,
-    "color": "#7246a8",
+    "color": "#33794c",
     "tags": [
       "Ticketmaster",
       "Folk"
@@ -12002,5 +12000,264 @@ window.EVENTS = [
     "source": "Ticketmaster",
     "sourceUrl": "https://www.ticketmaster.cz/event/sean-koch-vstupenky/79101759",
     "imageUrl": "https://s1.ticketm.net/dam/a/b86/76d2cff8-6025-4bc0-af1b-49ea5ae25b86_SOURCE"
+  },
+  {
+    "id": "prague-eu-events-eben-trio-2026-10-15-1200",
+    "title": "Eben Trio",
+    "category": "Concerts",
+    "district": "Prague",
+    "venue": "National Gallery Prague — Convent of St Agnes of Bohemia",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 65,
+    "english": true,
+    "color": "#33794c",
+    "tags": [
+      "Classical Music",
+      "Prague.eu"
+    ],
+    "description": "Classical Music listed by Prague.eu concerts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu concerts",
+    "sourceUrl": "https://prague.eu/en/akce/eben-trio/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2026/04/16104243/2026-10-15-Eben-trio-c-Daniel-Havel.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-signal-festival-2026-10-15-1200",
+    "title": "Signal Festival",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 62,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/signal-festival/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/12/02131352/Aka-Chang_-Multimmeriverion.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-zelenka-festival-2026-10-15-1200",
+    "title": "Zelenka Festival",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 59,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/zelenka-festival/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/09/24102752/DSC04748.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-das-filmfest-2026-10-15-1200",
+    "title": "Das Filmfest",
+    "category": "Festivals",
+    "district": "Prague",
+    "venue": "2 venues",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 80,
+    "english": true,
+    "color": "#7246a8",
+    "tags": [
+      "Festivals",
+      "Prague.eu"
+    ],
+    "description": "Festivals listed by Prague.eu festivals. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu festivals",
+    "sourceUrl": "https://prague.eu/en/akce/das-filmfest-2/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/09/27103650/Nezne_monstrum3-CFrederic-Batier_Film-AG.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-the-billie-holiday-tribute-a-journey-into-the-jazz-era-2026-10-15-1200",
+    "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+    "category": "Concerts",
+    "district": "Prague",
+    "venue": "Reduta Jazz Club",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 79,
+    "english": true,
+    "color": "#4b7b8a",
+    "tags": [
+      "Live Music & Gigs",
+      "Prague.eu"
+    ],
+    "description": "Live Music & Gigs listed by Prague.eu concerts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu concerts",
+    "sourceUrl": "https://prague.eu/en/akce/the-billie-holiday-tribute-a-journey-into-the-jazz-era/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/03/13050642/305931346-940957173514936-5715257518342703734-n.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-restaurant-week-2026-10-15-1200",
+    "title": "Restaurant Week",
+    "category": "Food Events",
+    "district": "Prague",
+    "venue": "Prague — various places",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 60,
+    "english": true,
+    "color": "#c8941d",
+    "tags": [
+      "Food Events & Festivals",
+      "Prague.eu"
+    ],
+    "description": "Food Events & Festivals listed by Prague.eu markets. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu markets",
+    "sourceUrl": "https://prague.eu/en/akce/restaurant-week/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2024/10/08124158/4M5A9697.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-pelleas-et-melisande-2026-10-15-1200",
+    "title": "Pelléas et Mélisande",
+    "category": "Concerts",
+    "district": "Prague",
+    "venue": "National Theatre",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": true,
+    "color": "#d63f2e",
+    "tags": [
+      "Opera",
+      "Prague.eu"
+    ],
+    "description": "Opera listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/pelleas-et-melisande/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/06/23163110/Narodni_divadlo_v_lozi_opona_2.jpg@webp"
+  },
+  {
+    "id": "prague-eu-events-lhistoire-de-manon-2026-10-15-1200",
+    "title": "L’Histoire de Manon",
+    "category": "Theatre",
+    "district": "Prague",
+    "venue": "State Opera",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 74,
+    "english": true,
+    "color": "#9e3f4f",
+    "tags": [
+      "Ballet",
+      "Prague.eu"
+    ],
+    "description": "Ballet listed by Prague.eu performing arts. Open the source page for tickets, exact venue details, and current availability.",
+    "source": "Prague.eu events + Prague.eu performing arts",
+    "sourceUrl": "https://prague.eu/en/akce/lhistoire-de-manon/",
+    "imageUrl": "https://imgproxy.cdn.praguecitytourism.city/insecure/rt:fit/w:727/q:90/plain/https://pct-wp-prod.storage.googleapis.com/2025/01/01190332/1740049397-balet-i-l-histoire-de-manon-romina-contreras-danilo-lo-monaco-foto-serghei-gherciu-9.webp@webp"
+  },
+  {
+    "id": "citybee-events-page-3-signal-festival-2026-2026-10-15-1200",
+    "title": "Signal Festival 2026",
+    "category": "Things to do",
+    "district": "Prague",
+    "venue": "SIGNAL Festival",
+    "date": "2026-10-15T12:00:00",
+    "price": null,
+    "popularity": 72,
+    "english": false,
+    "color": "#c8941d",
+    "tags": [
+      "CityBee"
+    ],
+    "description": "Největší přehlídka digitální a kreativní kultury v Praze. Signal Festival 2026 proběhne od čtvrtka 15. října do neděle 18. října v ulicích Prahy.",
+    "source": "CityBee events",
+    "sourceUrl": "https://www.citybee.cz/vyhledavani/:/akce/136918-signal-festival-2026/",
+    "imageUrl": "https://c.citybee.cz/.thumbs/233x144/files/images/events/136918/card_SignalFestival2-1778658910.jpg"
+  },
+  {
+    "id": "Z698xZu0Z16eeaZeAw",
+    "title": "Samson 70",
+    "category": "Concerts",
+    "district": "Praha 1",
+    "venue": "Lucerna - Velký sál",
+    "date": "2026-10-15T18:00:00",
+    "price": null,
+    "popularity": 93,
+    "english": true,
+    "color": "#344b77",
+    "tags": [
+      "Ticketmaster",
+      "Folk"
+    ],
+    "description": "Uplatňuje se transakční poplatek ve výši 30 Kč. Konečně se Jaroslav Samson Lenk dožívá 70 let. Žádný další koncert tohoto rozsahu už nechystá . Vystoupí s Hop tropem, Partou, Ladybirds a mnohými dalšími zpřízněnými hudebníky na oslavě dožit",
+    "source": "Ticketmaster",
+    "sourceUrl": "https://www.ticketmaster.cz/event/samson-70-vstupenky/2089002172",
+    "imageUrl": "https://s1.ticketm.net/dam/a/169/0402df14-e8db-43ba-8510-2f8d67a33169_SOURCE"
+  },
+  {
+    "id": "Z698xZu0Z16vGPCK0M",
+    "title": "HÄMATOM, MEAN MESSIAH",
+    "category": "Concerts",
+    "district": "Praha 3",
+    "venue": "Palác Akropolis",
+    "date": "2026-10-15T18:00:00",
+    "price": null,
+    "popularity": 90,
+    "english": true,
+    "color": "#d63f2e",
+    "tags": [
+      "Ticketmaster",
+      "Rock"
+    ],
+    "description": "Německá čtveřice HÄMATOM vás zve na nejšílenější turné v historii kapely! Masky jsou naleštěné, zesilovače vytočené na maximum -- HÄMATOM jsou zpět v plné síle a připraveni znovu dobýt pódia napříč Evropou! Česká zastávka proběhne už 15. ří",
+    "source": "Ticketmaster",
+    "sourceUrl": "https://www.ticketmaster.cz/event/hamatom-mean-messiah-vstupenky/1325393937",
+    "imageUrl": "https://s1.ticketm.net/dam/a/ea4/6e909edd-286a-4907-827d-9c9e752daea4_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "id": "Z698xZu0Z16evE1dG3",
+    "title": "Telenova",
+    "category": "Concerts",
+    "district": "Praha",
+    "venue": "Klub Varšava",
+    "date": "2026-10-15T19:30:00",
+    "price": null,
+    "popularity": 78,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Ticketmaster",
+      "Rock"
+    ],
+    "description": "Event listed by Ticketmaster. Open the source page for tickets, prices, and current availability.",
+    "source": "Ticketmaster",
+    "sourceUrl": "https://www.ticketmaster.cz/event/telenova-vstupenky/2067283312",
+    "imageUrl": "https://s1.ticketm.net/dam/a/9b9/a5faf51d-ccc3-416e-bdd1-43367157b9b9_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "id": "Z698xZu0Z16vk9AEOI",
+    "title": "Reinhardt Buhr",
+    "category": "Concerts",
+    "district": "Praha 1",
+    "venue": "Rock Café",
+    "date": "2026-10-15T20:00:00",
+    "price": null,
+    "popularity": 78,
+    "english": true,
+    "color": "#007f7a",
+    "tags": [
+      "Ticketmaster",
+      "Dance/Electronic"
+    ],
+    "description": "Uplatňuje se transakční poplatek ve výši 30 Kč. Reinhardt Buhr Reinhardt Buhr je talentovaný jihoafrický multiinstrumentalista a mistr „one man band\" vystoupení, který kombinuje elektroniku s akustickými nástroji a vytváří hudbu v reálném č",
+    "source": "Ticketmaster",
+    "sourceUrl": "https://www.ticketmaster.cz/event/reinhardt-buhr-vstupenky/1197167828",
+    "imageUrl": "https://s1.ticketm.net/dam/a/3ff/d888ba0c-63cd-442c-8575-298ee969c3ff_SOURCE"
   }
 ];
