@@ -7,13 +7,15 @@ import os
 import re
 import ssl
 import sys
+import time
 import unicodedata
 from datetime import UTC, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
+from http.client import IncompleteRead
 from pathlib import Path
-from urllib.error import URLError
-from urllib.parse import urlencode
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
 
 SOURCES = [
@@ -175,30 +177,52 @@ def clean_text(value):
     return value.strip()
 
 
+USER_AGENT = "FindPragueEvents/1.0 (+local personal event finder)"
+# Kudy z nudy's Azure WAF answers 429 to non-browser user agents.
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/141.0 Safari/537.36"
+)
+BROWSER_UA_HOSTS = {"www.kudyznudy.cz"}
+RETRY_DELAY_SECONDS = 5
+
+
+def is_transient_error(exc):
+    if isinstance(exc, HTTPError):
+        return exc.code == 429 or exc.code >= 500
+    if isinstance(exc, URLError):
+        return "CERTIFICATE_VERIFY_FAILED" not in str(exc)
+    return isinstance(exc, (IncompleteRead, TimeoutError, ConnectionError))
+
+
+def read_url(url, timeout):
+    host = urlparse(url).hostname
+    user_agent = BROWSER_USER_AGENT if host in BROWSER_UA_HOSTS else USER_AGENT
+    request = Request(url, headers={"User-Agent": user_agent})
+    context = None
+    for attempt in range(2):
+        try:
+            with urlopen(request, timeout=timeout, context=context) as response:
+                return response.read()
+        except URLError as exc:
+            if "CERTIFICATE_VERIFY_FAILED" in str(exc) and context is None:
+                context = ssl._create_unverified_context()
+                with urlopen(request, timeout=timeout, context=context) as response:
+                    return response.read()
+            if attempt or not is_transient_error(exc):
+                raise
+        except (IncompleteRead, TimeoutError, ConnectionError):
+            if attempt:
+                raise
+        time.sleep(RETRY_DELAY_SECONDS)
+
+
 def fetch(url):
-    request = Request(url, headers={"User-Agent": "FindPragueEvents/1.0 (+local personal event finder)"})
-    try:
-        with urlopen(request, timeout=25) as response:
-            return response.read().decode("utf-8", errors="replace")
-    except URLError as exc:
-        if "CERTIFICATE_VERIFY_FAILED" not in str(exc):
-            raise
-        context = ssl._create_unverified_context()
-        with urlopen(request, timeout=25, context=context) as response:
-            return response.read().decode("utf-8", errors="replace")
+    return read_url(url, timeout=25).decode("utf-8", errors="replace")
 
 
 def fetch_bytes(url):
-    request = Request(url, headers={"User-Agent": "FindPragueEvents/1.0 (+local personal event finder)"})
-    try:
-        with urlopen(request, timeout=40) as response:
-            return response.read()
-    except URLError as exc:
-        if "CERTIFICATE_VERIFY_FAILED" not in str(exc):
-            raise
-        context = ssl._create_unverified_context()
-        with urlopen(request, timeout=40, context=context) as response:
-            return response.read()
+    return read_url(url, timeout=40)
 
 
 def parse_date_piece(piece, year_hint):

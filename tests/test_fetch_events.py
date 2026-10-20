@@ -2,7 +2,8 @@ import gzip
 import json
 import unittest
 from datetime import datetime
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
+from urllib.error import HTTPError
 
 import fetch_events
 
@@ -590,6 +591,54 @@ class CityBeePaginationTests(unittest.TestCase):
         self.assertEqual(pages_fetched, 0)
         self.assertEqual(len(warnings), 1)
         self.assertIn("boom", warnings[0])
+
+
+class FetchTests(unittest.TestCase):
+    @staticmethod
+    def response(body):
+        mocked = MagicMock()
+        mocked.__enter__.return_value.read.return_value = body
+        return mocked
+
+    def test_kudy_z_nudy_gets_browser_user_agent(self):
+        with patch.object(fetch_events, "urlopen", return_value=self.response(b"ok")) as mocked_urlopen:
+            fetch_events.fetch("https://www.kudyznudy.cz/kalendar-akci")
+            fetch_events.fetch("https://prague.eu/en/")
+
+        agents = [call.args[0].get_header("User-agent") for call in mocked_urlopen.call_args_list]
+        self.assertEqual(agents, [fetch_events.BROWSER_USER_AGENT, fetch_events.USER_AGENT])
+
+    def test_retries_transient_http_error_once(self):
+        error = HTTPError("https://prague.eu/", 503, "Service Unavailable", None, None)
+        with (
+            patch.object(fetch_events, "urlopen", side_effect=[error, self.response(b"ok")]) as mocked_urlopen,
+            patch.object(fetch_events.time, "sleep"),
+        ):
+            self.assertEqual(fetch_events.fetch("https://prague.eu/"), "ok")
+
+        self.assertEqual(mocked_urlopen.call_count, 2)
+
+    def test_does_not_retry_client_errors(self):
+        error = HTTPError("https://prague.eu/", 404, "Not Found", None, None)
+        with (
+            patch.object(fetch_events, "urlopen", side_effect=error) as mocked_urlopen,
+            patch.object(fetch_events.time, "sleep"),
+            self.assertRaises(HTTPError),
+        ):
+            fetch_events.fetch("https://prague.eu/")
+
+        self.assertEqual(mocked_urlopen.call_count, 1)
+
+    def test_gives_up_after_second_transient_failure(self):
+        error = HTTPError("https://prague.eu/", 429, "Too Many Requests", None, None)
+        with (
+            patch.object(fetch_events, "urlopen", side_effect=[error, error]) as mocked_urlopen,
+            patch.object(fetch_events.time, "sleep"),
+            self.assertRaises(HTTPError),
+        ):
+            fetch_events.fetch("https://prague.eu/")
+
+        self.assertEqual(mocked_urlopen.call_count, 2)
 
 
 class HealthTests(unittest.TestCase):
