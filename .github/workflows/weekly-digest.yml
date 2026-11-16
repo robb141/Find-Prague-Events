@@ -1,0 +1,84 @@
+name: Weekly event digest
+
+on:
+  schedule:
+    # Monday 06:30 UTC = 07:30 Prague (winter) / 08:30 (summer).
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First day of the digest window (YYYY-MM-DD). Defaults to today."
+        required: false
+      dry_run:
+        description: "Print the digest instead of sending it"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Prague
+      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Fetch a fresh 8-day feed
+        id: fetch
+        continue-on-error: true
+        run: python3 fetch_events.py --days 8 --output digest-events.js
+
+      - name: Choose the feed
+        run: |
+          if [ "${{ steps.fetch.outcome }}" = "success" ] && [ -s digest-events.js ]; then
+            echo "DIGEST_DATA=digest-events.js" >> "$GITHUB_ENV"
+          else
+            echo "Fresh fetch failed; falling back to the committed data.js."
+            echo "DIGEST_DATA=data.js" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build and send the digest
+        env:
+          DIGEST_EMAIL_TO: ${{ secrets.DIGEST_EMAIL_TO }}
+          DIGEST_EMAIL_FROM: ${{ secrets.DIGEST_EMAIL_FROM }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          DIGEST_START: ${{ inputs.start }}
+          DIGEST_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args="--data $DIGEST_DATA --html-out digest.html"
+          if [ -n "$DIGEST_START" ]; then
+            args="$args --start $DIGEST_START"
+          fi
+          if [ "$DIGEST_DRY_RUN" = "true" ]; then
+            python3 weekly_digest.py $args --dry-run
+          else
+            python3 weekly_digest.py $args --send
+          fi
+
+      - name: Upload digest preview
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: weekly-digest
+          path: digest.html
+          if-no-files-found: ignore
