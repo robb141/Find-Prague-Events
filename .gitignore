@@ -40,3 +40,7 @@ build/
 
 # Generated scraper diagnostics
 health-report.json
+
+# Weekly digest scratch output
+digest-events.js
+digest.html

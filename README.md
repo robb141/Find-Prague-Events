@@ -33,6 +33,54 @@ The workflow can also be run manually from:
 GitHub repository -> Actions -> Update events -> Run workflow
 ```
 
+## Weekly Email Digest
+
+The `Weekly event digest` workflow at `.github/workflows/weekly-digest.yml`
+runs every Monday at `06:30 UTC` and emails the most interesting one-off
+events for the coming seven days. It ranks AI/IT/DevOps events first, then
+food and drink, then festivals, fairs, open days and other unique happenings.
+Regular programme is left out: theatre, exhibitions, galleries and museums,
+guided tours, weekly farmers' markets, anything whose title repeats on four or
+more days in the feed, and events marked cancelled or postponed.
+
+The workflow fetches a fresh eight-day feed first and falls back to the
+committed `data.js` if the fetch fails. The rendered HTML is uploaded as the
+`weekly-digest` workflow artifact so you can check what was sent.
+
+Add these repository secrets under
+`Settings -> Secrets and variables -> Actions`:
+
+| Secret | Required | Purpose |
+| --- | --- | --- |
+| `DIGEST_EMAIL_TO` | yes | Recipient address. |
+| `SMTP_USERNAME` | yes | SMTP login, for Gmail the full address. |
+| `SMTP_PASSWORD` | yes | SMTP password, for Gmail a 16-character App Password. |
+| `DIGEST_EMAIL_FROM` | no | Sender address; defaults to `SMTP_USERNAME`. |
+| `SMTP_HOST` | no | Defaults to `smtp.gmail.com`. |
+| `SMTP_PORT` | no | STARTTLS port, defaults to `587`. |
+
+For Gmail, enable 2-Step Verification on the account and create an App
+Password at <https://myaccount.google.com/apppasswords>. Use that password,
+not the account password.
+
+Preview the digest locally without sending anything:
+
+```bash
+python3 weekly_digest.py --dry-run
+python3 weekly_digest.py --start 2026-10-19 --html-out digest.html
+```
+
+Send it locally with the same environment variables the workflow uses:
+
+```bash
+DIGEST_EMAIL_TO="you@example.com" SMTP_USERNAME="you@gmail.com" \
+SMTP_PASSWORD="app-password" python3 weekly_digest.py --send
+```
+
+The workflow can also be started manually from
+`Actions -> Weekly event digest -> Run workflow`, where you can pick a start
+date or tick "dry run" to only print the digest in the job log.
+
 ## Tests
 
 Run the automated test suite locally:
