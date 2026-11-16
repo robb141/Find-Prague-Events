@@ -2,8 +2,8 @@ name: Weekly event digest
 
 on:
   schedule:
-    # Monday 06:30 UTC = 07:30 Prague (winter) / 08:30 (summer).
-    - cron: "30 6 * * 1"
+    # Tuesday 06:30 UTC = 07:30 Prague (winter) / 08:30 (summer).
+    - cron: "30 6 * * 2"
   workflow_dispatch:
     inputs:
       start:
