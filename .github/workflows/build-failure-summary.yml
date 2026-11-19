@@ -1,0 +1,107 @@
+name: Build failure summary
+
+# Runs after the Tests workflow fails on a pull request and comments on the PR
+# with the first error from the log plus a short Claude summary of likely causes.
+# When the tests pass again, the same comment is edited to say the build is fixed
+# (no Claude call; PRs that never failed get no comment).
+#
+# workflow_run always runs this file from the default branch with the base
+# repository's secrets, so it also works for pull requests from forks. It never
+# checks out or runs PR code; the PR's log is only passed to Claude as data.
+on:
+  workflow_run:
+    workflows: [Tests]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+concurrency:
+  group: build-failure-summary-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+jobs:
+  summarize:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      (github.event.workflow_run.conclusion == 'failure' ||
+       github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RUN_ID: ${{ github.event.workflow_run.id }}
+      HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+      RUN_URL: ${{ github.event.workflow_run.html_url }}
+      FAILED: ${{ github.event.workflow_run.conclusion == 'failure' }}
+
+    steps:
+      - name: Check out repository (default branch)
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install the Anthropic SDK
+        if: env.FAILED == 'true'
+        run: python3 -m pip install "anthropic>=2.10,<3"
+
+      - name: Find the pull request
+        id: pr
+        env:
+          PR_FROM_EVENT: ${{ github.event.workflow_run.pull_requests[0].number }}
+        run: |
+          number="$PR_FROM_EVENT"
+          if [ -z "$number" ]; then
+            # pull_requests is empty for PRs from forks; look the PR up by commit.
+            number=$(gh pr list --state open --search "$HEAD_SHA" --json number --jq '.[0].number // empty')
+          fi
+          if [ -z "$number" ]; then
+            echo "No open pull request for $HEAD_SHA; nothing to comment on."
+          fi
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Mark an earlier failure comment as fixed
+        if: steps.pr.outputs.number != '' && env.FAILED != 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PR: ${{ steps.pr.outputs.number }}
+        run: >-
+          python3 summarize_build_failure.py --resolved
+          --pr "$PR" --run-url "$RUN_URL" --commit "$HEAD_SHA" --post
+
+      - name: Download the failed job log
+        if: steps.pr.outputs.number != '' && env.FAILED == 'true'
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          gh run view "$RUN_ID" --log-failed > failed.log
+          gh pr diff "$PR" --name-only > changed-files.txt || : > changed-files.txt
+          wc -l failed.log changed-files.txt
+
+      - name: Summarise and comment on the PR
+        if: steps.pr.outputs.number != '' && env.FAILED == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PR: ${{ steps.pr.outputs.number }}
+        run: >-
+          python3 summarize_build_failure.py
+          --log failed.log
+          --changed-files changed-files.txt
+          --run-url "$RUN_URL"
+          --pr "$PR"
+          --post
+          --output build-failure-summary.md
+
+      - name: Upload the comment
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: build-failure-summary
+          path: build-failure-summary.md
+          if-no-files-found: ignore
