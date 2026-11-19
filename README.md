@@ -121,6 +121,34 @@ Prague listings.
 
 The app also filters `data.js` in the browser and never displays an event dated before the current local day. This means yesterday's events disappear at midnight even if the scheduled refresh is delayed.
 
+## Build Failure Summaries
+
+When the `Tests` workflow fails on a pull request, the `Build failure summary`
+workflow at `.github/workflows/build-failure-summary.yml` comments on the PR.
+The comment has the first error from the failing step and a short Claude
+summary of likely causes, so you don't have to read the whole log. Each new
+failure updates the same comment instead of adding another one, and once the
+tests pass again the comment is edited to say the build is fixed.
+
+It needs one repository secret under
+`Settings -> Secrets and variables -> Actions`:
+
+| Secret | Purpose |
+| --- | --- |
+| `ANTHROPIC_API_KEY` | Claude API key from <https://platform.claude.com/>. |
+
+Without the secret the comment is still posted with the extracted error. The
+workflow uses `workflow_run`, so it only starts working once it is on `main`,
+and it also runs for pull requests from forks without checking out their code.
+
+Try it on a failed run locally (prints the comment, posts nothing):
+
+```bash
+pip install "anthropic>=2.10,<3"
+gh run view <run-id> --log-failed > failed.log
+python3 summarize_build_failure.py --log failed.log
+```
+
 ## Run On Android
 
 From this folder on your Mac:
