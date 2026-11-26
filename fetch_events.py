@@ -421,7 +421,6 @@ def extract_goout_events(markup, source_name, now, days):
         if payload.get("@type") != "Event":
             continue
 
-        start = parse_iso_or_http_date(payload.get("startDate"))
         end = parse_iso_or_http_date(payload.get("endDate"))
         if not in_window(start, now, horizon) and not (start and end and start <= horizon and end >= now):
             continue
